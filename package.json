@@ -1,0 +1,19 @@
+{
+  "name": "avenx-dev-dashboard",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Avenx.js Developer Dashboard: API reference, test coverage and performance benchmarks in one static site.",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "collect": "node scripts/collect.js",
+    "record": "node scripts/record.js",
+    "build": "node scripts/build.js",
+    "serve": "node scripts/serve.js",
+    "check": "node scripts/check-site.js",
+    "test": "node --test test/*.test.js"
+  }
+}

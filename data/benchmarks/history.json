@@ -1,0 +1,2112 @@
+{
+ "schemaVersion": 1,
+ "runs": [
+  {
+   "recordedAt": "2026-06-15T14:40:23.908Z",
+   "source": {
+    "kind": "legacy",
+    "repository": "Avenx-JS/bench-results",
+    "legacyCommit": "96852835c53df92f11d429f56c0c777bb14b2bfd",
+    "upstreamCommit": null
+   },
+   "results": [
+    {
+     "file": "component-parser.bench.js",
+     "name": "ComponentParser",
+     "totalTime": 233.27,
+     "avgTime": 0.2333,
+     "ops": 4287,
+     "timestamp": "2026-06-15T14:40:23.908Z",
+     "status": "unknown"
+    },
+    {
+     "file": "runtime-render.bench.js",
+     "name": "AvenxComponent.render()",
+     "totalTime": 211.83,
+     "avgTime": 0.0212,
+     "ops": 47207,
+     "timestamp": "2026-06-15T14:40:24.216Z",
+     "status": "unknown"
+    },
+    {
+     "file": "style-processor.bench.js",
+     "name": "StyleProcessor",
+     "totalTime": 131.7,
+     "avgTime": 0.0263,
+     "ops": 37964,
+     "timestamp": "2026-06-15T14:40:24.440Z",
+     "status": "unknown"
+    }
+   ]
+  },
+  {
+   "recordedAt": "2026-07-18T08:33:23.781Z",
+   "source": {
+    "kind": "legacy",
+    "repository": "Avenx-JS/bench-results",
+    "legacyCommit": "64f7136ca0b0124eaa17af12ebe8773c7f445f2c",
+    "upstreamCommit": null
+   },
+   "results": [
+    {
+     "file": "component-parser.bench.js",
+     "name": "ComponentParser",
+     "totalTime": 175.74,
+     "avgTime": 0.1757,
+     "ops": 5690,
+     "timestamp": "2026-07-18T08:33:23.781Z",
+     "status": "unknown"
+    },
+    {
+     "file": "dom-patching.bench.js",
+     "name": "DOMPatching",
+     "totalTime": 7.64,
+     "avgTime": 0.0008,
+     "ops": 1309315,
+     "timestamp": "2026-07-18T08:33:23.991Z",
+     "status": "unknown"
+    },
+    {
+     "file": "reactivity-lookup.bench.js",
+     "name": "reactivity-lookup.bench.js",
+     "totalTime": 0,
+     "avgTime": 6.3999,
+     "ops": 0,
+     "timestamp": "2026-07-18T08:33:26.001Z",
+     "status": "unknown"
+    },
+    {
+     "file": "reactivity.bench.js",
+     "name": "Reactivity",
+     "totalTime": 132.62,
+     "avgTime": 0.0027,
+     "ops": 377025,
+     "timestamp": "2026-07-18T08:33:26.148Z",
+     "status": "unknown"
+    },
+    {
+     "file": "router.bench.js",
+     "name": "Router",
+     "totalTime": 3143.35,
+     "avgTime": 0.0629,
+     "ops": 15907,
+     "timestamp": "2026-07-18T08:33:26.511Z",
+     "status": "unknown"
+    },
+    {
+     "file": "runtime-render.bench.js",
+     "name": "AvenxComponent.render()",
+     "totalTime": 101.04,
+     "avgTime": 0.0101,
+     "ops": 98972,
+     "timestamp": "2026-07-18T08:33:26.650Z",
+     "status": "unknown"
+    },
+    {
+     "file": "security.bench.js",
+     "name": "Security",
+     "totalTime": 267.28,
+     "avgTime": 0.0084,
+     "ops": 119726,
+     "timestamp": "2026-07-18T08:33:27.097Z",
+     "status": "unknown"
+    },
+    {
+     "file": "style-processor.bench.js",
+     "name": "StyleProcessor",
+     "totalTime": 68.96,
+     "avgTime": 0.0138,
+     "ops": 72509,
+     "timestamp": "2026-07-18T08:33:27.204Z",
+     "status": "unknown"
+    },
+    {
+     "file": "virtual-list.bench.js",
+     "name": "VirtualList",
+     "totalTime": 699.01,
+     "avgTime": 1.3952,
+     "ops": 717,
+     "timestamp": "2026-07-18T08:33:28.059Z",
+     "status": "unknown"
+    }
+   ]
+  },
+  {
+   "recordedAt": "2026-08-22T10:25:26.362Z",
+   "source": {
+    "kind": "legacy",
+    "repository": "Avenx-JS/bench-results",
+    "legacyCommit": "416a9227ca8a50ee83d8ef4c85149ae07476a0d6",
+    "upstreamCommit": null
+   },
+   "results": [
+    {
+     "file": "component-parser.bench.js",
+     "name": "ComponentParser",
+     "totalTime": 687.99,
+     "avgTime": 0.688,
+     "ops": 1454,
+     "timestamp": "2026-08-22T10:25:26.362Z",
+     "status": "unknown"
+    },
+    {
+     "file": "dom-patching.bench.js",
+     "name": "DOMPatching",
+     "totalTime": 6575.72,
+     "avgTime": 0.6576,
+     "ops": 1521,
+     "timestamp": "2026-08-22T10:25:33.509Z",
+     "status": "unknown"
+    },
+    {
+     "file": "event-delegation.bench.js",
+     "name": "event delegation",
+     "totalTime": 0,
+     "avgTime": 0,
+     "ops": 0,
+     "timestamp": "2026-08-22T10:25:33.867Z",
+     "status": "unknown"
+    },
+    {
+     "file": "lru_cache_memory.bench.js",
+     "name": "LruCache Memory",
+     "totalTime": 28.45,
+     "avgTime": 0.0028,
+     "ops": 351459,
+     "timestamp": "2026-08-22T10:25:33.931Z",
+     "status": "unknown"
+    },
+    {
+     "file": "reactivity-lookup.bench.js",
+     "name": "reactivity-lookup.bench.js",
+     "totalTime": 0,
+     "avgTime": 11.1681,
+     "ops": 0,
+     "timestamp": "2026-08-22T10:25:38.087Z",
+     "status": "unknown"
+    },
+    {
+     "file": "reactivity.bench.js",
+     "name": "Reactivity",
+     "totalTime": 446.2,
+     "avgTime": 0.0089,
+     "ops": 112058,
+     "timestamp": "2026-08-22T10:25:38.404Z",
+     "status": "unknown"
+    },
+    {
+     "file": "router.bench.js",
+     "name": "Router",
+     "totalTime": 7539.33,
+     "avgTime": 0.1508,
+     "ops": 6632,
+     "timestamp": "2026-08-22T10:25:39.234Z",
+     "status": "unknown"
+    },
+    {
+     "file": "runtime-render.bench.js",
+     "name": "AvenxComponent.render()",
+     "totalTime": 219.5,
+     "avgTime": 0.0219,
+     "ops": 45558,
+     "timestamp": "2026-08-22T10:25:39.509Z",
+     "status": "unknown"
+    },
+    {
+     "file": "security.bench.js",
+     "name": "Security",
+     "totalTime": 659.5,
+     "avgTime": 0.0206,
+     "ops": 48522,
+     "timestamp": "2026-08-22T10:25:40.495Z",
+     "status": "unknown"
+    },
+    {
+     "file": "style-processor.bench.js",
+     "name": "StyleProcessor",
+     "totalTime": 159.96,
+     "avgTime": 0.032,
+     "ops": 31258,
+     "timestamp": "2026-08-22T10:25:40.717Z",
+     "status": "unknown"
+    },
+    {
+     "file": "virtual-list.bench.js",
+     "name": "VirtualList",
+     "totalTime": 71.67,
+     "avgTime": 0.1431,
+     "ops": 6991,
+     "timestamp": "2026-08-22T10:25:41.122Z",
+     "status": "unknown"
+    }
+   ]
+  },
+  {
+   "recordedAt": "2026-08-29T14:57:10.602Z",
+   "source": {
+    "kind": "legacy",
+    "repository": "Avenx-JS/bench-results",
+    "legacyCommit": "315f5d3b7ea1e572f0176b6a8bf8915e0dd9d3bf",
+    "upstreamCommit": null
+   },
+   "results": [
+    {
+     "file": "component-parser.bench.js",
+     "name": "ComponentParser",
+     "totalTime": 634.79,
+     "avgTime": 0.6348,
+     "ops": 1575,
+     "timestamp": "2026-08-29T14:57:10.602Z",
+     "status": "unknown"
+    },
+    {
+     "file": "dom-patching.bench.js",
+     "name": "DOMPatching",
+     "totalTime": 6345.38,
+     "avgTime": 0.6345,
+     "ops": 1576,
+     "timestamp": "2026-08-29T14:57:17.574Z",
+     "status": "unknown"
+    },
+    {
+     "file": "event-delegation.bench.js",
+     "name": "event delegation",
+     "totalTime": 0,
+     "avgTime": 0,
+     "ops": 0,
+     "timestamp": "2026-08-29T14:57:17.969Z",
+     "status": "unknown"
+    },
+    {
+     "file": "lru_cache_memory.bench.js",
+     "name": "LruCache Memory",
+     "totalTime": 28.14,
+     "avgTime": 0.0028,
+     "ops": 355305,
+     "timestamp": "2026-08-29T14:57:18.045Z",
+     "status": "unknown"
+    },
+    {
+     "file": "reactivity-lookup.bench.js",
+     "name": "reactivity-lookup.bench.js",
+     "totalTime": 0,
+     "avgTime": 11.5602,
+     "ops": 0,
+     "timestamp": "2026-08-29T14:57:22.177Z",
+     "status": "unknown"
+    },
+    {
+     "file": "reactivity.bench.js",
+     "name": "Reactivity",
+     "totalTime": 462.18,
+     "avgTime": 0.0092,
+     "ops": 108184,
+     "timestamp": "2026-08-29T14:57:22.504Z",
+     "status": "unknown"
+    },
+    {
+     "file": "router.bench.js",
+     "name": "Router",
+     "totalTime": 7426.98,
+     "avgTime": 0.1485,
+     "ops": 6732,
+     "timestamp": "2026-08-29T14:57:23.332Z",
+     "status": "unknown"
+    },
+    {
+     "file": "runtime-render.bench.js",
+     "name": "AvenxComponent.render()",
+     "totalTime": 186.51,
+     "avgTime": 0.0187,
+     "ops": 53615,
+     "timestamp": "2026-08-29T14:57:23.573Z",
+     "status": "unknown"
+    },
+    {
+     "file": "security.bench.js",
+     "name": "Security",
+     "totalTime": 641.32,
+     "avgTime": 0.02,
+     "ops": 49897,
+     "timestamp": "2026-08-29T14:57:24.533Z",
+     "status": "unknown"
+    },
+    {
+     "file": "style-processor.bench.js",
+     "name": "StyleProcessor",
+     "totalTime": 163.93,
+     "avgTime": 0.0328,
+     "ops": 30501,
+     "timestamp": "2026-08-29T14:57:24.754Z",
+     "status": "unknown"
+    },
+    {
+     "file": "trace-overhead.bench.js",
+     "name": "Trace Overhead",
+     "totalTime": 600.39,
+     "avgTime": 0.001883,
+     "ops": 531106,
+     "timestamp": "2026-08-29T14:57:25.605Z",
+     "status": "unknown"
+    },
+    {
+     "file": "virtual-list.bench.js",
+     "name": "VirtualList",
+     "totalTime": 70.6,
+     "avgTime": 0.1409,
+     "ops": 7096,
+     "timestamp": "2026-08-29T14:57:25.994Z",
+     "status": "unknown"
+    }
+   ]
+  },
+  {
+   "recordedAt": "2026-09-05T13:17:41.406Z",
+   "source": {
+    "kind": "legacy",
+    "repository": "Avenx-JS/bench-results",
+    "legacyCommit": "bd36a6093e4c2e1a7b5df74ec075df84d2e1f4a2",
+    "upstreamCommit": null
+   },
+   "results": [
+    {
+     "file": "atlas-build.bench.js",
+     "name": "Atlas Build",
+     "totalTime": 423.56,
+     "avgTime": 211.78,
+     "ops": 5,
+     "timestamp": "2026-09-05T13:17:41.406Z",
+     "status": "unknown"
+    },
+    {
+     "file": "component-parser.bench.js",
+     "name": "ComponentParser",
+     "totalTime": 657.34,
+     "avgTime": 0.6573,
+     "ops": 1521,
+     "timestamp": "2026-09-05T13:17:42.257Z",
+     "status": "unknown"
+    },
+    {
+     "file": "dom-patching.bench.js",
+     "name": "DOMPatching",
+     "totalTime": 6601.66,
+     "avgTime": 0.6602,
+     "ops": 1515,
+     "timestamp": "2026-09-05T13:17:49.455Z",
+     "status": "unknown"
+    },
+    {
+     "file": "event-delegation.bench.js",
+     "name": "event delegation",
+     "totalTime": 0,
+     "avgTime": 0,
+     "ops": 0,
+     "timestamp": "2026-09-05T13:17:49.840Z",
+     "status": "unknown"
+    },
+    {
+     "file": "lru_cache_memory.bench.js",
+     "name": "LruCache Memory",
+     "totalTime": 28.12,
+     "avgTime": 0.0028,
+     "ops": 355605,
+     "timestamp": "2026-09-05T13:17:49.907Z",
+     "status": "unknown"
+    },
+    {
+     "file": "reactivity-lookup.bench.js",
+     "name": "reactivity-lookup.bench.js",
+     "totalTime": 0,
+     "avgTime": 13.3594,
+     "ops": 0,
+     "timestamp": "2026-09-05T13:17:54.794Z",
+     "status": "unknown"
+    },
+    {
+     "file": "reactivity.bench.js",
+     "name": "Reactivity",
+     "totalTime": 519.17,
+     "avgTime": 0.0104,
+     "ops": 96307,
+     "timestamp": "2026-09-05T13:17:55.154Z",
+     "status": "unknown"
+    },
+    {
+     "file": "rewind-overhead.bench.js",
+     "name": "Rewind Overhead",
+     "totalTime": 574.03,
+     "avgTime": 0.001937,
+     "ops": 516288,
+     "timestamp": "2026-09-05T13:17:56.013Z",
+     "status": "unknown"
+    },
+    {
+     "file": "router.bench.js",
+     "name": "Router",
+     "totalTime": 7834.78,
+     "avgTime": 0.1567,
+     "ops": 6382,
+     "timestamp": "2026-09-05T13:17:56.899Z",
+     "status": "unknown"
+    },
+    {
+     "file": "runtime-render.bench.js",
+     "name": "AvenxComponent.render()",
+     "totalTime": 188.57,
+     "avgTime": 0.0189,
+     "ops": 53031,
+     "timestamp": "2026-09-05T13:17:57.147Z",
+     "status": "unknown"
+    },
+    {
+     "file": "security.bench.js",
+     "name": "Security",
+     "totalTime": 667.28,
+     "avgTime": 0.0209,
+     "ops": 47956,
+     "timestamp": "2026-09-05T13:17:58.159Z",
+     "status": "unknown"
+    },
+    {
+     "file": "style-processor.bench.js",
+     "name": "StyleProcessor",
+     "totalTime": 166.73,
+     "avgTime": 0.0333,
+     "ops": 29988,
+     "timestamp": "2026-09-05T13:17:58.386Z",
+     "status": "unknown"
+    },
+    {
+     "file": "trace-overhead.bench.js",
+     "name": "Trace Overhead",
+     "totalTime": 618.54,
+     "avgTime": 0.001926,
+     "ops": 519206,
+     "timestamp": "2026-09-05T13:17:59.269Z",
+     "status": "unknown"
+    },
+    {
+     "file": "virtual-list.bench.js",
+     "name": "VirtualList",
+     "totalTime": 73.8,
+     "avgTime": 0.1473,
+     "ops": 6789,
+     "timestamp": "2026-09-05T13:17:59.678Z",
+     "status": "unknown"
+    }
+   ]
+  },
+  {
+   "recordedAt": "2026-09-12T13:24:12.918Z",
+   "source": {
+    "kind": "legacy",
+    "repository": "Avenx-JS/bench-results",
+    "legacyCommit": "b8beafcf4aa4d4cb2c9d58f6d88823e775b76db9",
+    "upstreamCommit": null
+   },
+   "results": [
+    {
+     "file": "atlas-build.bench.js",
+     "name": "Atlas Build",
+     "totalTime": 616.35,
+     "avgTime": 308.18,
+     "ops": 3,
+     "timestamp": "2026-09-12T13:24:12.918Z",
+     "status": "unknown"
+    },
+    {
+     "file": "component-parser.bench.js",
+     "name": "ComponentParser",
+     "totalTime": 923.57,
+     "avgTime": 0.9236,
+     "ops": 1083,
+     "timestamp": "2026-09-12T13:24:14.108Z",
+     "status": "unknown"
+    },
+    {
+     "file": "dom-patching.bench.js",
+     "name": "DOMPatching",
+     "totalTime": 5846.6,
+     "avgTime": 0.5847,
+     "ops": 1710,
+     "timestamp": "2026-09-12T13:24:20.549Z",
+     "status": "unknown"
+    },
+    {
+     "file": "event-delegation.bench.js",
+     "name": "event delegation",
+     "totalTime": 0,
+     "avgTime": 0,
+     "ops": 0,
+     "timestamp": "2026-09-12T13:24:20.910Z",
+     "status": "unknown"
+    },
+    {
+     "file": "lru_cache_memory.bench.js",
+     "name": "LruCache Memory",
+     "totalTime": 23.39,
+     "avgTime": 0.0023,
+     "ops": 427467,
+     "timestamp": "2026-09-12T13:24:20.980Z",
+     "status": "unknown"
+    },
+    {
+     "file": "reactivity-lookup.bench.js",
+     "name": "reactivity-lookup.bench.js",
+     "totalTime": 0,
+     "avgTime": 12.0543,
+     "ops": 0,
+     "timestamp": "2026-09-12T13:24:25.453Z",
+     "status": "unknown"
+    },
+    {
+     "file": "reactivity.bench.js",
+     "name": "Reactivity",
+     "totalTime": 434.56,
+     "avgTime": 0.0087,
+     "ops": 115058,
+     "timestamp": "2026-09-12T13:24:25.787Z",
+     "status": "unknown"
+    },
+    {
+     "file": "render-paths.bench.js",
+     "name": "render-paths",
+     "totalTime": 40.69,
+     "avgTime": 0.0234,
+     "ops": 42678,
+     "timestamp": "2026-09-12T13:24:30.956Z",
+     "status": "unknown"
+    },
+    {
+     "file": "render-phases.bench.js",
+     "name": "render-phases",
+     "totalTime": 20.05,
+     "avgTime": 0.0201,
+     "ops": 49838,
+     "timestamp": "2026-09-12T13:24:33.957Z",
+     "status": "unknown"
+    },
+    {
+     "file": "render-scenarios.bench.js",
+     "name": "render-scenarios",
+     "totalTime": 90.61,
+     "avgTime": 0.0328,
+     "ops": 30483,
+     "timestamp": "2026-09-12T13:24:49.373Z",
+     "status": "unknown"
+    },
+    {
+     "file": "rewind-overhead.bench.js",
+     "name": "Rewind Overhead",
+     "totalTime": 562.79,
+     "avgTime": 0.001902,
+     "ops": 525827,
+     "timestamp": "2026-09-12T13:24:50.205Z",
+     "status": "unknown"
+    },
+    {
+     "file": "router.bench.js",
+     "name": "Router",
+     "totalTime": 7287.43,
+     "avgTime": 0.1457,
+     "ops": 6861,
+     "timestamp": "2026-09-12T13:24:51.023Z",
+     "status": "unknown"
+    },
+    {
+     "file": "security.bench.js",
+     "name": "Security",
+     "totalTime": 584.22,
+     "avgTime": 0.0183,
+     "ops": 54774,
+     "timestamp": "2026-09-12T13:24:51.929Z",
+     "status": "unknown"
+    },
+    {
+     "file": "style-processor.bench.js",
+     "name": "StyleProcessor",
+     "totalTime": 152.33,
+     "avgTime": 0.0305,
+     "ops": 32824,
+     "timestamp": "2026-09-12T13:24:52.148Z",
+     "status": "unknown"
+    },
+    {
+     "file": "trace-overhead.bench.js",
+     "name": "Trace Overhead",
+     "totalTime": 629.41,
+     "avgTime": 0.001891,
+     "ops": 528804,
+     "timestamp": "2026-09-12T13:24:53.041Z",
+     "status": "unknown"
+    },
+    {
+     "file": "update-scaling.bench.js",
+     "name": "update-scaling",
+     "totalTime": 6202.81,
+     "avgTime": 131.0463,
+     "ops": 4,
+     "timestamp": "2026-09-12T13:25:00.019Z",
+     "status": "unknown"
+    },
+    {
+     "file": "virtual-list.bench.js",
+     "name": "VirtualList",
+     "totalTime": 37.78,
+     "avgTime": 0.0754,
+     "ops": 13262,
+     "timestamp": "2026-09-12T13:25:00.394Z",
+     "status": "unknown"
+    }
+   ]
+  },
+  {
+   "recordedAt": "2026-09-19T13:44:23.721Z",
+   "source": {
+    "kind": "legacy",
+    "repository": "Avenx-JS/bench-results",
+    "legacyCommit": "92f01357bfcfd03d5147de53b579593f0ea13643",
+    "upstreamCommit": null
+   },
+   "results": [
+    {
+     "file": "atlas-build.bench.js",
+     "name": "Atlas Build",
+     "totalTime": 410.77,
+     "avgTime": 205.38,
+     "ops": 5,
+     "timestamp": "2026-09-19T13:44:23.721Z",
+     "status": "unknown"
+    },
+    {
+     "file": "component-parser.bench.js",
+     "name": "ComponentParser",
+     "totalTime": 673.82,
+     "avgTime": 0.6738,
+     "ops": 1484,
+     "timestamp": "2026-09-19T13:44:24.606Z",
+     "status": "unknown"
+    },
+    {
+     "file": "dom-patching.bench.js",
+     "name": "DOMPatching",
+     "totalTime": 3837.28,
+     "avgTime": 0.3837,
+     "ops": 2606,
+     "timestamp": "2026-09-19T13:44:28.934Z",
+     "status": "unknown"
+    },
+    {
+     "file": "event-delegation.bench.js",
+     "name": "event delegation",
+     "totalTime": 0,
+     "avgTime": 0,
+     "ops": 0,
+     "timestamp": "2026-09-19T13:44:29.189Z",
+     "status": "unknown"
+    },
+    {
+     "file": "list-rendering.bench.js",
+     "name": "list-rendering",
+     "totalTime": 83.95,
+     "avgTime": 4.6637,
+     "ops": 214,
+     "timestamp": "2026-09-19T13:44:31.495Z",
+     "status": "unknown"
+    },
+    {
+     "file": "lru_cache_memory.bench.js",
+     "name": "LruCache Memory",
+     "totalTime": 21.48,
+     "avgTime": 0.0021,
+     "ops": 465569,
+     "timestamp": "2026-09-19T13:44:31.566Z",
+     "status": "unknown"
+    },
+    {
+     "file": "reactivity-lookup.bench.js",
+     "name": "reactivity-lookup.bench.js",
+     "totalTime": 0,
+     "avgTime": 10.4221,
+     "ops": 0,
+     "timestamp": "2026-09-19T13:44:35.227Z",
+     "status": "unknown"
+    },
+    {
+     "file": "reactivity.bench.js",
+     "name": "Reactivity",
+     "totalTime": 274.8,
+     "avgTime": 0.0055,
+     "ops": 181948,
+     "timestamp": "2026-09-19T13:44:35.433Z",
+     "status": "unknown"
+    },
+    {
+     "file": "render-paths.bench.js",
+     "name": "render-paths",
+     "totalTime": 36.45,
+     "avgTime": 0.0099,
+     "ops": 101492,
+     "timestamp": "2026-09-19T13:44:38.528Z",
+     "status": "unknown"
+    },
+    {
+     "file": "render-phases.bench.js",
+     "name": "render-phases",
+     "totalTime": 13.3,
+     "avgTime": 0.0123,
+     "ops": 81096,
+     "timestamp": "2026-09-19T13:44:40.509Z",
+     "status": "unknown"
+    },
+    {
+     "file": "render-scenarios.bench.js",
+     "name": "render-scenarios",
+     "totalTime": 50.44,
+     "avgTime": 0.013,
+     "ops": 77150,
+     "timestamp": "2026-09-19T13:44:42.625Z",
+     "status": "unknown"
+    },
+    {
+     "file": "rewind-overhead.bench.js",
+     "name": "Rewind Overhead",
+     "totalTime": 294.21,
+     "avgTime": 0.000999,
+     "ops": 1001222,
+     "timestamp": "2026-09-19T13:44:43.093Z",
+     "status": "unknown"
+    },
+    {
+     "file": "router.bench.js",
+     "name": "Router",
+     "totalTime": 6258.75,
+     "avgTime": 0.1252,
+     "ops": 7989,
+     "timestamp": "2026-09-19T13:44:43.758Z",
+     "status": "unknown"
+    },
+    {
+     "file": "security.bench.js",
+     "name": "Security",
+     "totalTime": 436.2,
+     "avgTime": 0.0136,
+     "ops": 73362,
+     "timestamp": "2026-09-19T13:44:44.432Z",
+     "status": "unknown"
+    },
+    {
+     "file": "style-processor.bench.js",
+     "name": "StyleProcessor",
+     "totalTime": 167.36,
+     "avgTime": 0.0335,
+     "ops": 29875,
+     "timestamp": "2026-09-19T13:44:44.662Z",
+     "status": "unknown"
+    },
+    {
+     "file": "trace-overhead.bench.js",
+     "name": "Trace Overhead",
+     "totalTime": 374.12,
+     "avgTime": 0.000993,
+     "ops": 1007304,
+     "timestamp": "2026-09-19T13:44:45.197Z",
+     "status": "unknown"
+    },
+    {
+     "file": "update-scaling.bench.js",
+     "name": "update-scaling",
+     "totalTime": 2619.65,
+     "avgTime": 50.5044,
+     "ops": 10,
+     "timestamp": "2026-09-19T13:44:48.259Z",
+     "status": "unknown"
+    },
+    {
+     "file": "virtual-list.bench.js",
+     "name": "VirtualList",
+     "totalTime": 27.83,
+     "avgTime": 0.0556,
+     "ops": 18001,
+     "timestamp": "2026-09-19T13:44:48.512Z",
+     "status": "unknown"
+    }
+   ]
+  },
+  {
+   "recordedAt": "2026-09-26T14:12:56.271Z",
+   "source": {
+    "kind": "legacy",
+    "repository": "Avenx-JS/bench-results",
+    "legacyCommit": "1b6a482127bff52489d25bada08c4bacbfbc72d5",
+    "upstreamCommit": null
+   },
+   "results": [
+    {
+     "file": "atlas-build.bench.js",
+     "name": "Atlas Build",
+     "totalTime": 363.12,
+     "avgTime": 181.56,
+     "ops": 6,
+     "timestamp": "2026-09-26T14:12:56.271Z",
+     "status": "unknown"
+    },
+    {
+     "file": "component-parser.bench.js",
+     "name": "ComponentParser",
+     "totalTime": 624.32,
+     "avgTime": 0.6243,
+     "ops": 1602,
+     "timestamp": "2026-09-26T14:12:57.077Z",
+     "status": "unknown"
+    },
+    {
+     "file": "dom-patching.bench.js",
+     "name": "DOMPatching",
+     "totalTime": 4126.8,
+     "avgTime": 0.4127,
+     "ops": 2423,
+     "timestamp": "2026-09-26T14:13:01.657Z",
+     "status": "unknown"
+    },
+    {
+     "file": "event-delegation.bench.js",
+     "name": "event delegation",
+     "totalTime": 0,
+     "avgTime": 0,
+     "ops": 0,
+     "timestamp": "2026-09-26T14:13:01.902Z",
+     "status": "unknown"
+    },
+    {
+     "file": "incremental-rebuild.bench.js",
+     "name": "Incremental Rebuild",
+     "totalTime": 214.86,
+     "avgTime": 107.43,
+     "ops": 9,
+     "timestamp": "2026-09-26T14:13:04.758Z",
+     "status": "unknown"
+    },
+    {
+     "file": "list-rendering.bench.js",
+     "name": "list-rendering",
+     "totalTime": 77.6,
+     "avgTime": 4.311,
+     "ops": 232,
+     "timestamp": "2026-09-26T14:13:06.883Z",
+     "status": "unknown"
+    },
+    {
+     "file": "lru_cache_memory.bench.js",
+     "name": "LruCache Memory",
+     "totalTime": 16.73,
+     "avgTime": 0.0017,
+     "ops": 597654,
+     "timestamp": "2026-09-26T14:13:06.943Z",
+     "status": "unknown"
+    },
+    {
+     "file": "reactivity-lookup.bench.js",
+     "name": "reactivity-lookup.bench.js",
+     "totalTime": 0,
+     "avgTime": 8.3052,
+     "ops": 0,
+     "timestamp": "2026-09-26T14:13:09.875Z",
+     "status": "unknown"
+    },
+    {
+     "file": "reactivity.bench.js",
+     "name": "Reactivity",
+     "totalTime": 218.76,
+     "avgTime": 0.0044,
+     "ops": 228562,
+     "timestamp": "2026-09-26T14:13:10.059Z",
+     "status": "unknown"
+    },
+    {
+     "file": "render-paths.bench.js",
+     "name": "render-paths",
+     "totalTime": 36.05,
+     "avgTime": 0.0102,
+     "ops": 97872,
+     "timestamp": "2026-09-26T14:13:13.076Z",
+     "status": "unknown"
+    },
+    {
+     "file": "render-phases.bench.js",
+     "name": "render-phases",
+     "totalTime": 13.22,
+     "avgTime": 0.0104,
+     "ops": 96387,
+     "timestamp": "2026-09-26T14:13:14.928Z",
+     "status": "unknown"
+    },
+    {
+     "file": "render-scenarios.bench.js",
+     "name": "render-scenarios",
+     "totalTime": 53.12,
+     "avgTime": 0.0157,
+     "ops": 63560,
+     "timestamp": "2026-09-26T14:13:16.824Z",
+     "status": "unknown"
+    },
+    {
+     "file": "rewind-overhead.bench.js",
+     "name": "Rewind Overhead",
+     "totalTime": 240.06,
+     "avgTime": 0.000809,
+     "ops": 1235887,
+     "timestamp": "2026-09-26T14:13:17.210Z",
+     "status": "unknown"
+    },
+    {
+     "file": "router.bench.js",
+     "name": "Router",
+     "totalTime": 4810.48,
+     "avgTime": 0.0962,
+     "ops": 10394,
+     "timestamp": "2026-09-26T14:13:17.743Z",
+     "status": "unknown"
+    },
+    {
+     "file": "security.bench.js",
+     "name": "Security",
+     "totalTime": 398.34,
+     "avgTime": 0.0124,
+     "ops": 80332,
+     "timestamp": "2026-09-26T14:13:18.374Z",
+     "status": "unknown"
+    },
+    {
+     "file": "style-processor.bench.js",
+     "name": "StyleProcessor",
+     "totalTime": 143.07,
+     "avgTime": 0.0286,
+     "ops": 34949,
+     "timestamp": "2026-09-26T14:13:18.575Z",
+     "status": "unknown"
+    },
+    {
+     "file": "trace-overhead.bench.js",
+     "name": "Trace Overhead",
+     "totalTime": 315.86,
+     "avgTime": 0.000797,
+     "ops": 1254207,
+     "timestamp": "2026-09-26T14:13:19.029Z",
+     "status": "unknown"
+    },
+    {
+     "file": "update-scaling.bench.js",
+     "name": "update-scaling",
+     "totalTime": 2353.44,
+     "avgTime": 46.1166,
+     "ops": 11,
+     "timestamp": "2026-09-26T14:13:21.763Z",
+     "status": "unknown"
+    },
+    {
+     "file": "virtual-list.bench.js",
+     "name": "VirtualList",
+     "totalTime": 22.87,
+     "avgTime": 0.0456,
+     "ops": 21907,
+     "timestamp": "2026-09-26T14:13:21.985Z",
+     "status": "unknown"
+    }
+   ]
+  },
+  {
+   "recordedAt": "2026-10-03T14:35:26.094Z",
+   "source": {
+    "kind": "legacy",
+    "repository": "Avenx-JS/bench-results",
+    "legacyCommit": "5a7610523f2f3e9063e41852262b89155531bb3c",
+    "upstreamCommit": null
+   },
+   "results": [
+    {
+     "file": "atlas-build.bench.js",
+     "name": "Atlas Build",
+     "totalTime": 510.46,
+     "avgTime": 255.23,
+     "ops": 4,
+     "timestamp": "2026-10-03T14:35:26.094Z",
+     "status": "unknown"
+    },
+    {
+     "file": "component-parser.bench.js",
+     "name": "ComponentParser",
+     "totalTime": 850.78,
+     "avgTime": 0.8508,
+     "ops": 1175,
+     "timestamp": "2026-10-03T14:35:27.232Z",
+     "status": "unknown"
+    },
+    {
+     "file": "dom-patching.bench.js",
+     "name": "DOMPatching",
+     "totalTime": 4952.9,
+     "avgTime": 0.4953,
+     "ops": 2019,
+     "timestamp": "2026-10-03T14:35:32.641Z",
+     "status": "unknown"
+    },
+    {
+     "file": "event-delegation.bench.js",
+     "name": "event delegation",
+     "totalTime": 0,
+     "avgTime": 0,
+     "ops": 0,
+     "timestamp": "2026-10-03T14:35:32.951Z",
+     "status": "unknown"
+    },
+    {
+     "file": "incremental-rebuild.bench.js",
+     "name": "Incremental Rebuild",
+     "totalTime": 274.1,
+     "avgTime": 137.05,
+     "ops": 7,
+     "timestamp": "2026-10-03T14:35:37.206Z",
+     "status": "unknown"
+    },
+    {
+     "file": "list-rendering.bench.js",
+     "name": "list-rendering",
+     "totalTime": 96.73,
+     "avgTime": 5.3737,
+     "ops": 186,
+     "timestamp": "2026-10-03T14:35:39.884Z",
+     "status": "unknown"
+    },
+    {
+     "file": "lru_cache_memory.bench.js",
+     "name": "LruCache Memory",
+     "totalTime": 25.31,
+     "avgTime": 0.0025,
+     "ops": 395121,
+     "timestamp": "2026-10-03T14:35:39.966Z",
+     "status": "unknown"
+    },
+    {
+     "file": "reactivity-lookup.bench.js",
+     "name": "reactivity-lookup.bench.js",
+     "totalTime": 0,
+     "avgTime": 11.7361,
+     "ops": 0,
+     "timestamp": "2026-10-03T14:35:44.278Z",
+     "status": "unknown"
+    },
+    {
+     "file": "reactivity.bench.js",
+     "name": "Reactivity",
+     "totalTime": 321.96,
+     "avgTime": 0.0064,
+     "ops": 155298,
+     "timestamp": "2026-10-03T14:35:44.541Z",
+     "status": "unknown"
+    },
+    {
+     "file": "render-paths.bench.js",
+     "name": "render-paths",
+     "totalTime": 36.83,
+     "avgTime": 0.0177,
+     "ops": 56616,
+     "timestamp": "2026-10-03T14:35:48.309Z",
+     "status": "unknown"
+    },
+    {
+     "file": "render-phases.bench.js",
+     "name": "render-phases",
+     "totalTime": 15.77,
+     "avgTime": 0.0146,
+     "ops": 68724,
+     "timestamp": "2026-10-03T14:35:50.622Z",
+     "status": "unknown"
+    },
+    {
+     "file": "render-scenarios.bench.js",
+     "name": "render-scenarios",
+     "totalTime": 55.54,
+     "avgTime": 0.026,
+     "ops": 38535,
+     "timestamp": "2026-10-03T14:35:53.049Z",
+     "status": "unknown"
+    },
+    {
+     "file": "rewind-overhead.bench.js",
+     "name": "Rewind Overhead",
+     "totalTime": 352.18,
+     "avgTime": 0.00117,
+     "ops": 854576,
+     "timestamp": "2026-10-03T14:35:53.605Z",
+     "status": "unknown"
+    },
+    {
+     "file": "router.bench.js",
+     "name": "Router",
+     "totalTime": 6491.91,
+     "avgTime": 0.1298,
+     "ops": 7702,
+     "timestamp": "2026-10-03T14:35:54.333Z",
+     "status": "unknown"
+    },
+    {
+     "file": "security.bench.js",
+     "name": "Security",
+     "totalTime": 514.69,
+     "avgTime": 0.0161,
+     "ops": 62174,
+     "timestamp": "2026-10-03T14:35:55.123Z",
+     "status": "unknown"
+    },
+    {
+     "file": "style-processor.bench.js",
+     "name": "StyleProcessor",
+     "totalTime": 207.76,
+     "avgTime": 0.0416,
+     "ops": 24067,
+     "timestamp": "2026-10-03T14:35:55.410Z",
+     "status": "unknown"
+    },
+    {
+     "file": "trace-overhead.bench.js",
+     "name": "Trace Overhead",
+     "totalTime": 449.62,
+     "avgTime": 0.001219,
+     "ops": 820499,
+     "timestamp": "2026-10-03T14:35:56.050Z",
+     "status": "unknown"
+    },
+    {
+     "file": "update-scaling.bench.js",
+     "name": "update-scaling",
+     "totalTime": 3014.5,
+     "avgTime": 58.3922,
+     "ops": 9,
+     "timestamp": "2026-10-03T14:35:59.578Z",
+     "status": "unknown"
+    },
+    {
+     "file": "virtual-list.bench.js",
+     "name": "VirtualList",
+     "totalTime": 32.5,
+     "avgTime": 0.0649,
+     "ops": 15417,
+     "timestamp": "2026-10-03T14:35:59.872Z",
+     "status": "unknown"
+    }
+   ]
+  },
+  {
+   "recordedAt": "2026-10-10T15:46:20.320Z",
+   "source": {
+    "kind": "legacy",
+    "repository": "Avenx-JS/bench-results",
+    "legacyCommit": "2fff57f012fc24f34f24ad9cc3f50e5866f87dab",
+    "upstreamCommit": null
+   },
+   "results": [
+    {
+     "file": "atlas-build.bench.js",
+     "name": "Atlas Build",
+     "totalTime": 506.69,
+     "avgTime": 253.35,
+     "ops": 4,
+     "timestamp": "2026-10-10T15:46:20.320Z",
+     "status": "unknown"
+    },
+    {
+     "file": "component-parser.bench.js",
+     "name": "ComponentParser",
+     "totalTime": 851.16,
+     "avgTime": 0.8512,
+     "ops": 1175,
+     "timestamp": "2026-10-10T15:46:21.442Z",
+     "status": "unknown"
+    },
+    {
+     "file": "dom-patching.bench.js",
+     "name": "DOMPatching",
+     "totalTime": 6240.62,
+     "avgTime": 0.6241,
+     "ops": 1602,
+     "timestamp": "2026-10-10T15:46:28.303Z",
+     "status": "unknown"
+    },
+    {
+     "file": "event-delegation.bench.js",
+     "name": "event delegation",
+     "totalTime": 0,
+     "avgTime": 0,
+     "ops": 0,
+     "timestamp": "2026-10-10T15:46:28.731Z",
+     "status": "unknown"
+    },
+    {
+     "file": "incremental-rebuild.bench.js",
+     "name": "Incremental Rebuild",
+     "totalTime": 288.25,
+     "avgTime": 144.12,
+     "ops": 7,
+     "timestamp": "2026-10-10T15:46:32.655Z",
+     "status": "unknown"
+    },
+    {
+     "file": "list-rendering.bench.js",
+     "name": "list-rendering",
+     "totalTime": 117.31,
+     "avgTime": 6.5174,
+     "ops": 153,
+     "timestamp": "2026-10-10T15:46:35.909Z",
+     "status": "unknown"
+    },
+    {
+     "file": "lru_cache_memory.bench.js",
+     "name": "LruCache Memory",
+     "totalTime": 27.31,
+     "avgTime": 0.0027,
+     "ops": 366215,
+     "timestamp": "2026-10-10T15:46:35.992Z",
+     "status": "unknown"
+    },
+    {
+     "file": "reactivity-lookup.bench.js",
+     "name": "reactivity-lookup.bench.js",
+     "totalTime": 0,
+     "avgTime": 11.2483,
+     "ops": 0,
+     "timestamp": "2026-10-10T15:46:40.319Z",
+     "status": "unknown"
+    },
+    {
+     "file": "reactivity.bench.js",
+     "name": "Reactivity",
+     "totalTime": 400.71,
+     "avgTime": 0.008,
+     "ops": 124778,
+     "timestamp": "2026-10-10T15:46:40.619Z",
+     "status": "unknown"
+    },
+    {
+     "file": "render-paths.bench.js",
+     "name": "render-paths",
+     "totalTime": 39.15,
+     "avgTime": 0.0177,
+     "ops": 56551,
+     "timestamp": "2026-10-10T15:46:44.853Z",
+     "status": "unknown"
+    },
+    {
+     "file": "render-phases.bench.js",
+     "name": "render-phases",
+     "totalTime": 18.85,
+     "avgTime": 0.0228,
+     "ops": 43799,
+     "timestamp": "2026-10-10T15:46:47.591Z",
+     "status": "unknown"
+    },
+    {
+     "file": "render-scenarios.bench.js",
+     "name": "render-scenarios",
+     "totalTime": 69.8,
+     "avgTime": 0.0278,
+     "ops": 35978,
+     "timestamp": "2026-10-10T15:46:50.319Z",
+     "status": "unknown"
+    },
+    {
+     "file": "rewind-overhead.bench.js",
+     "name": "Rewind Overhead",
+     "totalTime": 429.95,
+     "avgTime": 0.001431,
+     "ops": 698898,
+     "timestamp": "2026-10-10T15:46:50.988Z",
+     "status": "unknown"
+    },
+    {
+     "file": "router.bench.js",
+     "name": "Router",
+     "totalTime": 8065.61,
+     "avgTime": 0.1613,
+     "ops": 6199,
+     "timestamp": "2026-10-10T15:46:51.891Z",
+     "status": "unknown"
+    },
+    {
+     "file": "security.bench.js",
+     "name": "Security",
+     "totalTime": 641.23,
+     "avgTime": 0.02,
+     "ops": 49904,
+     "timestamp": "2026-10-10T15:46:52.881Z",
+     "status": "unknown"
+    },
+    {
+     "file": "style-processor.bench.js",
+     "name": "StyleProcessor",
+     "totalTime": 501.15,
+     "avgTime": 0.1002,
+     "ops": 9977,
+     "timestamp": "2026-10-10T15:46:53.491Z",
+     "status": "unknown"
+    },
+    {
+     "file": "trace-overhead.bench.js",
+     "name": "Trace Overhead",
+     "totalTime": 510.43,
+     "avgTime": 0.001427,
+     "ops": 701006,
+     "timestamp": "2026-10-10T15:46:54.222Z",
+     "status": "unknown"
+    },
+    {
+     "file": "update-scaling.bench.js",
+     "name": "update-scaling",
+     "totalTime": 3401.57,
+     "avgTime": 65.5971,
+     "ops": 8,
+     "timestamp": "2026-10-10T15:46:58.264Z",
+     "status": "unknown"
+    },
+    {
+     "file": "virtual-list.bench.js",
+     "name": "VirtualList",
+     "totalTime": 38.63,
+     "avgTime": 0.0771,
+     "ops": 12968,
+     "timestamp": "2026-10-10T15:46:58.646Z",
+     "status": "unknown"
+    }
+   ]
+  },
+  {
+   "recordedAt": "2026-10-17T13:30:25.883Z",
+   "source": {
+    "kind": "legacy",
+    "repository": "Avenx-JS/bench-results",
+    "legacyCommit": "ea532145932354782b9f6cd2c5c0f5bea2c42979",
+    "upstreamCommit": null
+   },
+   "results": [
+    {
+     "file": "atlas-build.bench.js",
+     "name": "Atlas Build",
+     "totalTime": 445.79,
+     "avgTime": 222.9,
+     "ops": 4,
+     "timestamp": "2026-10-17T13:30:25.883Z",
+     "status": "unknown"
+    },
+    {
+     "file": "component-parser.bench.js",
+     "name": "ComponentParser",
+     "totalTime": 741.14,
+     "avgTime": 0.7411,
+     "ops": 1349,
+     "timestamp": "2026-10-17T13:30:26.859Z",
+     "status": "unknown"
+    },
+    {
+     "file": "dom-patching.bench.js",
+     "name": "DOMPatching",
+     "totalTime": 4335.74,
+     "avgTime": 0.4336,
+     "ops": 2306,
+     "timestamp": "2026-10-17T13:30:31.626Z",
+     "status": "unknown"
+    },
+    {
+     "file": "event-delegation.bench.js",
+     "name": "event delegation",
+     "totalTime": 0,
+     "avgTime": 0,
+     "ops": 0,
+     "timestamp": "2026-10-17T13:30:31.905Z",
+     "status": "unknown"
+    },
+    {
+     "file": "incremental-rebuild.bench.js",
+     "name": "Incremental Rebuild",
+     "totalTime": 237.73,
+     "avgTime": 118.87,
+     "ops": 8,
+     "timestamp": "2026-10-17T13:30:35.273Z",
+     "status": "unknown"
+    },
+    {
+     "file": "list-rendering.bench.js",
+     "name": "list-rendering",
+     "totalTime": 79.06,
+     "avgTime": 4.3925,
+     "ops": 228,
+     "timestamp": "2026-10-17T13:30:37.509Z",
+     "status": "unknown"
+    },
+    {
+     "file": "lru_cache_memory.bench.js",
+     "name": "LruCache Memory",
+     "totalTime": 18.68,
+     "avgTime": 0.0019,
+     "ops": 535427,
+     "timestamp": "2026-10-17T13:30:37.572Z",
+     "status": "unknown"
+    },
+    {
+     "file": "reactivity-lookup.bench.js",
+     "name": "reactivity-lookup.bench.js",
+     "totalTime": 0,
+     "avgTime": 8.5831,
+     "ops": 0,
+     "timestamp": "2026-10-17T13:30:40.686Z",
+     "status": "unknown"
+    },
+    {
+     "file": "reactivity.bench.js",
+     "name": "Reactivity",
+     "totalTime": 287.35,
+     "avgTime": 0.0057,
+     "ops": 174005,
+     "timestamp": "2026-10-17T13:30:40.908Z",
+     "status": "unknown"
+    },
+    {
+     "file": "render-paths.bench.js",
+     "name": "render-paths",
+     "totalTime": 37.27,
+     "avgTime": 0.0111,
+     "ops": 89817,
+     "timestamp": "2026-10-17T13:30:44.199Z",
+     "status": "unknown"
+    },
+    {
+     "file": "render-phases.bench.js",
+     "name": "render-phases",
+     "totalTime": 14.98,
+     "avgTime": 0.0153,
+     "ops": 65347,
+     "timestamp": "2026-10-17T13:30:46.339Z",
+     "status": "unknown"
+    },
+    {
+     "file": "render-scenarios.bench.js",
+     "name": "render-scenarios",
+     "totalTime": 57.94,
+     "avgTime": 0.0238,
+     "ops": 41998,
+     "timestamp": "2026-10-17T13:30:48.492Z",
+     "status": "unknown"
+    },
+    {
+     "file": "rewind-overhead.bench.js",
+     "name": "Rewind Overhead",
+     "totalTime": 314.51,
+     "avgTime": 0.001062,
+     "ops": 941373,
+     "timestamp": "2026-10-17T13:30:48.984Z",
+     "status": "unknown"
+    },
+    {
+     "file": "router.bench.js",
+     "name": "Router",
+     "totalTime": 5885,
+     "avgTime": 0.1177,
+     "ops": 8496,
+     "timestamp": "2026-10-17T13:30:49.642Z",
+     "status": "unknown"
+    },
+    {
+     "file": "security.bench.js",
+     "name": "Security",
+     "totalTime": 454.14,
+     "avgTime": 0.0142,
+     "ops": 70463,
+     "timestamp": "2026-10-17T13:30:50.355Z",
+     "status": "unknown"
+    },
+    {
+     "file": "style-processor.bench.js",
+     "name": "StyleProcessor",
+     "totalTime": 268.36,
+     "avgTime": 0.0537,
+     "ops": 18632,
+     "timestamp": "2026-10-17T13:30:50.706Z",
+     "status": "unknown"
+    },
+    {
+     "file": "trace-overhead.bench.js",
+     "name": "Trace Overhead",
+     "totalTime": 397.99,
+     "avgTime": 0.001055,
+     "ops": 947707,
+     "timestamp": "2026-10-17T13:30:51.275Z",
+     "status": "unknown"
+    },
+    {
+     "file": "update-scaling.bench.js",
+     "name": "update-scaling",
+     "totalTime": 2811.26,
+     "avgTime": 54.4452,
+     "ops": 9,
+     "timestamp": "2026-10-17T13:30:54.580Z",
+     "status": "unknown"
+    },
+    {
+     "file": "virtual-list.bench.js",
+     "name": "VirtualList",
+     "totalTime": 27.94,
+     "avgTime": 0.0558,
+     "ops": 17933,
+     "timestamp": "2026-10-17T13:30:54.865Z",
+     "status": "unknown"
+    }
+   ]
+  },
+  {
+   "recordedAt": "2026-10-24T13:52:33.785Z",
+   "source": {
+    "kind": "legacy",
+    "repository": "Avenx-JS/bench-results",
+    "legacyCommit": "8c6573be9d8da0c402fa0615f484bc03047a8dc5",
+    "upstreamCommit": null
+   },
+   "results": [
+    {
+     "file": "atlas-build.bench.js",
+     "name": "Atlas Build",
+     "totalTime": 513.69,
+     "avgTime": 256.84,
+     "ops": 4,
+     "timestamp": "2026-10-24T13:52:33.785Z",
+     "status": "unknown"
+    },
+    {
+     "file": "component-parser.bench.js",
+     "name": "ComponentParser",
+     "totalTime": 918.86,
+     "avgTime": 0.9189,
+     "ops": 1088,
+     "timestamp": "2026-10-24T13:52:34.967Z",
+     "status": "unknown"
+    },
+    {
+     "file": "dom-patching.bench.js",
+     "name": "DOMPatching",
+     "totalTime": 5516.44,
+     "avgTime": 0.5516,
+     "ops": 1813,
+     "timestamp": "2026-10-24T13:52:40.976Z",
+     "status": "unknown"
+    },
+    {
+     "file": "event-delegation.bench.js",
+     "name": "event delegation",
+     "totalTime": 0,
+     "avgTime": 0,
+     "ops": 0,
+     "timestamp": "2026-10-24T13:52:41.387Z",
+     "status": "unknown"
+    },
+    {
+     "file": "incremental-rebuild.bench.js",
+     "name": "Incremental Rebuild",
+     "totalTime": 267.47,
+     "avgTime": 133.74,
+     "ops": 7,
+     "timestamp": "2026-10-24T13:52:45.288Z",
+     "status": "unknown"
+    },
+    {
+     "file": "list-rendering.bench.js",
+     "name": "list-rendering",
+     "totalTime": 111.38,
+     "avgTime": 6.1879,
+     "ops": 162,
+     "timestamp": "2026-10-24T13:52:48.331Z",
+     "status": "unknown"
+    },
+    {
+     "file": "lru_cache_memory.bench.js",
+     "name": "LruCache Memory",
+     "totalTime": 24.22,
+     "avgTime": 0.0024,
+     "ops": 412953,
+     "timestamp": "2026-10-24T13:52:48.418Z",
+     "status": "unknown"
+    },
+    {
+     "file": "reactivity-lookup.bench.js",
+     "name": "reactivity-lookup.bench.js",
+     "totalTime": 0,
+     "avgTime": 15.07,
+     "ops": 0,
+     "timestamp": "2026-10-24T13:52:53.745Z",
+     "status": "unknown"
+    },
+    {
+     "file": "reactivity.bench.js",
+     "name": "Reactivity",
+     "totalTime": 367.23,
+     "avgTime": 0.0073,
+     "ops": 136156,
+     "timestamp": "2026-10-24T13:52:54.037Z",
+     "status": "unknown"
+    },
+    {
+     "file": "render-paths.bench.js",
+     "name": "render-paths",
+     "totalTime": 35.35,
+     "avgTime": 0.0231,
+     "ops": 43218,
+     "timestamp": "2026-10-24T13:52:58.012Z",
+     "status": "unknown"
+    },
+    {
+     "file": "render-phases.bench.js",
+     "name": "render-phases",
+     "totalTime": 18.6,
+     "avgTime": 0.0182,
+     "ops": 55058,
+     "timestamp": "2026-10-24T13:53:00.623Z",
+     "status": "unknown"
+    },
+    {
+     "file": "render-scenarios.bench.js",
+     "name": "render-scenarios",
+     "totalTime": 55.61,
+     "avgTime": 0.0186,
+     "ops": 53676,
+     "timestamp": "2026-10-24T13:53:03.289Z",
+     "status": "unknown"
+    },
+    {
+     "file": "rewind-overhead.bench.js",
+     "name": "Rewind Overhead",
+     "totalTime": 457.47,
+     "avgTime": 0.001625,
+     "ops": 615405,
+     "timestamp": "2026-10-24T13:53:03.983Z",
+     "status": "unknown"
+    },
+    {
+     "file": "router.bench.js",
+     "name": "Router",
+     "totalTime": 7754.93,
+     "avgTime": 0.1551,
+     "ops": 6448,
+     "timestamp": "2026-10-24T13:53:04.816Z",
+     "status": "unknown"
+    },
+    {
+     "file": "security.bench.js",
+     "name": "Security",
+     "totalTime": 573.55,
+     "avgTime": 0.0179,
+     "ops": 55793,
+     "timestamp": "2026-10-24T13:53:05.694Z",
+     "status": "unknown"
+    },
+    {
+     "file": "style-processor.bench.js",
+     "name": "StyleProcessor",
+     "totalTime": 417.24,
+     "avgTime": 0.0834,
+     "ops": 11983,
+     "timestamp": "2026-10-24T13:53:06.204Z",
+     "status": "unknown"
+    },
+    {
+     "file": "trace-overhead.bench.js",
+     "name": "Trace Overhead",
+     "totalTime": 520.96,
+     "avgTime": 0.001453,
+     "ops": 688276,
+     "timestamp": "2026-10-24T13:53:06.946Z",
+     "status": "unknown"
+    },
+    {
+     "file": "update-scaling.bench.js",
+     "name": "update-scaling",
+     "totalTime": 3279.98,
+     "avgTime": 63.0729,
+     "ops": 8,
+     "timestamp": "2026-10-24T13:53:10.802Z",
+     "status": "unknown"
+    },
+    {
+     "file": "virtual-list.bench.js",
+     "name": "VirtualList",
+     "totalTime": 34.13,
+     "avgTime": 0.0681,
+     "ops": 14680,
+     "timestamp": "2026-10-24T13:53:11.127Z",
+     "status": "unknown"
+    }
+   ]
+  },
+  {
+   "recordedAt": "2026-11-07T16:09:05.407Z",
+   "source": {
+    "kind": "legacy",
+    "repository": "Avenx-JS/bench-results",
+    "legacyCommit": "6617db2f399540347daf7c111843ad246d1e3779",
+    "upstreamCommit": null
+   },
+   "results": [
+    {
+     "file": "atlas-build.bench.js",
+     "name": "Atlas Build",
+     "totalTime": 412.6,
+     "avgTime": 206.3,
+     "ops": 5,
+     "timestamp": "2026-11-07T16:09:05.407Z",
+     "status": "unknown"
+    },
+    {
+     "file": "component-parser.bench.js",
+     "name": "ComponentParser",
+     "totalTime": 760.94,
+     "avgTime": 0.7609,
+     "ops": 1314,
+     "timestamp": "2026-11-07T16:09:06.396Z",
+     "status": "unknown"
+    },
+    {
+     "file": "dom-patching.bench.js",
+     "name": "DOMPatching",
+     "totalTime": 4508.6,
+     "avgTime": 0.4509,
+     "ops": 2218,
+     "timestamp": "2026-11-07T16:09:11.377Z",
+     "status": "unknown"
+    },
+    {
+     "file": "event-delegation.bench.js",
+     "name": "event delegation",
+     "totalTime": 0,
+     "avgTime": 0,
+     "ops": 0,
+     "timestamp": "2026-11-07T16:09:11.652Z",
+     "status": "unknown"
+    },
+    {
+     "file": "incremental-rebuild.bench.js",
+     "name": "Incremental Rebuild",
+     "totalTime": 280.78,
+     "avgTime": 140.39,
+     "ops": 7,
+     "timestamp": "2026-11-07T16:09:15.325Z",
+     "status": "unknown"
+    },
+    {
+     "file": "list-rendering.bench.js",
+     "name": "list-rendering",
+     "totalTime": 93.69,
+     "avgTime": 5.2048,
+     "ops": 192,
+     "timestamp": "2026-11-07T16:09:17.957Z",
+     "status": "unknown"
+    },
+    {
+     "file": "lru_cache_memory.bench.js",
+     "name": "LruCache Memory",
+     "totalTime": 19.5,
+     "avgTime": 0.002,
+     "ops": 512727,
+     "timestamp": "2026-11-07T16:09:18.026Z",
+     "status": "unknown"
+    },
+    {
+     "file": "reactivity-lookup.bench.js",
+     "name": "reactivity-lookup.bench.js",
+     "totalTime": 0,
+     "avgTime": 9.912,
+     "ops": 0,
+     "timestamp": "2026-11-07T16:09:21.557Z",
+     "status": "unknown"
+    },
+    {
+     "file": "reactivity.bench.js",
+     "name": "Reactivity",
+     "totalTime": 287.89,
+     "avgTime": 0.0058,
+     "ops": 173680,
+     "timestamp": "2026-11-07T16:09:22.058Z",
+     "status": "unknown"
+    },
+    {
+     "file": "render-paths.bench.js",
+     "name": "render-paths",
+     "totalTime": 36.11,
+     "avgTime": 0.0142,
+     "ops": 70536,
+     "timestamp": "2026-11-07T16:09:25.623Z",
+     "status": "unknown"
+    },
+    {
+     "file": "render-phases.bench.js",
+     "name": "render-phases",
+     "totalTime": 16.75,
+     "avgTime": 0.0164,
+     "ops": 61027,
+     "timestamp": "2026-11-07T16:09:27.934Z",
+     "status": "unknown"
+    },
+    {
+     "file": "render-scenarios.bench.js",
+     "name": "render-scenarios",
+     "totalTime": 51.49,
+     "avgTime": 0.0171,
+     "ops": 58573,
+     "timestamp": "2026-11-07T16:09:30.358Z",
+     "status": "unknown"
+    },
+    {
+     "file": "rewind-overhead.bench.js",
+     "name": "Rewind Overhead",
+     "totalTime": 319.56,
+     "avgTime": 0.001071,
+     "ops": 934089,
+     "timestamp": "2026-11-07T16:09:30.856Z",
+     "status": "unknown"
+    },
+    {
+     "file": "router.bench.js",
+     "name": "Router",
+     "totalTime": 6044.98,
+     "avgTime": 0.1209,
+     "ops": 8271,
+     "timestamp": "2026-11-07T16:09:31.540Z",
+     "status": "unknown"
+    },
+    {
+     "file": "security.bench.js",
+     "name": "Security",
+     "totalTime": 468.2,
+     "avgTime": 0.0146,
+     "ops": 68346,
+     "timestamp": "2026-11-07T16:09:32.284Z",
+     "status": "unknown"
+    },
+    {
+     "file": "style-processor.bench.js",
+     "name": "StyleProcessor",
+     "totalTime": 387.07,
+     "avgTime": 0.0774,
+     "ops": 12917,
+     "timestamp": "2026-11-07T16:09:32.752Z",
+     "status": "unknown"
+    },
+    {
+     "file": "trace-overhead.bench.js",
+     "name": "Trace Overhead",
+     "totalTime": 407.06,
+     "avgTime": 0.001051,
+     "ops": 951087,
+     "timestamp": "2026-11-07T16:09:33.331Z",
+     "status": "unknown"
+    },
+    {
+     "file": "update-scaling.bench.js",
+     "name": "update-scaling",
+     "totalTime": 2968.97,
+     "avgTime": 57.8832,
+     "ops": 9,
+     "timestamp": "2026-11-07T16:09:36.820Z",
+     "status": "unknown"
+    },
+    {
+     "file": "virtual-list.bench.js",
+     "name": "VirtualList",
+     "totalTime": 28,
+     "avgTime": 0.0559,
+     "ops": 17890,
+     "timestamp": "2026-11-07T16:09:37.117Z",
+     "status": "unknown"
+    }
+   ]
+  },
+  {
+   "recordedAt": "2026-11-14T16:25:17.237Z",
+   "source": {
+    "kind": "legacy",
+    "repository": "Avenx-JS/bench-results",
+    "legacyCommit": "d113b93812c4e53c4128500f835b5e85d6485a90",
+    "upstreamCommit": null
+   },
+   "results": [
+    {
+     "file": "atlas-build.bench.js",
+     "name": "Atlas Build",
+     "totalTime": 343.85,
+     "avgTime": 171.93,
+     "ops": 6,
+     "timestamp": "2026-11-14T16:25:17.237Z",
+     "status": "unknown"
+    },
+    {
+     "file": "component-parser.bench.js",
+     "name": "ComponentParser",
+     "totalTime": 599.33,
+     "avgTime": 0.5993,
+     "ops": 1669,
+     "timestamp": "2026-11-14T16:25:18.044Z",
+     "status": "unknown"
+    },
+    {
+     "file": "dom-patching.bench.js",
+     "name": "DOMPatching",
+     "totalTime": 3160.63,
+     "avgTime": 0.3161,
+     "ops": 3164,
+     "timestamp": "2026-11-14T16:25:21.606Z",
+     "status": "unknown"
+    },
+    {
+     "file": "event-delegation.bench.js",
+     "name": "event delegation",
+     "totalTime": 0,
+     "avgTime": 0,
+     "ops": 0,
+     "timestamp": "2026-11-14T16:25:21.817Z",
+     "status": "unknown"
+    },
+    {
+     "file": "incremental-rebuild.bench.js",
+     "name": "Incremental Rebuild",
+     "totalTime": 189.03,
+     "avgTime": 94.52,
+     "ops": 11,
+     "timestamp": "2026-11-14T16:25:24.524Z",
+     "status": "unknown"
+    },
+    {
+     "file": "list-rendering.bench.js",
+     "name": "list-rendering",
+     "totalTime": 60.42,
+     "avgTime": 3.3566,
+     "ops": 298,
+     "timestamp": "2026-11-14T16:25:26.245Z",
+     "status": "unknown"
+    },
+    {
+     "file": "lru_cache_memory.bench.js",
+     "name": "LruCache Memory",
+     "totalTime": 20.67,
+     "avgTime": 0.0021,
+     "ops": 483804,
+     "timestamp": "2026-11-14T16:25:26.307Z",
+     "status": "unknown"
+    },
+    {
+     "file": "reactivity-lookup.bench.js",
+     "name": "reactivity-lookup.bench.js",
+     "totalTime": 0,
+     "avgTime": 5.7101,
+     "ops": 0,
+     "timestamp": "2026-11-14T16:25:28.578Z",
+     "status": "unknown"
+    },
+    {
+     "file": "reactivity.bench.js",
+     "name": "Reactivity",
+     "totalTime": 224.75,
+     "avgTime": 0.0045,
+     "ops": 222470,
+     "timestamp": "2026-11-14T16:25:28.950Z",
+     "status": "unknown"
+    },
+    {
+     "file": "render-paths.bench.js",
+     "name": "render-paths",
+     "totalTime": 27.21,
+     "avgTime": 0.0099,
+     "ops": 100980,
+     "timestamp": "2026-11-14T16:25:31.785Z",
+     "status": "unknown"
+    },
+    {
+     "file": "render-phases.bench.js",
+     "name": "render-phases",
+     "totalTime": 12.75,
+     "avgTime": 0.0157,
+     "ops": 63541,
+     "timestamp": "2026-11-14T16:25:33.575Z",
+     "status": "unknown"
+    },
+    {
+     "file": "render-scenarios.bench.js",
+     "name": "render-scenarios",
+     "totalTime": 50.3,
+     "avgTime": 0.02,
+     "ops": 49912,
+     "timestamp": "2026-11-14T16:25:35.649Z",
+     "status": "unknown"
+    },
+    {
+     "file": "rewind-overhead.bench.js",
+     "name": "Rewind Overhead",
+     "totalTime": 234.84,
+     "avgTime": 0.000751,
+     "ops": 1331025,
+     "timestamp": "2026-11-14T16:25:36.031Z",
+     "status": "unknown"
+    },
+    {
+     "file": "router.bench.js",
+     "name": "Router",
+     "totalTime": 4532.18,
+     "avgTime": 0.0906,
+     "ops": 11032,
+     "timestamp": "2026-11-14T16:25:36.556Z",
+     "status": "unknown"
+    },
+    {
+     "file": "security.bench.js",
+     "name": "Security",
+     "totalTime": 338.61,
+     "avgTime": 0.0106,
+     "ops": 94505,
+     "timestamp": "2026-11-14T16:25:37.110Z",
+     "status": "unknown"
+    },
+    {
+     "file": "style-processor.bench.js",
+     "name": "StyleProcessor",
+     "totalTime": 151.9,
+     "avgTime": 0.0304,
+     "ops": 32916,
+     "timestamp": "2026-11-14T16:25:37.321Z",
+     "status": "unknown"
+    },
+    {
+     "file": "trace-overhead.bench.js",
+     "name": "Trace Overhead",
+     "totalTime": 310.95,
+     "avgTime": 0.000801,
+     "ops": 1248670,
+     "timestamp": "2026-11-14T16:25:37.766Z",
+     "status": "unknown"
+    },
+    {
+     "file": "update-scaling.bench.js",
+     "name": "update-scaling",
+     "totalTime": 2377.88,
+     "avgTime": 45.9747,
+     "ops": 11,
+     "timestamp": "2026-11-14T16:25:40.561Z",
+     "status": "unknown"
+    },
+    {
+     "file": "virtual-list.bench.js",
+     "name": "VirtualList",
+     "totalTime": 20.6,
+     "avgTime": 0.0411,
+     "ops": 24322,
+     "timestamp": "2026-11-14T16:25:40.761Z",
+     "status": "unknown"
+    }
+   ]
+  }
+ ]
+}

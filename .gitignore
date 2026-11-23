@@ -1,0 +1,8 @@
+# build output
+dist/
+# raw collection output (scripts/collect.js); regenerated on every run
+.cache/
+# Avenx-JS/avenx-js checkout used by the workflow
+upstream/
+node_modules/
+.DS_Store

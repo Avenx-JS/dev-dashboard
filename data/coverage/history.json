@@ -1,0 +1,7727 @@
+{
+ "schemaVersion": 1,
+ "runs": [
+  {
+   "recordedAt": "2026-06-15T13:24:35.000Z",
+   "source": {
+    "kind": "legacy",
+    "repository": "Avenx-JS/test-cov",
+    "legacyCommit": "c555e8bfbe3f37b1d55108bec9dcb4032341ee63",
+    "upstreamCommit": null
+   },
+   "total": {
+    "statements": {
+     "covered": 545,
+     "total": 1124,
+     "pct": 48.48
+    },
+    "branches": {
+     "covered": 34,
+     "total": 53,
+     "pct": 64.15
+    },
+    "functions": {
+     "covered": 20,
+     "total": 43,
+     "pct": 46.51
+    },
+    "lines": {
+     "covered": 545,
+     "total": 1124,
+     "pct": 48.48
+    }
+   },
+   "directories": [
+    {
+     "path": "bin",
+     "statements": {
+      "covered": 148,
+      "total": 389,
+      "pct": 38.04
+     },
+     "branches": {
+      "covered": 6,
+      "total": 12,
+      "pct": 50
+     },
+     "functions": {
+      "covered": 4,
+      "total": 13,
+      "pct": 30.76
+     },
+     "lines": {
+      "covered": 148,
+      "total": 389,
+      "pct": 38.04
+     }
+    },
+    {
+     "path": "lib",
+     "statements": {
+      "covered": 68,
+      "total": 228,
+      "pct": 29.82
+     },
+     "branches": {
+      "covered": 1,
+      "total": 1,
+      "pct": 100
+     },
+     "functions": {
+      "covered": 0,
+      "total": 8,
+      "pct": 0
+     },
+     "lines": {
+      "covered": 68,
+      "total": 228,
+      "pct": 29.82
+     }
+    },
+    {
+     "path": "lib/compiler",
+     "statements": {
+      "covered": 329,
+      "total": 507,
+      "pct": 64.89
+     },
+     "branches": {
+      "covered": 27,
+      "total": 40,
+      "pct": 67.5
+     },
+     "functions": {
+      "covered": 16,
+      "total": 22,
+      "pct": 72.72
+     },
+     "lines": {
+      "covered": 329,
+      "total": 507,
+      "pct": 64.89
+     }
+    }
+   ],
+   "tests": null
+  },
+  {
+   "recordedAt": "2026-06-25T10:57:32.000Z",
+   "source": {
+    "kind": "legacy",
+    "repository": "Avenx-JS/test-cov",
+    "legacyCommit": "c4d3976dddfe538199d5e44ab99926b4324bdd45",
+    "upstreamCommit": null
+   },
+   "total": {
+    "statements": {
+     "covered": 3236,
+     "total": 3864,
+     "pct": 83.74
+    },
+    "branches": {
+     "covered": 582,
+     "total": 691,
+     "pct": 84.22
+    },
+    "functions": {
+     "covered": 153,
+     "total": 170,
+     "pct": 90
+    },
+    "lines": {
+     "covered": 3236,
+     "total": 3864,
+     "pct": 83.74
+    }
+   },
+   "directories": [
+    {
+     "path": "bin",
+     "statements": {
+      "covered": 159,
+      "total": 477,
+      "pct": 33.33
+     },
+     "branches": {
+      "covered": 10,
+      "total": 15,
+      "pct": 66.66
+     },
+     "functions": {
+      "covered": 5,
+      "total": 14,
+      "pct": 35.71
+     },
+     "lines": {
+      "covered": 159,
+      "total": 477,
+      "pct": 33.33
+     }
+    },
+    {
+     "path": "lib",
+     "statements": {
+      "covered": 228,
+      "total": 290,
+      "pct": 78.62
+     },
+     "branches": {
+      "covered": 14,
+      "total": 19,
+      "pct": 73.68
+     },
+     "functions": {
+      "covered": 11,
+      "total": 13,
+      "pct": 84.61
+     },
+     "lines": {
+      "covered": 228,
+      "total": 290,
+      "pct": 78.62
+     }
+    },
+    {
+     "path": "lib/compiler",
+     "statements": {
+      "covered": 725,
+      "total": 833,
+      "pct": 87.03
+     },
+     "branches": {
+      "covered": 143,
+      "total": 167,
+      "pct": 85.62
+     },
+     "functions": {
+      "covered": 27,
+      "total": 27,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 725,
+      "total": 833,
+      "pct": 87.03
+     }
+    },
+    {
+     "path": "lib/core/events",
+     "statements": {
+      "covered": 201,
+      "total": 248,
+      "pct": 81.04
+     },
+     "branches": {
+      "covered": 54,
+      "total": 70,
+      "pct": 77.14
+     },
+     "functions": {
+      "covered": 13,
+      "total": 14,
+      "pct": 92.85
+     },
+     "lines": {
+      "covered": 201,
+      "total": 248,
+      "pct": 81.04
+     }
+    },
+    {
+     "path": "lib/core/reactive",
+     "statements": {
+      "covered": 431,
+      "total": 448,
+      "pct": 96.2
+     },
+     "branches": {
+      "covered": 88,
+      "total": 97,
+      "pct": 90.72
+     },
+     "functions": {
+      "covered": 28,
+      "total": 31,
+      "pct": 90.32
+     },
+     "lines": {
+      "covered": 431,
+      "total": 448,
+      "pct": 96.2
+     }
+    },
+    {
+     "path": "lib/core/renderer",
+     "statements": {
+      "covered": 301,
+      "total": 328,
+      "pct": 91.76
+     },
+     "branches": {
+      "covered": 68,
+      "total": 80,
+      "pct": 85
+     },
+     "functions": {
+      "covered": 10,
+      "total": 10,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 301,
+      "total": 328,
+      "pct": 91.76
+     }
+    },
+    {
+     "path": "lib/core/runtime",
+     "statements": {
+      "covered": 1050,
+      "total": 1098,
+      "pct": 95.62
+     },
+     "branches": {
+      "covered": 182,
+      "total": 219,
+      "pct": 83.1
+     },
+     "functions": {
+      "covered": 50,
+      "total": 52,
+      "pct": 96.15
+     },
+     "lines": {
+      "covered": 1050,
+      "total": 1098,
+      "pct": 95.62
+     }
+    },
+    {
+     "path": "lib/core/security",
+     "statements": {
+      "covered": 141,
+      "total": 142,
+      "pct": 99.29
+     },
+     "branches": {
+      "covered": 23,
+      "total": 24,
+      "pct": 95.83
+     },
+     "functions": {
+      "covered": 9,
+      "total": 9,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 141,
+      "total": 142,
+      "pct": 99.29
+     }
+    }
+   ],
+   "tests": null
+  },
+  {
+   "recordedAt": "2026-08-22T10:26:37.000Z",
+   "source": {
+    "kind": "legacy",
+    "repository": "Avenx-JS/test-cov",
+    "legacyCommit": "65810e7852c056d7ddd9d7b272b8a2bb92948b5f",
+    "upstreamCommit": null
+   },
+   "total": {
+    "statements": {
+     "covered": 19871,
+     "total": 23190,
+     "pct": 85.68
+    },
+    "branches": {
+     "covered": 4182,
+     "total": 5194,
+     "pct": 80.51
+    },
+    "functions": {
+     "covered": 682,
+     "total": 776,
+     "pct": 87.88
+    },
+    "lines": {
+     "covered": 19871,
+     "total": 23190,
+     "pct": 85.68
+    }
+   },
+   "directories": [
+    {
+     "path": "bin",
+     "statements": {
+      "covered": 540,
+      "total": 617,
+      "pct": 87.52
+     },
+     "branches": {
+      "covered": 158,
+      "total": 197,
+      "pct": 80.2
+     },
+     "functions": {
+      "covered": 16,
+      "total": 17,
+      "pct": 94.11
+     },
+     "lines": {
+      "covered": 540,
+      "total": 617,
+      "pct": 87.52
+     }
+    },
+    {
+     "path": "bin/commands",
+     "statements": {
+      "covered": 1759,
+      "total": 2750,
+      "pct": 63.96
+     },
+     "branches": {
+      "covered": 261,
+      "total": 369,
+      "pct": 70.73
+     },
+     "functions": {
+      "covered": 46,
+      "total": 61,
+      "pct": 75.4
+     },
+     "lines": {
+      "covered": 1759,
+      "total": 2750,
+      "pct": 63.96
+     }
+    },
+    {
+     "path": "lib",
+     "statements": {
+      "covered": 1112,
+      "total": 1159,
+      "pct": 95.94
+     },
+     "branches": {
+      "covered": 272,
+      "total": 307,
+      "pct": 88.59
+     },
+     "functions": {
+      "covered": 28,
+      "total": 29,
+      "pct": 96.55
+     },
+     "lines": {
+      "covered": 1112,
+      "total": 1159,
+      "pct": 95.94
+     }
+    },
+    {
+     "path": "lib/compiler",
+     "statements": {
+      "covered": 3543,
+      "total": 3846,
+      "pct": 92.12
+     },
+     "branches": {
+      "covered": 831,
+      "total": 973,
+      "pct": 85.4
+     },
+     "functions": {
+      "covered": 88,
+      "total": 89,
+      "pct": 98.87
+     },
+     "lines": {
+      "covered": 3543,
+      "total": 3846,
+      "pct": 92.12
+     }
+    },
+    {
+     "path": "lib/compiler/errors",
+     "statements": {
+      "covered": 221,
+      "total": 231,
+      "pct": 95.67
+     },
+     "branches": {
+      "covered": 24,
+      "total": 33,
+      "pct": 72.72
+     },
+     "functions": {
+      "covered": 7,
+      "total": 9,
+      "pct": 77.77
+     },
+     "lines": {
+      "covered": 221,
+      "total": 231,
+      "pct": 95.67
+     }
+    },
+    {
+     "path": "lib/compiler/utils",
+     "statements": {
+      "covered": 47,
+      "total": 56,
+      "pct": 83.92
+     },
+     "branches": {
+      "covered": 21,
+      "total": 29,
+      "pct": 72.41
+     },
+     "functions": {
+      "covered": 1,
+      "total": 1,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 47,
+      "total": 56,
+      "pct": 83.92
+     }
+    },
+    {
+     "path": "lib/core",
+     "statements": {
+      "covered": 53,
+      "total": 53,
+      "pct": 100
+     },
+     "branches": {
+      "covered": 1,
+      "total": 1,
+      "pct": 100
+     },
+     "functions": {
+      "covered": 0,
+      "total": 0,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 53,
+      "total": 53,
+      "pct": 100
+     }
+    },
+    {
+     "path": "lib/core/events",
+     "statements": {
+      "covered": 620,
+      "total": 630,
+      "pct": 98.41
+     },
+     "branches": {
+      "covered": 178,
+      "total": 204,
+      "pct": 87.25
+     },
+     "functions": {
+      "covered": 27,
+      "total": 27,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 620,
+      "total": 630,
+      "pct": 98.41
+     }
+    },
+    {
+     "path": "lib/core/reactive",
+     "statements": {
+      "covered": 1654,
+      "total": 1906,
+      "pct": 86.77
+     },
+     "branches": {
+      "covered": 373,
+      "total": 440,
+      "pct": 84.77
+     },
+     "functions": {
+      "covered": 74,
+      "total": 82,
+      "pct": 90.24
+     },
+     "lines": {
+      "covered": 1654,
+      "total": 1906,
+      "pct": 86.77
+     }
+    },
+    {
+     "path": "lib/core/renderer",
+     "statements": {
+      "covered": 2183,
+      "total": 2505,
+      "pct": 87.14
+     },
+     "branches": {
+      "covered": 469,
+      "total": 599,
+      "pct": 78.29
+     },
+     "functions": {
+      "covered": 70,
+      "total": 76,
+      "pct": 92.1
+     },
+     "lines": {
+      "covered": 2183,
+      "total": 2505,
+      "pct": 87.14
+     }
+    },
+    {
+     "path": "lib/core/runtime",
+     "statements": {
+      "covered": 5642,
+      "total": 6447,
+      "pct": 87.51
+     },
+     "branches": {
+      "covered": 1168,
+      "total": 1522,
+      "pct": 76.74
+     },
+     "functions": {
+      "covered": 226,
+      "total": 252,
+      "pct": 89.68
+     },
+     "lines": {
+      "covered": 5642,
+      "total": 6447,
+      "pct": 87.51
+     }
+    },
+    {
+     "path": "lib/core/runtime/navigation",
+     "statements": {
+      "covered": 330,
+      "total": 359,
+      "pct": 91.92
+     },
+     "branches": {
+      "covered": 60,
+      "total": 69,
+      "pct": 86.95
+     },
+     "functions": {
+      "covered": 28,
+      "total": 41,
+      "pct": 68.29
+     },
+     "lines": {
+      "covered": 330,
+      "total": 359,
+      "pct": 91.92
+     }
+    },
+    {
+     "path": "lib/core/security",
+     "statements": {
+      "covered": 959,
+      "total": 1023,
+      "pct": 93.74
+     },
+     "branches": {
+      "covered": 186,
+      "total": 215,
+      "pct": 86.51
+     },
+     "functions": {
+      "covered": 33,
+      "total": 36,
+      "pct": 91.66
+     },
+     "lines": {
+      "covered": 959,
+      "total": 1023,
+      "pct": 93.74
+     }
+    },
+    {
+     "path": "lib/core/tooling",
+     "statements": {
+      "covered": 267,
+      "total": 481,
+      "pct": 55.5
+     },
+     "branches": {
+      "covered": 22,
+      "total": 27,
+      "pct": 81.48
+     },
+     "functions": {
+      "covered": 8,
+      "total": 17,
+      "pct": 47.05
+     },
+     "lines": {
+      "covered": 267,
+      "total": 481,
+      "pct": 55.5
+     }
+    },
+    {
+     "path": "lib/core/utils",
+     "statements": {
+      "covered": 228,
+      "total": 274,
+      "pct": 83.21
+     },
+     "branches": {
+      "covered": 61,
+      "total": 73,
+      "pct": 83.56
+     },
+     "functions": {
+      "covered": 11,
+      "total": 11,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 228,
+      "total": 274,
+      "pct": 83.21
+     }
+    },
+    {
+     "path": "lib/core/validation",
+     "statements": {
+      "covered": 198,
+      "total": 249,
+      "pct": 79.51
+     },
+     "branches": {
+      "covered": 28,
+      "total": 53,
+      "pct": 52.83
+     },
+     "functions": {
+      "covered": 4,
+      "total": 4,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 198,
+      "total": 249,
+      "pct": 79.51
+     }
+    },
+    {
+     "path": "plugins/avenx-vite/src",
+     "statements": {
+      "covered": 438,
+      "total": 523,
+      "pct": 83.74
+     },
+     "branches": {
+      "covered": 63,
+      "total": 76,
+      "pct": 82.89
+     },
+     "functions": {
+      "covered": 13,
+      "total": 22,
+      "pct": 59.09
+     },
+     "lines": {
+      "covered": 438,
+      "total": 523,
+      "pct": 83.74
+     }
+    },
+    {
+     "path": "scripts",
+     "statements": {
+      "covered": 77,
+      "total": 81,
+      "pct": 95.06
+     },
+     "branches": {
+      "covered": 6,
+      "total": 7,
+      "pct": 85.71
+     },
+     "functions": {
+      "covered": 2,
+      "total": 2,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 77,
+      "total": 81,
+      "pct": 95.06
+     }
+    }
+   ],
+   "tests": null
+  },
+  {
+   "recordedAt": "2026-08-29T14:58:08.000Z",
+   "source": {
+    "kind": "legacy",
+    "repository": "Avenx-JS/test-cov",
+    "legacyCommit": "55e94c176da1e34cd4449139f3d805dd485c0523",
+    "upstreamCommit": null
+   },
+   "total": {
+    "statements": {
+     "covered": 27840,
+     "total": 31872,
+     "pct": 87.34
+    },
+    "branches": {
+     "covered": 5651,
+     "total": 6971,
+     "pct": 81.06
+    },
+    "functions": {
+     "covered": 912,
+     "total": 1027,
+     "pct": 88.8
+    },
+    "lines": {
+     "covered": 27840,
+     "total": 31872,
+     "pct": 87.34
+    }
+   },
+   "directories": [
+    {
+     "path": "bin",
+     "statements": {
+      "covered": 706,
+      "total": 858,
+      "pct": 82.28
+     },
+     "branches": {
+      "covered": 187,
+      "total": 232,
+      "pct": 80.6
+     },
+     "functions": {
+      "covered": 21,
+      "total": 24,
+      "pct": 87.5
+     },
+     "lines": {
+      "covered": 706,
+      "total": 858,
+      "pct": 82.28
+     }
+    },
+    {
+     "path": "bin/commands",
+     "statements": {
+      "covered": 2275,
+      "total": 3516,
+      "pct": 64.7
+     },
+     "branches": {
+      "covered": 361,
+      "total": 530,
+      "pct": 68.11
+     },
+     "functions": {
+      "covered": 60,
+      "total": 76,
+      "pct": 78.94
+     },
+     "lines": {
+      "covered": 2275,
+      "total": 3516,
+      "pct": 64.7
+     }
+    },
+    {
+     "path": "lib",
+     "statements": {
+      "covered": 1598,
+      "total": 1650,
+      "pct": 96.84
+     },
+     "branches": {
+      "covered": 405,
+      "total": 448,
+      "pct": 90.4
+     },
+     "functions": {
+      "covered": 39,
+      "total": 40,
+      "pct": 97.5
+     },
+     "lines": {
+      "covered": 1598,
+      "total": 1650,
+      "pct": 96.84
+     }
+    },
+    {
+     "path": "lib/compiler",
+     "statements": {
+      "covered": 4602,
+      "total": 4961,
+      "pct": 92.76
+     },
+     "branches": {
+      "covered": 1056,
+      "total": 1235,
+      "pct": 85.5
+     },
+     "functions": {
+      "covered": 117,
+      "total": 119,
+      "pct": 98.31
+     },
+     "lines": {
+      "covered": 4602,
+      "total": 4961,
+      "pct": 92.76
+     }
+    },
+    {
+     "path": "lib/compiler/errors",
+     "statements": {
+      "covered": 221,
+      "total": 231,
+      "pct": 95.67
+     },
+     "branches": {
+      "covered": 24,
+      "total": 33,
+      "pct": 72.72
+     },
+     "functions": {
+      "covered": 7,
+      "total": 9,
+      "pct": 77.77
+     },
+     "lines": {
+      "covered": 221,
+      "total": 231,
+      "pct": 95.67
+     }
+    },
+    {
+     "path": "lib/compiler/utils",
+     "statements": {
+      "covered": 47,
+      "total": 56,
+      "pct": 83.92
+     },
+     "branches": {
+      "covered": 21,
+      "total": 29,
+      "pct": 72.41
+     },
+     "functions": {
+      "covered": 1,
+      "total": 1,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 47,
+      "total": 56,
+      "pct": 83.92
+     }
+    },
+    {
+     "path": "lib/core",
+     "statements": {
+      "covered": 134,
+      "total": 134,
+      "pct": 100
+     },
+     "branches": {
+      "covered": 3,
+      "total": 3,
+      "pct": 100
+     },
+     "functions": {
+      "covered": 0,
+      "total": 0,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 134,
+      "total": 134,
+      "pct": 100
+     }
+    },
+    {
+     "path": "lib/core/diagnostics",
+     "statements": {
+      "covered": 269,
+      "total": 285,
+      "pct": 94.38
+     },
+     "branches": {
+      "covered": 1,
+      "total": 1,
+      "pct": 100
+     },
+     "functions": {
+      "covered": 0,
+      "total": 3,
+      "pct": 0
+     },
+     "lines": {
+      "covered": 269,
+      "total": 285,
+      "pct": 94.38
+     }
+    },
+    {
+     "path": "lib/core/events",
+     "statements": {
+      "covered": 669,
+      "total": 685,
+      "pct": 97.66
+     },
+     "branches": {
+      "covered": 183,
+      "total": 213,
+      "pct": 85.91
+     },
+     "functions": {
+      "covered": 28,
+      "total": 28,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 669,
+      "total": 685,
+      "pct": 97.66
+     }
+    },
+    {
+     "path": "lib/core/reactive",
+     "statements": {
+      "covered": 2082,
+      "total": 2333,
+      "pct": 89.24
+     },
+     "branches": {
+      "covered": 460,
+      "total": 535,
+      "pct": 85.98
+     },
+     "functions": {
+      "covered": 87,
+      "total": 96,
+      "pct": 90.62
+     },
+     "lines": {
+      "covered": 2082,
+      "total": 2333,
+      "pct": 89.24
+     }
+    },
+    {
+     "path": "lib/core/renderer",
+     "statements": {
+      "covered": 2265,
+      "total": 2604,
+      "pct": 86.98
+     },
+     "branches": {
+      "covered": 494,
+      "total": 630,
+      "pct": 78.41
+     },
+     "functions": {
+      "covered": 70,
+      "total": 76,
+      "pct": 92.1
+     },
+     "lines": {
+      "covered": 2265,
+      "total": 2604,
+      "pct": 86.98
+     }
+    },
+    {
+     "path": "lib/core/runtime",
+     "statements": {
+      "covered": 6440,
+      "total": 7249,
+      "pct": 88.83
+     },
+     "branches": {
+      "covered": 1367,
+      "total": 1736,
+      "pct": 78.74
+     },
+     "functions": {
+      "covered": 251,
+      "total": 281,
+      "pct": 89.32
+     },
+     "lines": {
+      "covered": 6440,
+      "total": 7249,
+      "pct": 88.83
+     }
+    },
+    {
+     "path": "lib/core/runtime/navigation",
+     "statements": {
+      "covered": 427,
+      "total": 460,
+      "pct": 92.82
+     },
+     "branches": {
+      "covered": 82,
+      "total": 93,
+      "pct": 88.17
+     },
+     "functions": {
+      "covered": 31,
+      "total": 44,
+      "pct": 70.45
+     },
+     "lines": {
+      "covered": 427,
+      "total": 460,
+      "pct": 92.82
+     }
+    },
+    {
+     "path": "lib/core/security",
+     "statements": {
+      "covered": 1217,
+      "total": 1323,
+      "pct": 91.98
+     },
+     "branches": {
+      "covered": 231,
+      "total": 263,
+      "pct": 87.83
+     },
+     "functions": {
+      "covered": 40,
+      "total": 49,
+      "pct": 81.63
+     },
+     "lines": {
+      "covered": 1217,
+      "total": 1323,
+      "pct": 91.98
+     }
+    },
+    {
+     "path": "lib/core/tooling",
+     "statements": {
+      "covered": 430,
+      "total": 626,
+      "pct": 68.69
+     },
+     "branches": {
+      "covered": 40,
+      "total": 55,
+      "pct": 72.72
+     },
+     "functions": {
+      "covered": 12,
+      "total": 20,
+      "pct": 60
+     },
+     "lines": {
+      "covered": 430,
+      "total": 626,
+      "pct": 68.69
+     }
+    },
+    {
+     "path": "lib/core/trace",
+     "statements": {
+      "covered": 3484,
+      "total": 3767,
+      "pct": 92.48
+     },
+     "branches": {
+      "covered": 575,
+      "total": 732,
+      "pct": 78.55
+     },
+     "functions": {
+      "covered": 113,
+      "total": 118,
+      "pct": 95.76
+     },
+     "lines": {
+      "covered": 3484,
+      "total": 3767,
+      "pct": 92.48
+     }
+    },
+    {
+     "path": "lib/core/utils",
+     "statements": {
+      "covered": 246,
+      "total": 292,
+      "pct": 84.24
+     },
+     "branches": {
+      "covered": 66,
+      "total": 76,
+      "pct": 86.84
+     },
+     "functions": {
+      "covered": 12,
+      "total": 12,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 246,
+      "total": 292,
+      "pct": 84.24
+     }
+    },
+    {
+     "path": "lib/core/validation",
+     "statements": {
+      "covered": 198,
+      "total": 249,
+      "pct": 79.51
+     },
+     "branches": {
+      "covered": 28,
+      "total": 53,
+      "pct": 52.83
+     },
+     "functions": {
+      "covered": 4,
+      "total": 4,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 198,
+      "total": 249,
+      "pct": 79.51
+     }
+    },
+    {
+     "path": "plugins/avenx-vite/src",
+     "statements": {
+      "covered": 430,
+      "total": 489,
+      "pct": 87.93
+     },
+     "branches": {
+      "covered": 62,
+      "total": 68,
+      "pct": 91.17
+     },
+     "functions": {
+      "covered": 18,
+      "total": 26,
+      "pct": 69.23
+     },
+     "lines": {
+      "covered": 430,
+      "total": 489,
+      "pct": 87.93
+     }
+    },
+    {
+     "path": "scripts",
+     "statements": {
+      "covered": 100,
+      "total": 104,
+      "pct": 96.15
+     },
+     "branches": {
+      "covered": 5,
+      "total": 6,
+      "pct": 83.33
+     },
+     "functions": {
+      "covered": 1,
+      "total": 1,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 100,
+      "total": 104,
+      "pct": 96.15
+     }
+    }
+   ],
+   "tests": null
+  },
+  {
+   "recordedAt": "2026-09-19T13:47:58.000Z",
+   "source": {
+    "kind": "legacy",
+    "repository": "Avenx-JS/test-cov",
+    "legacyCommit": "dd14915fa83efeb228c8260daf30a272a3bbf435",
+    "upstreamCommit": null
+   },
+   "total": {
+    "statements": {
+     "covered": 51775,
+     "total": 57030,
+     "pct": 90.78
+    },
+    "branches": {
+     "covered": 10433,
+     "total": 12667,
+     "pct": 82.36
+    },
+    "functions": {
+     "covered": 1572,
+     "total": 1723,
+     "pct": 91.23
+    },
+    "lines": {
+     "covered": 51775,
+     "total": 57030,
+     "pct": 90.78
+    }
+   },
+   "directories": [
+    {
+     "path": "benches/support",
+     "statements": {
+      "covered": 37,
+      "total": 39,
+      "pct": 94.87
+     },
+     "branches": {
+      "covered": 2,
+      "total": 2,
+      "pct": 100
+     },
+     "functions": {
+      "covered": 1,
+      "total": 2,
+      "pct": 50
+     },
+     "lines": {
+      "covered": 37,
+      "total": 39,
+      "pct": 94.87
+     }
+    },
+    {
+     "path": "bin",
+     "statements": {
+      "covered": 800,
+      "total": 937,
+      "pct": 85.37
+     },
+     "branches": {
+      "covered": 210,
+      "total": 249,
+      "pct": 84.33
+     },
+     "functions": {
+      "covered": 22,
+      "total": 25,
+      "pct": 88
+     },
+     "lines": {
+      "covered": 800,
+      "total": 937,
+      "pct": 85.37
+     }
+    },
+    {
+     "path": "bin/commands",
+     "statements": {
+      "covered": 2796,
+      "total": 4025,
+      "pct": 69.46
+     },
+     "branches": {
+      "covered": 457,
+      "total": 649,
+      "pct": 70.41
+     },
+     "functions": {
+      "covered": 76,
+      "total": 92,
+      "pct": 82.6
+     },
+     "lines": {
+      "covered": 2796,
+      "total": 4025,
+      "pct": 69.46
+     }
+    },
+    {
+     "path": "lib",
+     "statements": {
+      "covered": 2087,
+      "total": 2160,
+      "pct": 96.62
+     },
+     "branches": {
+      "covered": 506,
+      "total": 563,
+      "pct": 89.87
+     },
+     "functions": {
+      "covered": 52,
+      "total": 53,
+      "pct": 98.11
+     },
+     "lines": {
+      "covered": 2087,
+      "total": 2160,
+      "pct": 96.62
+     }
+    },
+    {
+     "path": "lib/bundler",
+     "statements": {
+      "covered": 3125,
+      "total": 3244,
+      "pct": 96.33
+     },
+     "branches": {
+      "covered": 679,
+      "total": 780,
+      "pct": 87.05
+     },
+     "functions": {
+      "covered": 84,
+      "total": 84,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 3125,
+      "total": 3244,
+      "pct": 96.33
+     }
+    },
+    {
+     "path": "lib/compiler",
+     "statements": {
+      "covered": 6175,
+      "total": 6517,
+      "pct": 94.75
+     },
+     "branches": {
+      "covered": 1380,
+      "total": 1620,
+      "pct": 85.18
+     },
+     "functions": {
+      "covered": 156,
+      "total": 160,
+      "pct": 97.5
+     },
+     "lines": {
+      "covered": 6175,
+      "total": 6517,
+      "pct": 94.75
+     }
+    },
+    {
+     "path": "lib/compiler/atlas",
+     "statements": {
+      "covered": 3553,
+      "total": 3685,
+      "pct": 96.41
+     },
+     "branches": {
+      "covered": 889,
+      "total": 1057,
+      "pct": 84.1
+     },
+     "functions": {
+      "covered": 88,
+      "total": 92,
+      "pct": 95.65
+     },
+     "lines": {
+      "covered": 3553,
+      "total": 3685,
+      "pct": 96.41
+     }
+    },
+    {
+     "path": "lib/compiler/bundle",
+     "statements": {
+      "covered": 153,
+      "total": 180,
+      "pct": 85
+     },
+     "branches": {
+      "covered": 20,
+      "total": 22,
+      "pct": 90.9
+     },
+     "functions": {
+      "covered": 3,
+      "total": 5,
+      "pct": 60
+     },
+     "lines": {
+      "covered": 153,
+      "total": 180,
+      "pct": 85
+     }
+    },
+    {
+     "path": "lib/compiler/codegen",
+     "statements": {
+      "covered": 1753,
+      "total": 1869,
+      "pct": 93.79
+     },
+     "branches": {
+      "covered": 398,
+      "total": 479,
+      "pct": 83.08
+     },
+     "functions": {
+      "covered": 43,
+      "total": 46,
+      "pct": 93.47
+     },
+     "lines": {
+      "covered": 1753,
+      "total": 1869,
+      "pct": 93.79
+     }
+    },
+    {
+     "path": "lib/compiler/errors",
+     "statements": {
+      "covered": 221,
+      "total": 231,
+      "pct": 95.67
+     },
+     "branches": {
+      "covered": 25,
+      "total": 34,
+      "pct": 73.52
+     },
+     "functions": {
+      "covered": 7,
+      "total": 9,
+      "pct": 77.77
+     },
+     "lines": {
+      "covered": 221,
+      "total": 231,
+      "pct": 95.67
+     }
+    },
+    {
+     "path": "lib/compiler/ir",
+     "statements": {
+      "covered": 1567,
+      "total": 1634,
+      "pct": 95.89
+     },
+     "branches": {
+      "covered": 311,
+      "total": 372,
+      "pct": 83.6
+     },
+     "functions": {
+      "covered": 49,
+      "total": 50,
+      "pct": 98
+     },
+     "lines": {
+      "covered": 1567,
+      "total": 1634,
+      "pct": 95.89
+     }
+    },
+    {
+     "path": "lib/compiler/parser",
+     "statements": {
+      "covered": 1258,
+      "total": 1334,
+      "pct": 94.3
+     },
+     "branches": {
+      "covered": 302,
+      "total": 353,
+      "pct": 85.55
+     },
+     "functions": {
+      "covered": 29,
+      "total": 29,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 1258,
+      "total": 1334,
+      "pct": 94.3
+     }
+    },
+    {
+     "path": "lib/compiler/render",
+     "statements": {
+      "covered": 161,
+      "total": 161,
+      "pct": 100
+     },
+     "branches": {
+      "covered": 9,
+      "total": 9,
+      "pct": 100
+     },
+     "functions": {
+      "covered": 2,
+      "total": 2,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 161,
+      "total": 161,
+      "pct": 100
+     }
+    },
+    {
+     "path": "lib/compiler/rewind",
+     "statements": {
+      "covered": 675,
+      "total": 705,
+      "pct": 95.74
+     },
+     "branches": {
+      "covered": 95,
+      "total": 133,
+      "pct": 71.42
+     },
+     "functions": {
+      "covered": 17,
+      "total": 17,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 675,
+      "total": 705,
+      "pct": 95.74
+     }
+    },
+    {
+     "path": "lib/compiler/utils",
+     "statements": {
+      "covered": 47,
+      "total": 56,
+      "pct": 83.92
+     },
+     "branches": {
+      "covered": 23,
+      "total": 31,
+      "pct": 74.19
+     },
+     "functions": {
+      "covered": 1,
+      "total": 1,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 47,
+      "total": 56,
+      "pct": 83.92
+     }
+    },
+    {
+     "path": "lib/core",
+     "statements": {
+      "covered": 163,
+      "total": 163,
+      "pct": 100
+     },
+     "branches": {
+      "covered": 3,
+      "total": 3,
+      "pct": 100
+     },
+     "functions": {
+      "covered": 0,
+      "total": 0,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 163,
+      "total": 163,
+      "pct": 100
+     }
+    },
+    {
+     "path": "lib/core/diagnostics",
+     "statements": {
+      "covered": 718,
+      "total": 726,
+      "pct": 98.89
+     },
+     "branches": {
+      "covered": 7,
+      "total": 9,
+      "pct": 77.77
+     },
+     "functions": {
+      "covered": 2,
+      "total": 3,
+      "pct": 66.66
+     },
+     "lines": {
+      "covered": 718,
+      "total": 726,
+      "pct": 98.89
+     }
+    },
+    {
+     "path": "lib/core/events",
+     "statements": {
+      "covered": 630,
+      "total": 646,
+      "pct": 97.52
+     },
+     "branches": {
+      "covered": 172,
+      "total": 198,
+      "pct": 86.86
+     },
+     "functions": {
+      "covered": 24,
+      "total": 24,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 630,
+      "total": 646,
+      "pct": 97.52
+     }
+    },
+    {
+     "path": "lib/core/expression",
+     "statements": {
+      "covered": 2218,
+      "total": 2447,
+      "pct": 90.64
+     },
+     "branches": {
+      "covered": 516,
+      "total": 640,
+      "pct": 80.62
+     },
+     "functions": {
+      "covered": 71,
+      "total": 78,
+      "pct": 91.02
+     },
+     "lines": {
+      "covered": 2218,
+      "total": 2447,
+      "pct": 90.64
+     }
+    },
+    {
+     "path": "lib/core/reactive",
+     "statements": {
+      "covered": 3340,
+      "total": 3657,
+      "pct": 91.33
+     },
+     "branches": {
+      "covered": 662,
+      "total": 778,
+      "pct": 85.08
+     },
+     "functions": {
+      "covered": 131,
+      "total": 140,
+      "pct": 93.57
+     },
+     "lines": {
+      "covered": 3340,
+      "total": 3657,
+      "pct": 91.33
+     }
+    },
+    {
+     "path": "lib/core/renderer",
+     "statements": {
+      "covered": 2711,
+      "total": 2990,
+      "pct": 90.66
+     },
+     "branches": {
+      "covered": 551,
+      "total": 696,
+      "pct": 79.16
+     },
+     "functions": {
+      "covered": 79,
+      "total": 85,
+      "pct": 92.94
+     },
+     "lines": {
+      "covered": 2711,
+      "total": 2990,
+      "pct": 90.66
+     }
+    },
+    {
+     "path": "lib/core/renderer/program",
+     "statements": {
+      "covered": 1701,
+      "total": 2009,
+      "pct": 84.66
+     },
+     "branches": {
+      "covered": 237,
+      "total": 291,
+      "pct": 81.44
+     },
+     "functions": {
+      "covered": 59,
+      "total": 74,
+      "pct": 79.72
+     },
+     "lines": {
+      "covered": 1701,
+      "total": 2009,
+      "pct": 84.66
+     }
+    },
+    {
+     "path": "lib/core/runtime",
+     "statements": {
+      "covered": 8049,
+      "total": 8939,
+      "pct": 90.04
+     },
+     "branches": {
+      "covered": 1511,
+      "total": 1918,
+      "pct": 78.77
+     },
+     "functions": {
+      "covered": 302,
+      "total": 341,
+      "pct": 88.56
+     },
+     "lines": {
+      "covered": 8049,
+      "total": 8939,
+      "pct": 90.04
+     }
+    },
+    {
+     "path": "lib/core/runtime/navigation",
+     "statements": {
+      "covered": 427,
+      "total": 460,
+      "pct": 92.82
+     },
+     "branches": {
+      "covered": 82,
+      "total": 93,
+      "pct": 88.17
+     },
+     "functions": {
+      "covered": 31,
+      "total": 44,
+      "pct": 70.45
+     },
+     "lines": {
+      "covered": 427,
+      "total": 460,
+      "pct": 92.82
+     }
+    },
+    {
+     "path": "lib/core/security",
+     "statements": {
+      "covered": 1550,
+      "total": 1659,
+      "pct": 93.42
+     },
+     "branches": {
+      "covered": 286,
+      "total": 338,
+      "pct": 84.61
+     },
+     "functions": {
+      "covered": 52,
+      "total": 54,
+      "pct": 96.29
+     },
+     "lines": {
+      "covered": 1550,
+      "total": 1659,
+      "pct": 93.42
+     }
+    },
+    {
+     "path": "lib/core/testing",
+     "statements": {
+      "covered": 260,
+      "total": 301,
+      "pct": 86.37
+     },
+     "branches": {
+      "covered": 51,
+      "total": 74,
+      "pct": 68.91
+     },
+     "functions": {
+      "covered": 7,
+      "total": 8,
+      "pct": 87.5
+     },
+     "lines": {
+      "covered": 260,
+      "total": 301,
+      "pct": 86.37
+     }
+    },
+    {
+     "path": "lib/core/tooling",
+     "statements": {
+      "covered": 442,
+      "total": 638,
+      "pct": 69.27
+     },
+     "branches": {
+      "covered": 46,
+      "total": 61,
+      "pct": 75.4
+     },
+     "functions": {
+      "covered": 12,
+      "total": 20,
+      "pct": 60
+     },
+     "lines": {
+      "covered": 442,
+      "total": 638,
+      "pct": 69.27
+     }
+    },
+    {
+     "path": "lib/core/trace",
+     "statements": {
+      "covered": 3617,
+      "total": 3900,
+      "pct": 92.74
+     },
+     "branches": {
+      "covered": 605,
+      "total": 765,
+      "pct": 79.08
+     },
+     "functions": {
+      "covered": 117,
+      "total": 122,
+      "pct": 95.9
+     },
+     "lines": {
+      "covered": 3617,
+      "total": 3900,
+      "pct": 92.74
+     }
+    },
+    {
+     "path": "lib/core/utils",
+     "statements": {
+      "covered": 911,
+      "total": 978,
+      "pct": 93.14
+     },
+     "branches": {
+      "covered": 308,
+      "total": 329,
+      "pct": 93.61
+     },
+     "functions": {
+      "covered": 33,
+      "total": 33,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 911,
+      "total": 978,
+      "pct": 93.14
+     }
+    },
+    {
+     "path": "lib/core/validation",
+     "statements": {
+      "covered": 198,
+      "total": 249,
+      "pct": 79.51
+     },
+     "branches": {
+      "covered": 28,
+      "total": 53,
+      "pct": 52.83
+     },
+     "functions": {
+      "covered": 4,
+      "total": 4,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 198,
+      "total": 249,
+      "pct": 79.51
+     }
+    },
+    {
+     "path": "plugins/avenx-vite/src",
+     "statements": {
+      "covered": 432,
+      "total": 491,
+      "pct": 87.98
+     },
+     "branches": {
+      "covered": 62,
+      "total": 68,
+      "pct": 91.17
+     },
+     "functions": {
+      "covered": 18,
+      "total": 26,
+      "pct": 69.23
+     },
+     "lines": {
+      "covered": 432,
+      "total": 491,
+      "pct": 87.98
+     }
+    }
+   ],
+   "tests": null
+  },
+  {
+   "recordedAt": "2026-09-26T14:16:05.000Z",
+   "source": {
+    "kind": "legacy",
+    "repository": "Avenx-JS/test-cov",
+    "legacyCommit": "4eee24971ef134782fabb27d0e2884e2b9b87dc0",
+    "upstreamCommit": null
+   },
+   "total": {
+    "statements": {
+     "covered": 53417,
+     "total": 58700,
+     "pct": 91
+    },
+    "branches": {
+     "covered": 10795,
+     "total": 13048,
+     "pct": 82.73
+    },
+    "functions": {
+     "covered": 1613,
+     "total": 1765,
+     "pct": 91.38
+    },
+    "lines": {
+     "covered": 53417,
+     "total": 58700,
+     "pct": 91
+    }
+   },
+   "directories": [
+    {
+     "path": "benches/support",
+     "statements": {
+      "covered": 37,
+      "total": 39,
+      "pct": 94.87
+     },
+     "branches": {
+      "covered": 2,
+      "total": 2,
+      "pct": 100
+     },
+     "functions": {
+      "covered": 1,
+      "total": 2,
+      "pct": 50
+     },
+     "lines": {
+      "covered": 37,
+      "total": 39,
+      "pct": 94.87
+     }
+    },
+    {
+     "path": "bin",
+     "statements": {
+      "covered": 845,
+      "total": 984,
+      "pct": 85.87
+     },
+     "branches": {
+      "covered": 224,
+      "total": 263,
+      "pct": 85.17
+     },
+     "functions": {
+      "covered": 23,
+      "total": 26,
+      "pct": 88.46
+     },
+     "lines": {
+      "covered": 845,
+      "total": 984,
+      "pct": 85.87
+     }
+    },
+    {
+     "path": "bin/commands",
+     "statements": {
+      "covered": 2862,
+      "total": 4132,
+      "pct": 69.26
+     },
+     "branches": {
+      "covered": 485,
+      "total": 674,
+      "pct": 71.95
+     },
+     "functions": {
+      "covered": 77,
+      "total": 94,
+      "pct": 81.91
+     },
+     "lines": {
+      "covered": 2862,
+      "total": 4132,
+      "pct": 69.26
+     }
+    },
+    {
+     "path": "lib",
+     "statements": {
+      "covered": 2180,
+      "total": 2253,
+      "pct": 96.75
+     },
+     "branches": {
+      "covered": 527,
+      "total": 587,
+      "pct": 89.77
+     },
+     "functions": {
+      "covered": 53,
+      "total": 54,
+      "pct": 98.14
+     },
+     "lines": {
+      "covered": 2180,
+      "total": 2253,
+      "pct": 96.75
+     }
+    },
+    {
+     "path": "lib/bundler",
+     "statements": {
+      "covered": 3125,
+      "total": 3244,
+      "pct": 96.33
+     },
+     "branches": {
+      "covered": 679,
+      "total": 780,
+      "pct": 87.05
+     },
+     "functions": {
+      "covered": 84,
+      "total": 84,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 3125,
+      "total": 3244,
+      "pct": 96.33
+     }
+    },
+    {
+     "path": "lib/compiler",
+     "statements": {
+      "covered": 7029,
+      "total": 7380,
+      "pct": 95.24
+     },
+     "branches": {
+      "covered": 1524,
+      "total": 1785,
+      "pct": 85.37
+     },
+     "functions": {
+      "covered": 185,
+      "total": 189,
+      "pct": 97.88
+     },
+     "lines": {
+      "covered": 7029,
+      "total": 7380,
+      "pct": 95.24
+     }
+    },
+    {
+     "path": "lib/compiler/atlas",
+     "statements": {
+      "covered": 3657,
+      "total": 3789,
+      "pct": 96.51
+     },
+     "branches": {
+      "covered": 922,
+      "total": 1090,
+      "pct": 84.58
+     },
+     "functions": {
+      "covered": 89,
+      "total": 93,
+      "pct": 95.69
+     },
+     "lines": {
+      "covered": 3657,
+      "total": 3789,
+      "pct": 96.51
+     }
+    },
+    {
+     "path": "lib/compiler/bundle",
+     "statements": {
+      "covered": 153,
+      "total": 180,
+      "pct": 85
+     },
+     "branches": {
+      "covered": 20,
+      "total": 22,
+      "pct": 90.9
+     },
+     "functions": {
+      "covered": 3,
+      "total": 5,
+      "pct": 60
+     },
+     "lines": {
+      "covered": 153,
+      "total": 180,
+      "pct": 85
+     }
+    },
+    {
+     "path": "lib/compiler/codegen",
+     "statements": {
+      "covered": 1876,
+      "total": 1988,
+      "pct": 94.36
+     },
+     "branches": {
+      "covered": 437,
+      "total": 520,
+      "pct": 84.03
+     },
+     "functions": {
+      "covered": 46,
+      "total": 49,
+      "pct": 93.87
+     },
+     "lines": {
+      "covered": 1876,
+      "total": 1988,
+      "pct": 94.36
+     }
+    },
+    {
+     "path": "lib/compiler/errors",
+     "statements": {
+      "covered": 221,
+      "total": 231,
+      "pct": 95.67
+     },
+     "branches": {
+      "covered": 25,
+      "total": 34,
+      "pct": 73.52
+     },
+     "functions": {
+      "covered": 7,
+      "total": 9,
+      "pct": 77.77
+     },
+     "lines": {
+      "covered": 221,
+      "total": 231,
+      "pct": 95.67
+     }
+    },
+    {
+     "path": "lib/compiler/ir",
+     "statements": {
+      "covered": 1615,
+      "total": 1681,
+      "pct": 96.07
+     },
+     "branches": {
+      "covered": 324,
+      "total": 385,
+      "pct": 84.15
+     },
+     "functions": {
+      "covered": 50,
+      "total": 51,
+      "pct": 98.03
+     },
+     "lines": {
+      "covered": 1615,
+      "total": 1681,
+      "pct": 96.07
+     }
+    },
+    {
+     "path": "lib/compiler/parser",
+     "statements": {
+      "covered": 1258,
+      "total": 1334,
+      "pct": 94.3
+     },
+     "branches": {
+      "covered": 302,
+      "total": 353,
+      "pct": 85.55
+     },
+     "functions": {
+      "covered": 29,
+      "total": 29,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 1258,
+      "total": 1334,
+      "pct": 94.3
+     }
+    },
+    {
+     "path": "lib/compiler/render",
+     "statements": {
+      "covered": 161,
+      "total": 161,
+      "pct": 100
+     },
+     "branches": {
+      "covered": 9,
+      "total": 9,
+      "pct": 100
+     },
+     "functions": {
+      "covered": 2,
+      "total": 2,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 161,
+      "total": 161,
+      "pct": 100
+     }
+    },
+    {
+     "path": "lib/compiler/rewind",
+     "statements": {
+      "covered": 675,
+      "total": 705,
+      "pct": 95.74
+     },
+     "branches": {
+      "covered": 95,
+      "total": 133,
+      "pct": 71.42
+     },
+     "functions": {
+      "covered": 17,
+      "total": 17,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 675,
+      "total": 705,
+      "pct": 95.74
+     }
+    },
+    {
+     "path": "lib/compiler/utils",
+     "statements": {
+      "covered": 47,
+      "total": 56,
+      "pct": 83.92
+     },
+     "branches": {
+      "covered": 24,
+      "total": 32,
+      "pct": 75
+     },
+     "functions": {
+      "covered": 1,
+      "total": 1,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 47,
+      "total": 56,
+      "pct": 83.92
+     }
+    },
+    {
+     "path": "lib/core",
+     "statements": {
+      "covered": 163,
+      "total": 163,
+      "pct": 100
+     },
+     "branches": {
+      "covered": 3,
+      "total": 3,
+      "pct": 100
+     },
+     "functions": {
+      "covered": 0,
+      "total": 0,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 163,
+      "total": 163,
+      "pct": 100
+     }
+    },
+    {
+     "path": "lib/core/diagnostics",
+     "statements": {
+      "covered": 766,
+      "total": 774,
+      "pct": 98.96
+     },
+     "branches": {
+      "covered": 7,
+      "total": 9,
+      "pct": 77.77
+     },
+     "functions": {
+      "covered": 2,
+      "total": 3,
+      "pct": 66.66
+     },
+     "lines": {
+      "covered": 766,
+      "total": 774,
+      "pct": 98.96
+     }
+    },
+    {
+     "path": "lib/core/events",
+     "statements": {
+      "covered": 630,
+      "total": 646,
+      "pct": 97.52
+     },
+     "branches": {
+      "covered": 172,
+      "total": 198,
+      "pct": 86.86
+     },
+     "functions": {
+      "covered": 24,
+      "total": 24,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 630,
+      "total": 646,
+      "pct": 97.52
+     }
+    },
+    {
+     "path": "lib/core/expression",
+     "statements": {
+      "covered": 2270,
+      "total": 2483,
+      "pct": 91.42
+     },
+     "branches": {
+      "covered": 545,
+      "total": 666,
+      "pct": 81.83
+     },
+     "functions": {
+      "covered": 71,
+      "total": 78,
+      "pct": 91.02
+     },
+     "lines": {
+      "covered": 2270,
+      "total": 2483,
+      "pct": 91.42
+     }
+    },
+    {
+     "path": "lib/core/reactive",
+     "statements": {
+      "covered": 3376,
+      "total": 3691,
+      "pct": 91.46
+     },
+     "branches": {
+      "covered": 671,
+      "total": 786,
+      "pct": 85.36
+     },
+     "functions": {
+      "covered": 132,
+      "total": 141,
+      "pct": 93.61
+     },
+     "lines": {
+      "covered": 3376,
+      "total": 3691,
+      "pct": 91.46
+     }
+    },
+    {
+     "path": "lib/core/renderer",
+     "statements": {
+      "covered": 2736,
+      "total": 3015,
+      "pct": 90.74
+     },
+     "branches": {
+      "covered": 559,
+      "total": 704,
+      "pct": 79.4
+     },
+     "functions": {
+      "covered": 79,
+      "total": 85,
+      "pct": 92.94
+     },
+     "lines": {
+      "covered": 2736,
+      "total": 3015,
+      "pct": 90.74
+     }
+    },
+    {
+     "path": "lib/core/renderer/program",
+     "statements": {
+      "covered": 1714,
+      "total": 2022,
+      "pct": 84.76
+     },
+     "branches": {
+      "covered": 240,
+      "total": 293,
+      "pct": 81.91
+     },
+     "functions": {
+      "covered": 59,
+      "total": 74,
+      "pct": 79.72
+     },
+     "lines": {
+      "covered": 1714,
+      "total": 2022,
+      "pct": 84.76
+     }
+    },
+    {
+     "path": "lib/core/runtime",
+     "statements": {
+      "covered": 8181,
+      "total": 9073,
+      "pct": 90.16
+     },
+     "branches": {
+      "covered": 1529,
+      "total": 1938,
+      "pct": 78.89
+     },
+     "functions": {
+      "covered": 305,
+      "total": 344,
+      "pct": 88.66
+     },
+     "lines": {
+      "covered": 8181,
+      "total": 9073,
+      "pct": 90.16
+     }
+    },
+    {
+     "path": "lib/core/runtime/navigation",
+     "statements": {
+      "covered": 427,
+      "total": 460,
+      "pct": 92.82
+     },
+     "branches": {
+      "covered": 82,
+      "total": 93,
+      "pct": 88.17
+     },
+     "functions": {
+      "covered": 31,
+      "total": 44,
+      "pct": 70.45
+     },
+     "lines": {
+      "covered": 427,
+      "total": 460,
+      "pct": 92.82
+     }
+    },
+    {
+     "path": "lib/core/security",
+     "statements": {
+      "covered": 1550,
+      "total": 1659,
+      "pct": 93.42
+     },
+     "branches": {
+      "covered": 285,
+      "total": 337,
+      "pct": 84.56
+     },
+     "functions": {
+      "covered": 52,
+      "total": 54,
+      "pct": 96.29
+     },
+     "lines": {
+      "covered": 1550,
+      "total": 1659,
+      "pct": 93.42
+     }
+    },
+    {
+     "path": "lib/core/testing",
+     "statements": {
+      "covered": 260,
+      "total": 301,
+      "pct": 86.37
+     },
+     "branches": {
+      "covered": 51,
+      "total": 74,
+      "pct": 68.91
+     },
+     "functions": {
+      "covered": 7,
+      "total": 8,
+      "pct": 87.5
+     },
+     "lines": {
+      "covered": 260,
+      "total": 301,
+      "pct": 86.37
+     }
+    },
+    {
+     "path": "lib/core/tooling",
+     "statements": {
+      "covered": 442,
+      "total": 638,
+      "pct": 69.27
+     },
+     "branches": {
+      "covered": 46,
+      "total": 61,
+      "pct": 75.4
+     },
+     "functions": {
+      "covered": 12,
+      "total": 20,
+      "pct": 60
+     },
+     "lines": {
+      "covered": 442,
+      "total": 638,
+      "pct": 69.27
+     }
+    },
+    {
+     "path": "lib/core/trace",
+     "statements": {
+      "covered": 3617,
+      "total": 3900,
+      "pct": 92.74
+     },
+     "branches": {
+      "covered": 605,
+      "total": 765,
+      "pct": 79.08
+     },
+     "functions": {
+      "covered": 117,
+      "total": 122,
+      "pct": 95.9
+     },
+     "lines": {
+      "covered": 3617,
+      "total": 3900,
+      "pct": 92.74
+     }
+    },
+    {
+     "path": "lib/core/utils",
+     "statements": {
+      "covered": 914,
+      "total": 978,
+      "pct": 93.45
+     },
+     "branches": {
+      "covered": 311,
+      "total": 331,
+      "pct": 93.95
+     },
+     "functions": {
+      "covered": 33,
+      "total": 33,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 914,
+      "total": 978,
+      "pct": 93.45
+     }
+    },
+    {
+     "path": "lib/core/validation",
+     "statements": {
+      "covered": 198,
+      "total": 249,
+      "pct": 79.51
+     },
+     "branches": {
+      "covered": 28,
+      "total": 53,
+      "pct": 52.83
+     },
+     "functions": {
+      "covered": 4,
+      "total": 4,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 198,
+      "total": 249,
+      "pct": 79.51
+     }
+    },
+    {
+     "path": "plugins/avenx-vite/src",
+     "statements": {
+      "covered": 432,
+      "total": 491,
+      "pct": 87.98
+     },
+     "branches": {
+      "covered": 62,
+      "total": 68,
+      "pct": 91.17
+     },
+     "functions": {
+      "covered": 18,
+      "total": 26,
+      "pct": 69.23
+     },
+     "lines": {
+      "covered": 432,
+      "total": 491,
+      "pct": 87.98
+     }
+    }
+   ],
+   "tests": null
+  },
+  {
+   "recordedAt": "2026-10-03T14:37:53.000Z",
+   "source": {
+    "kind": "legacy",
+    "repository": "Avenx-JS/test-cov",
+    "legacyCommit": "c5db8d8e7903289bbd1e15cc30dfdf3f16c3504b",
+    "upstreamCommit": null
+   },
+   "total": {
+    "statements": {
+     "covered": 54481,
+     "total": 59199,
+     "pct": 92.03
+    },
+    "branches": {
+     "covered": 10878,
+     "total": 13161,
+     "pct": 82.65
+    },
+    "functions": {
+     "covered": 1629,
+     "total": 1782,
+     "pct": 91.41
+    },
+    "lines": {
+     "covered": 54481,
+     "total": 59199,
+     "pct": 92.03
+    }
+   },
+   "directories": [
+    {
+     "path": "benches/support",
+     "statements": {
+      "covered": 37,
+      "total": 39,
+      "pct": 94.87
+     },
+     "branches": {
+      "covered": 2,
+      "total": 2,
+      "pct": 100
+     },
+     "functions": {
+      "covered": 1,
+      "total": 2,
+      "pct": 50
+     },
+     "lines": {
+      "covered": 37,
+      "total": 39,
+      "pct": 94.87
+     }
+    },
+    {
+     "path": "bin",
+     "statements": {
+      "covered": 890,
+      "total": 1051,
+      "pct": 84.68
+     },
+     "branches": {
+      "covered": 227,
+      "total": 270,
+      "pct": 84.07
+     },
+     "functions": {
+      "covered": 24,
+      "total": 28,
+      "pct": 85.71
+     },
+     "lines": {
+      "covered": 890,
+      "total": 1051,
+      "pct": 84.68
+     }
+    },
+    {
+     "path": "bin/commands",
+     "statements": {
+      "covered": 3600,
+      "total": 4228,
+      "pct": 85.14
+     },
+     "branches": {
+      "covered": 514,
+      "total": 732,
+      "pct": 70.21
+     },
+     "functions": {
+      "covered": 87,
+      "total": 97,
+      "pct": 89.69
+     },
+     "lines": {
+      "covered": 3600,
+      "total": 4228,
+      "pct": 85.14
+     }
+    },
+    {
+     "path": "lib",
+     "statements": {
+      "covered": 2180,
+      "total": 2253,
+      "pct": 96.75
+     },
+     "branches": {
+      "covered": 525,
+      "total": 585,
+      "pct": 89.74
+     },
+     "functions": {
+      "covered": 53,
+      "total": 54,
+      "pct": 98.14
+     },
+     "lines": {
+      "covered": 2180,
+      "total": 2253,
+      "pct": 96.75
+     }
+    },
+    {
+     "path": "lib/bundler",
+     "statements": {
+      "covered": 3125,
+      "total": 3244,
+      "pct": 96.33
+     },
+     "branches": {
+      "covered": 679,
+      "total": 780,
+      "pct": 87.05
+     },
+     "functions": {
+      "covered": 84,
+      "total": 84,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 3125,
+      "total": 3244,
+      "pct": 96.33
+     }
+    },
+    {
+     "path": "lib/compiler",
+     "statements": {
+      "covered": 7092,
+      "total": 7418,
+      "pct": 95.6
+     },
+     "branches": {
+      "covered": 1542,
+      "total": 1800,
+      "pct": 85.66
+     },
+     "functions": {
+      "covered": 186,
+      "total": 190,
+      "pct": 97.89
+     },
+     "lines": {
+      "covered": 7092,
+      "total": 7418,
+      "pct": 95.6
+     }
+    },
+    {
+     "path": "lib/compiler/atlas",
+     "statements": {
+      "covered": 3657,
+      "total": 3789,
+      "pct": 96.51
+     },
+     "branches": {
+      "covered": 922,
+      "total": 1090,
+      "pct": 84.58
+     },
+     "functions": {
+      "covered": 89,
+      "total": 93,
+      "pct": 95.69
+     },
+     "lines": {
+      "covered": 3657,
+      "total": 3789,
+      "pct": 96.51
+     }
+    },
+    {
+     "path": "lib/compiler/bundle",
+     "statements": {
+      "covered": 153,
+      "total": 180,
+      "pct": 85
+     },
+     "branches": {
+      "covered": 20,
+      "total": 22,
+      "pct": 90.9
+     },
+     "functions": {
+      "covered": 3,
+      "total": 5,
+      "pct": 60
+     },
+     "lines": {
+      "covered": 153,
+      "total": 180,
+      "pct": 85
+     }
+    },
+    {
+     "path": "lib/compiler/codegen",
+     "statements": {
+      "covered": 1876,
+      "total": 1988,
+      "pct": 94.36
+     },
+     "branches": {
+      "covered": 437,
+      "total": 520,
+      "pct": 84.03
+     },
+     "functions": {
+      "covered": 46,
+      "total": 49,
+      "pct": 93.87
+     },
+     "lines": {
+      "covered": 1876,
+      "total": 1988,
+      "pct": 94.36
+     }
+    },
+    {
+     "path": "lib/compiler/errors",
+     "statements": {
+      "covered": 221,
+      "total": 231,
+      "pct": 95.67
+     },
+     "branches": {
+      "covered": 29,
+      "total": 38,
+      "pct": 76.31
+     },
+     "functions": {
+      "covered": 7,
+      "total": 9,
+      "pct": 77.77
+     },
+     "lines": {
+      "covered": 221,
+      "total": 231,
+      "pct": 95.67
+     }
+    },
+    {
+     "path": "lib/compiler/ir",
+     "statements": {
+      "covered": 1615,
+      "total": 1681,
+      "pct": 96.07
+     },
+     "branches": {
+      "covered": 324,
+      "total": 385,
+      "pct": 84.15
+     },
+     "functions": {
+      "covered": 50,
+      "total": 51,
+      "pct": 98.03
+     },
+     "lines": {
+      "covered": 1615,
+      "total": 1681,
+      "pct": 96.07
+     }
+    },
+    {
+     "path": "lib/compiler/parser",
+     "statements": {
+      "covered": 1258,
+      "total": 1334,
+      "pct": 94.3
+     },
+     "branches": {
+      "covered": 302,
+      "total": 353,
+      "pct": 85.55
+     },
+     "functions": {
+      "covered": 29,
+      "total": 29,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 1258,
+      "total": 1334,
+      "pct": 94.3
+     }
+    },
+    {
+     "path": "lib/compiler/render",
+     "statements": {
+      "covered": 161,
+      "total": 161,
+      "pct": 100
+     },
+     "branches": {
+      "covered": 9,
+      "total": 9,
+      "pct": 100
+     },
+     "functions": {
+      "covered": 2,
+      "total": 2,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 161,
+      "total": 161,
+      "pct": 100
+     }
+    },
+    {
+     "path": "lib/compiler/rewind",
+     "statements": {
+      "covered": 675,
+      "total": 705,
+      "pct": 95.74
+     },
+     "branches": {
+      "covered": 95,
+      "total": 133,
+      "pct": 71.42
+     },
+     "functions": {
+      "covered": 17,
+      "total": 17,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 675,
+      "total": 705,
+      "pct": 95.74
+     }
+    },
+    {
+     "path": "lib/compiler/utils",
+     "statements": {
+      "covered": 47,
+      "total": 56,
+      "pct": 83.92
+     },
+     "branches": {
+      "covered": 24,
+      "total": 32,
+      "pct": 75
+     },
+     "functions": {
+      "covered": 1,
+      "total": 1,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 47,
+      "total": 56,
+      "pct": 83.92
+     }
+    },
+    {
+     "path": "lib/core",
+     "statements": {
+      "covered": 163,
+      "total": 163,
+      "pct": 100
+     },
+     "branches": {
+      "covered": 3,
+      "total": 3,
+      "pct": 100
+     },
+     "functions": {
+      "covered": 0,
+      "total": 0,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 163,
+      "total": 163,
+      "pct": 100
+     }
+    },
+    {
+     "path": "lib/core/diagnostics",
+     "statements": {
+      "covered": 782,
+      "total": 790,
+      "pct": 98.98
+     },
+     "branches": {
+      "covered": 7,
+      "total": 9,
+      "pct": 77.77
+     },
+     "functions": {
+      "covered": 2,
+      "total": 3,
+      "pct": 66.66
+     },
+     "lines": {
+      "covered": 782,
+      "total": 790,
+      "pct": 98.98
+     }
+    },
+    {
+     "path": "lib/core/events",
+     "statements": {
+      "covered": 630,
+      "total": 646,
+      "pct": 97.52
+     },
+     "branches": {
+      "covered": 172,
+      "total": 198,
+      "pct": 86.86
+     },
+     "functions": {
+      "covered": 24,
+      "total": 24,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 630,
+      "total": 646,
+      "pct": 97.52
+     }
+    },
+    {
+     "path": "lib/core/expression",
+     "statements": {
+      "covered": 2270,
+      "total": 2483,
+      "pct": 91.42
+     },
+     "branches": {
+      "covered": 545,
+      "total": 666,
+      "pct": 81.83
+     },
+     "functions": {
+      "covered": 71,
+      "total": 78,
+      "pct": 91.02
+     },
+     "lines": {
+      "covered": 2270,
+      "total": 2483,
+      "pct": 91.42
+     }
+    },
+    {
+     "path": "lib/core/reactive",
+     "statements": {
+      "covered": 3376,
+      "total": 3691,
+      "pct": 91.46
+     },
+     "branches": {
+      "covered": 672,
+      "total": 787,
+      "pct": 85.38
+     },
+     "functions": {
+      "covered": 132,
+      "total": 141,
+      "pct": 93.61
+     },
+     "lines": {
+      "covered": 3376,
+      "total": 3691,
+      "pct": 91.46
+     }
+    },
+    {
+     "path": "lib/core/renderer",
+     "statements": {
+      "covered": 2736,
+      "total": 3015,
+      "pct": 90.74
+     },
+     "branches": {
+      "covered": 559,
+      "total": 704,
+      "pct": 79.4
+     },
+     "functions": {
+      "covered": 79,
+      "total": 85,
+      "pct": 92.94
+     },
+     "lines": {
+      "covered": 2736,
+      "total": 3015,
+      "pct": 90.74
+     }
+    },
+    {
+     "path": "lib/core/renderer/program",
+     "statements": {
+      "covered": 1722,
+      "total": 2030,
+      "pct": 84.82
+     },
+     "branches": {
+      "covered": 240,
+      "total": 293,
+      "pct": 81.91
+     },
+     "functions": {
+      "covered": 59,
+      "total": 74,
+      "pct": 79.72
+     },
+     "lines": {
+      "covered": 1722,
+      "total": 2030,
+      "pct": 84.82
+     }
+    },
+    {
+     "path": "lib/core/runtime",
+     "statements": {
+      "covered": 8199,
+      "total": 9087,
+      "pct": 90.22
+     },
+     "branches": {
+      "covered": 1539,
+      "total": 1945,
+      "pct": 79.12
+     },
+     "functions": {
+      "covered": 305,
+      "total": 344,
+      "pct": 88.66
+     },
+     "lines": {
+      "covered": 8199,
+      "total": 9087,
+      "pct": 90.22
+     }
+    },
+    {
+     "path": "lib/core/runtime/navigation",
+     "statements": {
+      "covered": 427,
+      "total": 460,
+      "pct": 92.82
+     },
+     "branches": {
+      "covered": 82,
+      "total": 93,
+      "pct": 88.17
+     },
+     "functions": {
+      "covered": 31,
+      "total": 44,
+      "pct": 70.45
+     },
+     "lines": {
+      "covered": 427,
+      "total": 460,
+      "pct": 92.82
+     }
+    },
+    {
+     "path": "lib/core/security",
+     "statements": {
+      "covered": 1550,
+      "total": 1659,
+      "pct": 93.42
+     },
+     "branches": {
+      "covered": 285,
+      "total": 337,
+      "pct": 84.56
+     },
+     "functions": {
+      "covered": 52,
+      "total": 54,
+      "pct": 96.29
+     },
+     "lines": {
+      "covered": 1550,
+      "total": 1659,
+      "pct": 93.42
+     }
+    },
+    {
+     "path": "lib/core/testing",
+     "statements": {
+      "covered": 260,
+      "total": 301,
+      "pct": 86.37
+     },
+     "branches": {
+      "covered": 51,
+      "total": 74,
+      "pct": 68.91
+     },
+     "functions": {
+      "covered": 7,
+      "total": 8,
+      "pct": 87.5
+     },
+     "lines": {
+      "covered": 260,
+      "total": 301,
+      "pct": 86.37
+     }
+    },
+    {
+     "path": "lib/core/tooling",
+     "statements": {
+      "covered": 618,
+      "total": 898,
+      "pct": 68.81
+     },
+     "branches": {
+      "covered": 66,
+      "total": 84,
+      "pct": 78.57
+     },
+     "functions": {
+      "covered": 16,
+      "total": 31,
+      "pct": 51.61
+     },
+     "lines": {
+      "covered": 618,
+      "total": 898,
+      "pct": 68.81
+     }
+    },
+    {
+     "path": "lib/core/trace",
+     "statements": {
+      "covered": 3617,
+      "total": 3900,
+      "pct": 92.74
+     },
+     "branches": {
+      "covered": 605,
+      "total": 765,
+      "pct": 79.08
+     },
+     "functions": {
+      "covered": 117,
+      "total": 122,
+      "pct": 95.9
+     },
+     "lines": {
+      "covered": 3617,
+      "total": 3900,
+      "pct": 92.74
+     }
+    },
+    {
+     "path": "lib/core/utils",
+     "statements": {
+      "covered": 914,
+      "total": 978,
+      "pct": 93.45
+     },
+     "branches": {
+      "covered": 311,
+      "total": 331,
+      "pct": 93.95
+     },
+     "functions": {
+      "covered": 33,
+      "total": 33,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 914,
+      "total": 978,
+      "pct": 93.45
+     }
+    },
+    {
+     "path": "lib/core/validation",
+     "statements": {
+      "covered": 198,
+      "total": 249,
+      "pct": 79.51
+     },
+     "branches": {
+      "covered": 28,
+      "total": 53,
+      "pct": 52.83
+     },
+     "functions": {
+      "covered": 4,
+      "total": 4,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 198,
+      "total": 249,
+      "pct": 79.51
+     }
+    },
+    {
+     "path": "plugins/avenx-vite/src",
+     "statements": {
+      "covered": 432,
+      "total": 491,
+      "pct": 87.98
+     },
+     "branches": {
+      "covered": 62,
+      "total": 68,
+      "pct": 91.17
+     },
+     "functions": {
+      "covered": 18,
+      "total": 26,
+      "pct": 69.23
+     },
+     "lines": {
+      "covered": 432,
+      "total": 491,
+      "pct": 87.98
+     }
+    }
+   ],
+   "tests": null
+  },
+  {
+   "recordedAt": "2026-10-10T15:49:55.000Z",
+   "source": {
+    "kind": "legacy",
+    "repository": "Avenx-JS/test-cov",
+    "legacyCommit": "b6feef0f42d80e979b59f6a30f621a341b8981cd",
+    "upstreamCommit": null
+   },
+   "total": {
+    "statements": {
+     "covered": 54840,
+     "total": 59478,
+     "pct": 92.2
+    },
+    "branches": {
+     "covered": 10948,
+     "total": 13231,
+     "pct": 82.74
+    },
+    "functions": {
+     "covered": 1638,
+     "total": 1784,
+     "pct": 91.81
+    },
+    "lines": {
+     "covered": 54840,
+     "total": 59478,
+     "pct": 92.2
+    }
+   },
+   "directories": [
+    {
+     "path": "benches/support",
+     "statements": {
+      "covered": 37,
+      "total": 39,
+      "pct": 94.87
+     },
+     "branches": {
+      "covered": 2,
+      "total": 2,
+      "pct": 100
+     },
+     "functions": {
+      "covered": 1,
+      "total": 2,
+      "pct": 50
+     },
+     "lines": {
+      "covered": 37,
+      "total": 39,
+      "pct": 94.87
+     }
+    },
+    {
+     "path": "bin",
+     "statements": {
+      "covered": 979,
+      "total": 1136,
+      "pct": 86.17
+     },
+     "branches": {
+      "covered": 261,
+      "total": 305,
+      "pct": 85.57
+     },
+     "functions": {
+      "covered": 27,
+      "total": 30,
+      "pct": 90
+     },
+     "lines": {
+      "covered": 979,
+      "total": 1136,
+      "pct": 86.17
+     }
+    },
+    {
+     "path": "bin/commands",
+     "statements": {
+      "covered": 3614,
+      "total": 4237,
+      "pct": 85.29
+     },
+     "branches": {
+      "covered": 518,
+      "total": 730,
+      "pct": 70.95
+     },
+     "functions": {
+      "covered": 85,
+      "total": 94,
+      "pct": 90.42
+     },
+     "lines": {
+      "covered": 3614,
+      "total": 4237,
+      "pct": 85.29
+     }
+    },
+    {
+     "path": "lib",
+     "statements": {
+      "covered": 2184,
+      "total": 2257,
+      "pct": 96.76
+     },
+     "branches": {
+      "covered": 528,
+      "total": 588,
+      "pct": 89.79
+     },
+     "functions": {
+      "covered": 53,
+      "total": 54,
+      "pct": 98.14
+     },
+     "lines": {
+      "covered": 2184,
+      "total": 2257,
+      "pct": 96.76
+     }
+    },
+    {
+     "path": "lib/bundler",
+     "statements": {
+      "covered": 3126,
+      "total": 3245,
+      "pct": 96.33
+     },
+     "branches": {
+      "covered": 679,
+      "total": 780,
+      "pct": 87.05
+     },
+     "functions": {
+      "covered": 84,
+      "total": 84,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 3126,
+      "total": 3245,
+      "pct": 96.33
+     }
+    },
+    {
+     "path": "lib/compiler",
+     "statements": {
+      "covered": 7110,
+      "total": 7450,
+      "pct": 95.43
+     },
+     "branches": {
+      "covered": 1542,
+      "total": 1801,
+      "pct": 85.61
+     },
+     "functions": {
+      "covered": 186,
+      "total": 190,
+      "pct": 97.89
+     },
+     "lines": {
+      "covered": 7110,
+      "total": 7450,
+      "pct": 95.43
+     }
+    },
+    {
+     "path": "lib/compiler/atlas",
+     "statements": {
+      "covered": 3667,
+      "total": 3817,
+      "pct": 96.07
+     },
+     "branches": {
+      "covered": 923,
+      "total": 1092,
+      "pct": 84.52
+     },
+     "functions": {
+      "covered": 89,
+      "total": 93,
+      "pct": 95.69
+     },
+     "lines": {
+      "covered": 3667,
+      "total": 3817,
+      "pct": 96.07
+     }
+    },
+    {
+     "path": "lib/compiler/bundle",
+     "statements": {
+      "covered": 153,
+      "total": 180,
+      "pct": 85
+     },
+     "branches": {
+      "covered": 20,
+      "total": 22,
+      "pct": 90.9
+     },
+     "functions": {
+      "covered": 3,
+      "total": 5,
+      "pct": 60
+     },
+     "lines": {
+      "covered": 153,
+      "total": 180,
+      "pct": 85
+     }
+    },
+    {
+     "path": "lib/compiler/codegen",
+     "statements": {
+      "covered": 1876,
+      "total": 1988,
+      "pct": 94.36
+     },
+     "branches": {
+      "covered": 437,
+      "total": 520,
+      "pct": 84.03
+     },
+     "functions": {
+      "covered": 46,
+      "total": 49,
+      "pct": 93.87
+     },
+     "lines": {
+      "covered": 1876,
+      "total": 1988,
+      "pct": 94.36
+     }
+    },
+    {
+     "path": "lib/compiler/errors",
+     "statements": {
+      "covered": 221,
+      "total": 231,
+      "pct": 95.67
+     },
+     "branches": {
+      "covered": 29,
+      "total": 38,
+      "pct": 76.31
+     },
+     "functions": {
+      "covered": 7,
+      "total": 9,
+      "pct": 77.77
+     },
+     "lines": {
+      "covered": 221,
+      "total": 231,
+      "pct": 95.67
+     }
+    },
+    {
+     "path": "lib/compiler/ir",
+     "statements": {
+      "covered": 1615,
+      "total": 1681,
+      "pct": 96.07
+     },
+     "branches": {
+      "covered": 324,
+      "total": 385,
+      "pct": 84.15
+     },
+     "functions": {
+      "covered": 50,
+      "total": 51,
+      "pct": 98.03
+     },
+     "lines": {
+      "covered": 1615,
+      "total": 1681,
+      "pct": 96.07
+     }
+    },
+    {
+     "path": "lib/compiler/parser",
+     "statements": {
+      "covered": 1258,
+      "total": 1334,
+      "pct": 94.3
+     },
+     "branches": {
+      "covered": 302,
+      "total": 353,
+      "pct": 85.55
+     },
+     "functions": {
+      "covered": 29,
+      "total": 29,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 1258,
+      "total": 1334,
+      "pct": 94.3
+     }
+    },
+    {
+     "path": "lib/compiler/render",
+     "statements": {
+      "covered": 161,
+      "total": 161,
+      "pct": 100
+     },
+     "branches": {
+      "covered": 9,
+      "total": 9,
+      "pct": 100
+     },
+     "functions": {
+      "covered": 2,
+      "total": 2,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 161,
+      "total": 161,
+      "pct": 100
+     }
+    },
+    {
+     "path": "lib/compiler/rewind",
+     "statements": {
+      "covered": 675,
+      "total": 705,
+      "pct": 95.74
+     },
+     "branches": {
+      "covered": 95,
+      "total": 133,
+      "pct": 71.42
+     },
+     "functions": {
+      "covered": 17,
+      "total": 17,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 675,
+      "total": 705,
+      "pct": 95.74
+     }
+    },
+    {
+     "path": "lib/compiler/utils",
+     "statements": {
+      "covered": 77,
+      "total": 86,
+      "pct": 89.53
+     },
+     "branches": {
+      "covered": 28,
+      "total": 36,
+      "pct": 77.77
+     },
+     "functions": {
+      "covered": 2,
+      "total": 2,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 77,
+      "total": 86,
+      "pct": 89.53
+     }
+    },
+    {
+     "path": "lib/core",
+     "statements": {
+      "covered": 163,
+      "total": 163,
+      "pct": 100
+     },
+     "branches": {
+      "covered": 3,
+      "total": 3,
+      "pct": 100
+     },
+     "functions": {
+      "covered": 0,
+      "total": 0,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 163,
+      "total": 163,
+      "pct": 100
+     }
+    },
+    {
+     "path": "lib/core/diagnostics",
+     "statements": {
+      "covered": 835,
+      "total": 843,
+      "pct": 99.05
+     },
+     "branches": {
+      "covered": 7,
+      "total": 9,
+      "pct": 77.77
+     },
+     "functions": {
+      "covered": 2,
+      "total": 3,
+      "pct": 66.66
+     },
+     "lines": {
+      "covered": 835,
+      "total": 843,
+      "pct": 99.05
+     }
+    },
+    {
+     "path": "lib/core/events",
+     "statements": {
+      "covered": 630,
+      "total": 646,
+      "pct": 97.52
+     },
+     "branches": {
+      "covered": 172,
+      "total": 198,
+      "pct": 86.86
+     },
+     "functions": {
+      "covered": 24,
+      "total": 24,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 630,
+      "total": 646,
+      "pct": 97.52
+     }
+    },
+    {
+     "path": "lib/core/expression",
+     "statements": {
+      "covered": 2270,
+      "total": 2483,
+      "pct": 91.42
+     },
+     "branches": {
+      "covered": 545,
+      "total": 666,
+      "pct": 81.83
+     },
+     "functions": {
+      "covered": 71,
+      "total": 78,
+      "pct": 91.02
+     },
+     "lines": {
+      "covered": 2270,
+      "total": 2483,
+      "pct": 91.42
+     }
+    },
+    {
+     "path": "lib/core/reactive",
+     "statements": {
+      "covered": 3376,
+      "total": 3691,
+      "pct": 91.46
+     },
+     "branches": {
+      "covered": 672,
+      "total": 787,
+      "pct": 85.38
+     },
+     "functions": {
+      "covered": 132,
+      "total": 141,
+      "pct": 93.61
+     },
+     "lines": {
+      "covered": 3376,
+      "total": 3691,
+      "pct": 91.46
+     }
+    },
+    {
+     "path": "lib/core/renderer",
+     "statements": {
+      "covered": 2736,
+      "total": 3015,
+      "pct": 90.74
+     },
+     "branches": {
+      "covered": 559,
+      "total": 704,
+      "pct": 79.4
+     },
+     "functions": {
+      "covered": 79,
+      "total": 85,
+      "pct": 92.94
+     },
+     "lines": {
+      "covered": 2736,
+      "total": 3015,
+      "pct": 90.74
+     }
+    },
+    {
+     "path": "lib/core/renderer/program",
+     "statements": {
+      "covered": 1722,
+      "total": 2030,
+      "pct": 84.82
+     },
+     "branches": {
+      "covered": 240,
+      "total": 293,
+      "pct": 81.91
+     },
+     "functions": {
+      "covered": 59,
+      "total": 74,
+      "pct": 79.72
+     },
+     "lines": {
+      "covered": 1722,
+      "total": 2030,
+      "pct": 84.82
+     }
+    },
+    {
+     "path": "lib/core/runtime",
+     "statements": {
+      "covered": 8214,
+      "total": 9102,
+      "pct": 90.24
+     },
+     "branches": {
+      "covered": 1540,
+      "total": 1947,
+      "pct": 79.09
+     },
+     "functions": {
+      "covered": 305,
+      "total": 344,
+      "pct": 88.66
+     },
+     "lines": {
+      "covered": 8214,
+      "total": 9102,
+      "pct": 90.24
+     }
+    },
+    {
+     "path": "lib/core/runtime/navigation",
+     "statements": {
+      "covered": 427,
+      "total": 460,
+      "pct": 92.82
+     },
+     "branches": {
+      "covered": 82,
+      "total": 93,
+      "pct": 88.17
+     },
+     "functions": {
+      "covered": 31,
+      "total": 44,
+      "pct": 70.45
+     },
+     "lines": {
+      "covered": 427,
+      "total": 460,
+      "pct": 92.82
+     }
+    },
+    {
+     "path": "lib/core/security",
+     "statements": {
+      "covered": 1539,
+      "total": 1646,
+      "pct": 93.49
+     },
+     "branches": {
+      "covered": 284,
+      "total": 335,
+      "pct": 84.77
+     },
+     "functions": {
+      "covered": 51,
+      "total": 53,
+      "pct": 96.22
+     },
+     "lines": {
+      "covered": 1539,
+      "total": 1646,
+      "pct": 93.49
+     }
+    },
+    {
+     "path": "lib/core/testing",
+     "statements": {
+      "covered": 260,
+      "total": 301,
+      "pct": 86.37
+     },
+     "branches": {
+      "covered": 51,
+      "total": 74,
+      "pct": 68.91
+     },
+     "functions": {
+      "covered": 7,
+      "total": 8,
+      "pct": 87.5
+     },
+     "lines": {
+      "covered": 260,
+      "total": 301,
+      "pct": 86.37
+     }
+    },
+    {
+     "path": "lib/core/tooling",
+     "statements": {
+      "covered": 754,
+      "total": 933,
+      "pct": 80.81
+     },
+     "branches": {
+      "covered": 90,
+      "total": 111,
+      "pct": 81.08
+     },
+     "functions": {
+      "covered": 24,
+      "total": 34,
+      "pct": 70.58
+     },
+     "lines": {
+      "covered": 754,
+      "total": 933,
+      "pct": 80.81
+     }
+    },
+    {
+     "path": "lib/core/trace",
+     "statements": {
+      "covered": 3617,
+      "total": 3900,
+      "pct": 92.74
+     },
+     "branches": {
+      "covered": 605,
+      "total": 765,
+      "pct": 79.08
+     },
+     "functions": {
+      "covered": 117,
+      "total": 122,
+      "pct": 95.9
+     },
+     "lines": {
+      "covered": 3617,
+      "total": 3900,
+      "pct": 92.74
+     }
+    },
+    {
+     "path": "lib/core/utils",
+     "statements": {
+      "covered": 914,
+      "total": 978,
+      "pct": 93.45
+     },
+     "branches": {
+      "covered": 311,
+      "total": 331,
+      "pct": 93.95
+     },
+     "functions": {
+      "covered": 33,
+      "total": 33,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 914,
+      "total": 978,
+      "pct": 93.45
+     }
+    },
+    {
+     "path": "lib/core/validation",
+     "statements": {
+      "covered": 198,
+      "total": 249,
+      "pct": 79.51
+     },
+     "branches": {
+      "covered": 28,
+      "total": 53,
+      "pct": 52.83
+     },
+     "functions": {
+      "covered": 4,
+      "total": 4,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 198,
+      "total": 249,
+      "pct": 79.51
+     }
+    },
+    {
+     "path": "plugins/avenx-vite/src",
+     "statements": {
+      "covered": 432,
+      "total": 491,
+      "pct": 87.98
+     },
+     "branches": {
+      "covered": 62,
+      "total": 68,
+      "pct": 91.17
+     },
+     "functions": {
+      "covered": 18,
+      "total": 26,
+      "pct": 69.23
+     },
+     "lines": {
+      "covered": 432,
+      "total": 491,
+      "pct": 87.98
+     }
+    }
+   ],
+   "tests": null
+  },
+  {
+   "recordedAt": "2026-10-31T15:41:57.000Z",
+   "source": {
+    "kind": "legacy",
+    "repository": "Avenx-JS/test-cov",
+    "legacyCommit": "01b1c18235fcf7d8483e25c5f039b0d1a3464f1d",
+    "upstreamCommit": null
+   },
+   "total": {
+    "statements": {
+     "covered": 57649,
+     "total": 62386,
+     "pct": 92.4
+    },
+    "branches": {
+     "covered": 11735,
+     "total": 14141,
+     "pct": 82.98
+    },
+    "functions": {
+     "covered": 1693,
+     "total": 1835,
+     "pct": 92.26
+    },
+    "lines": {
+     "covered": 57649,
+     "total": 62386,
+     "pct": 92.4
+    }
+   },
+   "directories": [
+    {
+     "path": "benches/support",
+     "statements": {
+      "covered": 39,
+      "total": 39,
+      "pct": 100
+     },
+     "branches": {
+      "covered": 3,
+      "total": 3,
+      "pct": 100
+     },
+     "functions": {
+      "covered": 2,
+      "total": 2,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 39,
+      "total": 39,
+      "pct": 100
+     }
+    },
+    {
+     "path": "bin",
+     "statements": {
+      "covered": 1098,
+      "total": 1255,
+      "pct": 87.49
+     },
+     "branches": {
+      "covered": 284,
+      "total": 333,
+      "pct": 85.28
+     },
+     "functions": {
+      "covered": 29,
+      "total": 32,
+      "pct": 90.62
+     },
+     "lines": {
+      "covered": 1098,
+      "total": 1255,
+      "pct": 87.49
+     }
+    },
+    {
+     "path": "bin/commands",
+     "statements": {
+      "covered": 3648,
+      "total": 4280,
+      "pct": 85.23
+     },
+     "branches": {
+      "covered": 533,
+      "total": 754,
+      "pct": 70.68
+     },
+     "functions": {
+      "covered": 85,
+      "total": 94,
+      "pct": 90.42
+     },
+     "lines": {
+      "covered": 3648,
+      "total": 4280,
+      "pct": 85.23
+     }
+    },
+    {
+     "path": "lib",
+     "statements": {
+      "covered": 2425,
+      "total": 2491,
+      "pct": 97.35
+     },
+     "branches": {
+      "covered": 627,
+      "total": 688,
+      "pct": 91.13
+     },
+     "functions": {
+      "covered": 58,
+      "total": 59,
+      "pct": 98.3
+     },
+     "lines": {
+      "covered": 2425,
+      "total": 2491,
+      "pct": 97.35
+     }
+    },
+    {
+     "path": "lib/bundler",
+     "statements": {
+      "covered": 3126,
+      "total": 3245,
+      "pct": 96.33
+     },
+     "branches": {
+      "covered": 679,
+      "total": 780,
+      "pct": 87.05
+     },
+     "functions": {
+      "covered": 84,
+      "total": 84,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 3126,
+      "total": 3245,
+      "pct": 96.33
+     }
+    },
+    {
+     "path": "lib/compiler",
+     "statements": {
+      "covered": 7420,
+      "total": 7752,
+      "pct": 95.71
+     },
+     "branches": {
+      "covered": 1643,
+      "total": 1912,
+      "pct": 85.93
+     },
+     "functions": {
+      "covered": 191,
+      "total": 194,
+      "pct": 98.45
+     },
+     "lines": {
+      "covered": 7420,
+      "total": 7752,
+      "pct": 95.71
+     }
+    },
+    {
+     "path": "lib/compiler/atlas",
+     "statements": {
+      "covered": 4136,
+      "total": 4317,
+      "pct": 95.8
+     },
+     "branches": {
+      "covered": 1070,
+      "total": 1280,
+      "pct": 83.59
+     },
+     "functions": {
+      "covered": 100,
+      "total": 104,
+      "pct": 96.15
+     },
+     "lines": {
+      "covered": 4136,
+      "total": 4317,
+      "pct": 95.8
+     }
+    },
+    {
+     "path": "lib/compiler/bundle",
+     "statements": {
+      "covered": 301,
+      "total": 321,
+      "pct": 93.76
+     },
+     "branches": {
+      "covered": 67,
+      "total": 78,
+      "pct": 85.89
+     },
+     "functions": {
+      "covered": 7,
+      "total": 8,
+      "pct": 87.5
+     },
+     "lines": {
+      "covered": 301,
+      "total": 321,
+      "pct": 93.76
+     }
+    },
+    {
+     "path": "lib/compiler/codegen",
+     "statements": {
+      "covered": 1883,
+      "total": 1992,
+      "pct": 94.52
+     },
+     "branches": {
+      "covered": 444,
+      "total": 526,
+      "pct": 84.41
+     },
+     "functions": {
+      "covered": 46,
+      "total": 49,
+      "pct": 93.87
+     },
+     "lines": {
+      "covered": 1883,
+      "total": 1992,
+      "pct": 94.52
+     }
+    },
+    {
+     "path": "lib/compiler/errors",
+     "statements": {
+      "covered": 221,
+      "total": 231,
+      "pct": 95.67
+     },
+     "branches": {
+      "covered": 29,
+      "total": 38,
+      "pct": 76.31
+     },
+     "functions": {
+      "covered": 7,
+      "total": 9,
+      "pct": 77.77
+     },
+     "lines": {
+      "covered": 221,
+      "total": 231,
+      "pct": 95.67
+     }
+    },
+    {
+     "path": "lib/compiler/ir",
+     "statements": {
+      "covered": 1691,
+      "total": 1754,
+      "pct": 96.4
+     },
+     "branches": {
+      "covered": 353,
+      "total": 418,
+      "pct": 84.44
+     },
+     "functions": {
+      "covered": 50,
+      "total": 51,
+      "pct": 98.03
+     },
+     "lines": {
+      "covered": 1691,
+      "total": 1754,
+      "pct": 96.4
+     }
+    },
+    {
+     "path": "lib/compiler/parser",
+     "statements": {
+      "covered": 1271,
+      "total": 1347,
+      "pct": 94.35
+     },
+     "branches": {
+      "covered": 312,
+      "total": 363,
+      "pct": 85.95
+     },
+     "functions": {
+      "covered": 29,
+      "total": 29,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 1271,
+      "total": 1347,
+      "pct": 94.35
+     }
+    },
+    {
+     "path": "lib/compiler/render",
+     "statements": {
+      "covered": 163,
+      "total": 163,
+      "pct": 100
+     },
+     "branches": {
+      "covered": 9,
+      "total": 9,
+      "pct": 100
+     },
+     "functions": {
+      "covered": 2,
+      "total": 2,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 163,
+      "total": 163,
+      "pct": 100
+     }
+    },
+    {
+     "path": "lib/compiler/rewind",
+     "statements": {
+      "covered": 675,
+      "total": 705,
+      "pct": 95.74
+     },
+     "branches": {
+      "covered": 95,
+      "total": 133,
+      "pct": 71.42
+     },
+     "functions": {
+      "covered": 17,
+      "total": 17,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 675,
+      "total": 705,
+      "pct": 95.74
+     }
+    },
+    {
+     "path": "lib/compiler/rules",
+     "statements": {
+      "covered": 524,
+      "total": 548,
+      "pct": 95.62
+     },
+     "branches": {
+      "covered": 132,
+      "total": 166,
+      "pct": 79.51
+     },
+     "functions": {
+      "covered": 11,
+      "total": 11,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 524,
+      "total": 548,
+      "pct": 95.62
+     }
+    },
+    {
+     "path": "lib/compiler/utils",
+     "statements": {
+      "covered": 77,
+      "total": 86,
+      "pct": 89.53
+     },
+     "branches": {
+      "covered": 30,
+      "total": 38,
+      "pct": 78.94
+     },
+     "functions": {
+      "covered": 2,
+      "total": 2,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 77,
+      "total": 86,
+      "pct": 89.53
+     }
+    },
+    {
+     "path": "lib/core",
+     "statements": {
+      "covered": 176,
+      "total": 176,
+      "pct": 100
+     },
+     "branches": {
+      "covered": 3,
+      "total": 3,
+      "pct": 100
+     },
+     "functions": {
+      "covered": 0,
+      "total": 0,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 176,
+      "total": 176,
+      "pct": 100
+     }
+    },
+    {
+     "path": "lib/core/diagnostics",
+     "statements": {
+      "covered": 1061,
+      "total": 1069,
+      "pct": 99.25
+     },
+     "branches": {
+      "covered": 8,
+      "total": 10,
+      "pct": 80
+     },
+     "functions": {
+      "covered": 2,
+      "total": 3,
+      "pct": 66.66
+     },
+     "lines": {
+      "covered": 1061,
+      "total": 1069,
+      "pct": 99.25
+     }
+    },
+    {
+     "path": "lib/core/events",
+     "statements": {
+      "covered": 676,
+      "total": 690,
+      "pct": 97.97
+     },
+     "branches": {
+      "covered": 177,
+      "total": 202,
+      "pct": 87.62
+     },
+     "functions": {
+      "covered": 24,
+      "total": 24,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 676,
+      "total": 690,
+      "pct": 97.97
+     }
+    },
+    {
+     "path": "lib/core/expression",
+     "statements": {
+      "covered": 2300,
+      "total": 2506,
+      "pct": 91.77
+     },
+     "branches": {
+      "covered": 554,
+      "total": 677,
+      "pct": 81.83
+     },
+     "functions": {
+      "covered": 73,
+      "total": 78,
+      "pct": 93.58
+     },
+     "lines": {
+      "covered": 2300,
+      "total": 2506,
+      "pct": 91.77
+     }
+    },
+    {
+     "path": "lib/core/reactive",
+     "statements": {
+      "covered": 3378,
+      "total": 3691,
+      "pct": 91.51
+     },
+     "branches": {
+      "covered": 673,
+      "total": 787,
+      "pct": 85.51
+     },
+     "functions": {
+      "covered": 132,
+      "total": 141,
+      "pct": 93.61
+     },
+     "lines": {
+      "covered": 3378,
+      "total": 3691,
+      "pct": 91.51
+     }
+    },
+    {
+     "path": "lib/core/renderer",
+     "statements": {
+      "covered": 2786,
+      "total": 3063,
+      "pct": 90.95
+     },
+     "branches": {
+      "covered": 551,
+      "total": 694,
+      "pct": 79.39
+     },
+     "functions": {
+      "covered": 79,
+      "total": 85,
+      "pct": 92.94
+     },
+     "lines": {
+      "covered": 2786,
+      "total": 3063,
+      "pct": 90.95
+     }
+    },
+    {
+     "path": "lib/core/renderer/program",
+     "statements": {
+      "covered": 1764,
+      "total": 2072,
+      "pct": 85.13
+     },
+     "branches": {
+      "covered": 268,
+      "total": 323,
+      "pct": 82.97
+     },
+     "functions": {
+      "covered": 59,
+      "total": 74,
+      "pct": 79.72
+     },
+     "lines": {
+      "covered": 1764,
+      "total": 2072,
+      "pct": 85.13
+     }
+    },
+    {
+     "path": "lib/core/runtime",
+     "statements": {
+      "covered": 8394,
+      "total": 9252,
+      "pct": 90.72
+     },
+     "branches": {
+      "covered": 1607,
+      "total": 2011,
+      "pct": 79.91
+     },
+     "functions": {
+      "covered": 315,
+      "total": 350,
+      "pct": 90
+     },
+     "lines": {
+      "covered": 8394,
+      "total": 9252,
+      "pct": 90.72
+     }
+    },
+    {
+     "path": "lib/core/runtime/navigation",
+     "statements": {
+      "covered": 427,
+      "total": 460,
+      "pct": 92.82
+     },
+     "branches": {
+      "covered": 82,
+      "total": 93,
+      "pct": 88.17
+     },
+     "functions": {
+      "covered": 31,
+      "total": 44,
+      "pct": 70.45
+     },
+     "lines": {
+      "covered": 427,
+      "total": 460,
+      "pct": 92.82
+     }
+    },
+    {
+     "path": "lib/core/security",
+     "statements": {
+      "covered": 1554,
+      "total": 1661,
+      "pct": 93.55
+     },
+     "branches": {
+      "covered": 289,
+      "total": 342,
+      "pct": 84.5
+     },
+     "functions": {
+      "covered": 51,
+      "total": 53,
+      "pct": 96.22
+     },
+     "lines": {
+      "covered": 1554,
+      "total": 1661,
+      "pct": 93.55
+     }
+    },
+    {
+     "path": "lib/core/testing",
+     "statements": {
+      "covered": 260,
+      "total": 301,
+      "pct": 86.37
+     },
+     "branches": {
+      "covered": 51,
+      "total": 74,
+      "pct": 68.91
+     },
+     "functions": {
+      "covered": 7,
+      "total": 8,
+      "pct": 87.5
+     },
+     "lines": {
+      "covered": 260,
+      "total": 301,
+      "pct": 86.37
+     }
+    },
+    {
+     "path": "lib/core/tooling",
+     "statements": {
+      "covered": 961,
+      "total": 1226,
+      "pct": 78.38
+     },
+     "branches": {
+      "covered": 147,
+      "total": 178,
+      "pct": 82.58
+     },
+     "functions": {
+      "covered": 27,
+      "total": 41,
+      "pct": 65.85
+     },
+     "lines": {
+      "covered": 961,
+      "total": 1226,
+      "pct": 78.38
+     }
+    },
+    {
+     "path": "lib/core/trace",
+     "statements": {
+      "covered": 3617,
+      "total": 3900,
+      "pct": 92.74
+     },
+     "branches": {
+      "covered": 605,
+      "total": 765,
+      "pct": 79.08
+     },
+     "functions": {
+      "covered": 117,
+      "total": 122,
+      "pct": 95.9
+     },
+     "lines": {
+      "covered": 3617,
+      "total": 3900,
+      "pct": 92.74
+     }
+    },
+    {
+     "path": "lib/core/utils",
+     "statements": {
+      "covered": 927,
+      "total": 991,
+      "pct": 93.54
+     },
+     "branches": {
+      "covered": 320,
+      "total": 338,
+      "pct": 94.67
+     },
+     "functions": {
+      "covered": 34,
+      "total": 34,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 927,
+      "total": 991,
+      "pct": 93.54
+     }
+    },
+    {
+     "path": "lib/core/validation",
+     "statements": {
+      "covered": 198,
+      "total": 249,
+      "pct": 79.51
+     },
+     "branches": {
+      "covered": 28,
+      "total": 53,
+      "pct": 52.83
+     },
+     "functions": {
+      "covered": 4,
+      "total": 4,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 198,
+      "total": 249,
+      "pct": 79.51
+     }
+    },
+    {
+     "path": "plugins/avenx-vite/src",
+     "statements": {
+      "covered": 472,
+      "total": 553,
+      "pct": 85.35
+     },
+     "branches": {
+      "covered": 62,
+      "total": 72,
+      "pct": 86.11
+     },
+     "functions": {
+      "covered": 18,
+      "total": 27,
+      "pct": 66.66
+     },
+     "lines": {
+      "covered": 472,
+      "total": 553,
+      "pct": 85.35
+     }
+    }
+   ],
+   "tests": null
+  },
+  {
+   "recordedAt": "2026-11-07T16:13:44.000Z",
+   "source": {
+    "kind": "legacy",
+    "repository": "Avenx-JS/test-cov",
+    "legacyCommit": "f9e010b6363396efaffbf1ef61c6590e5560ca7b",
+    "upstreamCommit": null
+   },
+   "total": {
+    "statements": {
+     "covered": 64245,
+     "total": 69247,
+     "pct": 92.77
+    },
+    "branches": {
+     "covered": 13419,
+     "total": 16080,
+     "pct": 83.45
+    },
+    "functions": {
+     "covered": 1890,
+     "total": 2026,
+     "pct": 93.28
+    },
+    "lines": {
+     "covered": 64245,
+     "total": 69247,
+     "pct": 92.77
+    }
+   },
+   "directories": [
+    {
+     "path": "benches/support",
+     "statements": {
+      "covered": 39,
+      "total": 39,
+      "pct": 100
+     },
+     "branches": {
+      "covered": 3,
+      "total": 3,
+      "pct": 100
+     },
+     "functions": {
+      "covered": 2,
+      "total": 2,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 39,
+      "total": 39,
+      "pct": 100
+     }
+    },
+    {
+     "path": "bin",
+     "statements": {
+      "covered": 1119,
+      "total": 1276,
+      "pct": 87.69
+     },
+     "branches": {
+      "covered": 294,
+      "total": 344,
+      "pct": 85.46
+     },
+     "functions": {
+      "covered": 31,
+      "total": 34,
+      "pct": 91.17
+     },
+     "lines": {
+      "covered": 1119,
+      "total": 1276,
+      "pct": 87.69
+     }
+    },
+    {
+     "path": "bin/commands",
+     "statements": {
+      "covered": 3859,
+      "total": 4511,
+      "pct": 85.54
+     },
+     "branches": {
+      "covered": 600,
+      "total": 833,
+      "pct": 72.02
+     },
+     "functions": {
+      "covered": 99,
+      "total": 107,
+      "pct": 92.52
+     },
+     "lines": {
+      "covered": 3859,
+      "total": 4511,
+      "pct": 85.54
+     }
+    },
+    {
+     "path": "lib",
+     "statements": {
+      "covered": 2575,
+      "total": 2644,
+      "pct": 97.39
+     },
+     "branches": {
+      "covered": 666,
+      "total": 734,
+      "pct": 90.73
+     },
+     "functions": {
+      "covered": 60,
+      "total": 61,
+      "pct": 98.36
+     },
+     "lines": {
+      "covered": 2575,
+      "total": 2644,
+      "pct": 97.39
+     }
+    },
+    {
+     "path": "lib/bundler",
+     "statements": {
+      "covered": 3292,
+      "total": 3411,
+      "pct": 96.51
+     },
+     "branches": {
+      "covered": 731,
+      "total": 834,
+      "pct": 87.64
+     },
+     "functions": {
+      "covered": 88,
+      "total": 88,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 3292,
+      "total": 3411,
+      "pct": 96.51
+     }
+    },
+    {
+     "path": "lib/compiler",
+     "statements": {
+      "covered": 7740,
+      "total": 8085,
+      "pct": 95.73
+     },
+     "branches": {
+      "covered": 1723,
+      "total": 1999,
+      "pct": 86.19
+     },
+     "functions": {
+      "covered": 194,
+      "total": 197,
+      "pct": 98.47
+     },
+     "lines": {
+      "covered": 7740,
+      "total": 8085,
+      "pct": 95.73
+     }
+    },
+    {
+     "path": "lib/compiler/atlas",
+     "statements": {
+      "covered": 4138,
+      "total": 4319,
+      "pct": 95.8
+     },
+     "branches": {
+      "covered": 1070,
+      "total": 1280,
+      "pct": 83.59
+     },
+     "functions": {
+      "covered": 100,
+      "total": 104,
+      "pct": 96.15
+     },
+     "lines": {
+      "covered": 4138,
+      "total": 4319,
+      "pct": 95.8
+     }
+    },
+    {
+     "path": "lib/compiler/bundle",
+     "statements": {
+      "covered": 323,
+      "total": 340,
+      "pct": 95
+     },
+     "branches": {
+      "covered": 68,
+      "total": 82,
+      "pct": 82.92
+     },
+     "functions": {
+      "covered": 7,
+      "total": 8,
+      "pct": 87.5
+     },
+     "lines": {
+      "covered": 323,
+      "total": 340,
+      "pct": 95
+     }
+    },
+    {
+     "path": "lib/compiler/codegen",
+     "statements": {
+      "covered": 1906,
+      "total": 2002,
+      "pct": 95.2
+     },
+     "branches": {
+      "covered": 455,
+      "total": 535,
+      "pct": 85.04
+     },
+     "functions": {
+      "covered": 47,
+      "total": 49,
+      "pct": 95.91
+     },
+     "lines": {
+      "covered": 1906,
+      "total": 2002,
+      "pct": 95.2
+     }
+    },
+    {
+     "path": "lib/compiler/errors",
+     "statements": {
+      "covered": 221,
+      "total": 231,
+      "pct": 95.67
+     },
+     "branches": {
+      "covered": 29,
+      "total": 38,
+      "pct": 76.31
+     },
+     "functions": {
+      "covered": 7,
+      "total": 9,
+      "pct": 77.77
+     },
+     "lines": {
+      "covered": 221,
+      "total": 231,
+      "pct": 95.67
+     }
+    },
+    {
+     "path": "lib/compiler/ir",
+     "statements": {
+      "covered": 1691,
+      "total": 1754,
+      "pct": 96.4
+     },
+     "branches": {
+      "covered": 353,
+      "total": 418,
+      "pct": 84.44
+     },
+     "functions": {
+      "covered": 50,
+      "total": 51,
+      "pct": 98.03
+     },
+     "lines": {
+      "covered": 1691,
+      "total": 1754,
+      "pct": 96.4
+     }
+    },
+    {
+     "path": "lib/compiler/parser",
+     "statements": {
+      "covered": 1271,
+      "total": 1347,
+      "pct": 94.35
+     },
+     "branches": {
+      "covered": 312,
+      "total": 363,
+      "pct": 85.95
+     },
+     "functions": {
+      "covered": 29,
+      "total": 29,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 1271,
+      "total": 1347,
+      "pct": 94.35
+     }
+    },
+    {
+     "path": "lib/compiler/parser/js",
+     "statements": {
+      "covered": 3577,
+      "total": 3691,
+      "pct": 96.91
+     },
+     "branches": {
+      "covered": 1158,
+      "total": 1312,
+      "pct": 88.26
+     },
+     "functions": {
+      "covered": 135,
+      "total": 135,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 3577,
+      "total": 3691,
+      "pct": 96.91
+     }
+    },
+    {
+     "path": "lib/compiler/render",
+     "statements": {
+      "covered": 163,
+      "total": 163,
+      "pct": 100
+     },
+     "branches": {
+      "covered": 9,
+      "total": 9,
+      "pct": 100
+     },
+     "functions": {
+      "covered": 2,
+      "total": 2,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 163,
+      "total": 163,
+      "pct": 100
+     }
+    },
+    {
+     "path": "lib/compiler/rewind",
+     "statements": {
+      "covered": 675,
+      "total": 705,
+      "pct": 95.74
+     },
+     "branches": {
+      "covered": 95,
+      "total": 133,
+      "pct": 71.42
+     },
+     "functions": {
+      "covered": 17,
+      "total": 17,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 675,
+      "total": 705,
+      "pct": 95.74
+     }
+    },
+    {
+     "path": "lib/compiler/rules",
+     "statements": {
+      "covered": 524,
+      "total": 548,
+      "pct": 95.62
+     },
+     "branches": {
+      "covered": 132,
+      "total": 166,
+      "pct": 79.51
+     },
+     "functions": {
+      "covered": 11,
+      "total": 11,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 524,
+      "total": 548,
+      "pct": 95.62
+     }
+    },
+    {
+     "path": "lib/compiler/utils",
+     "statements": {
+      "covered": 77,
+      "total": 86,
+      "pct": 89.53
+     },
+     "branches": {
+      "covered": 30,
+      "total": 38,
+      "pct": 78.94
+     },
+     "functions": {
+      "covered": 2,
+      "total": 2,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 77,
+      "total": 86,
+      "pct": 89.53
+     }
+    },
+    {
+     "path": "lib/core",
+     "statements": {
+      "covered": 176,
+      "total": 176,
+      "pct": 100
+     },
+     "branches": {
+      "covered": 3,
+      "total": 3,
+      "pct": 100
+     },
+     "functions": {
+      "covered": 0,
+      "total": 0,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 176,
+      "total": 176,
+      "pct": 100
+     }
+    },
+    {
+     "path": "lib/core/diagnostics",
+     "statements": {
+      "covered": 2146,
+      "total": 2154,
+      "pct": 99.62
+     },
+     "branches": {
+      "covered": 8,
+      "total": 10,
+      "pct": 80
+     },
+     "functions": {
+      "covered": 2,
+      "total": 3,
+      "pct": 66.66
+     },
+     "lines": {
+      "covered": 2146,
+      "total": 2154,
+      "pct": 99.62
+     }
+    },
+    {
+     "path": "lib/core/events",
+     "statements": {
+      "covered": 676,
+      "total": 690,
+      "pct": 97.97
+     },
+     "branches": {
+      "covered": 177,
+      "total": 202,
+      "pct": 87.62
+     },
+     "functions": {
+      "covered": 24,
+      "total": 24,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 676,
+      "total": 690,
+      "pct": 97.97
+     }
+    },
+    {
+     "path": "lib/core/expression",
+     "statements": {
+      "covered": 2300,
+      "total": 2506,
+      "pct": 91.77
+     },
+     "branches": {
+      "covered": 554,
+      "total": 677,
+      "pct": 81.83
+     },
+     "functions": {
+      "covered": 73,
+      "total": 78,
+      "pct": 93.58
+     },
+     "lines": {
+      "covered": 2300,
+      "total": 2506,
+      "pct": 91.77
+     }
+    },
+    {
+     "path": "lib/core/reactive",
+     "statements": {
+      "covered": 3530,
+      "total": 3864,
+      "pct": 91.35
+     },
+     "branches": {
+      "covered": 726,
+      "total": 862,
+      "pct": 84.22
+     },
+     "functions": {
+      "covered": 137,
+      "total": 145,
+      "pct": 94.48
+     },
+     "lines": {
+      "covered": 3530,
+      "total": 3864,
+      "pct": 91.35
+     }
+    },
+    {
+     "path": "lib/core/renderer",
+     "statements": {
+      "covered": 2904,
+      "total": 3153,
+      "pct": 92.1
+     },
+     "branches": {
+      "covered": 584,
+      "total": 729,
+      "pct": 80.1
+     },
+     "functions": {
+      "covered": 84,
+      "total": 88,
+      "pct": 95.45
+     },
+     "lines": {
+      "covered": 2904,
+      "total": 3153,
+      "pct": 92.1
+     }
+    },
+    {
+     "path": "lib/core/renderer/program",
+     "statements": {
+      "covered": 1798,
+      "total": 2101,
+      "pct": 85.57
+     },
+     "branches": {
+      "covered": 281,
+      "total": 338,
+      "pct": 83.13
+     },
+     "functions": {
+      "covered": 60,
+      "total": 75,
+      "pct": 80
+     },
+     "lines": {
+      "covered": 1798,
+      "total": 2101,
+      "pct": 85.57
+     }
+    },
+    {
+     "path": "lib/core/runtime",
+     "statements": {
+      "covered": 8877,
+      "total": 9821,
+      "pct": 90.38
+     },
+     "branches": {
+      "covered": 1727,
+      "total": 2172,
+      "pct": 79.51
+     },
+     "functions": {
+      "covered": 329,
+      "total": 365,
+      "pct": 90.13
+     },
+     "lines": {
+      "covered": 8877,
+      "total": 9821,
+      "pct": 90.38
+     }
+    },
+    {
+     "path": "lib/core/runtime/navigation",
+     "statements": {
+      "covered": 427,
+      "total": 460,
+      "pct": 92.82
+     },
+     "branches": {
+      "covered": 82,
+      "total": 93,
+      "pct": 88.17
+     },
+     "functions": {
+      "covered": 31,
+      "total": 44,
+      "pct": 70.45
+     },
+     "lines": {
+      "covered": 427,
+      "total": 460,
+      "pct": 92.82
+     }
+    },
+    {
+     "path": "lib/core/security",
+     "statements": {
+      "covered": 1554,
+      "total": 1661,
+      "pct": 93.55
+     },
+     "branches": {
+      "covered": 289,
+      "total": 342,
+      "pct": 84.5
+     },
+     "functions": {
+      "covered": 51,
+      "total": 53,
+      "pct": 96.22
+     },
+     "lines": {
+      "covered": 1554,
+      "total": 1661,
+      "pct": 93.55
+     }
+    },
+    {
+     "path": "lib/core/testing",
+     "statements": {
+      "covered": 260,
+      "total": 301,
+      "pct": 86.37
+     },
+     "branches": {
+      "covered": 51,
+      "total": 74,
+      "pct": 68.91
+     },
+     "functions": {
+      "covered": 7,
+      "total": 8,
+      "pct": 87.5
+     },
+     "lines": {
+      "covered": 260,
+      "total": 301,
+      "pct": 86.37
+     }
+    },
+    {
+     "path": "lib/core/tooling",
+     "statements": {
+      "covered": 1034,
+      "total": 1291,
+      "pct": 80.09
+     },
+     "branches": {
+      "covered": 165,
+      "total": 196,
+      "pct": 84.18
+     },
+     "functions": {
+      "covered": 29,
+      "total": 43,
+      "pct": 67.44
+     },
+     "lines": {
+      "covered": 1034,
+      "total": 1291,
+      "pct": 80.09
+     }
+    },
+    {
+     "path": "lib/core/trace",
+     "statements": {
+      "covered": 3617,
+      "total": 3900,
+      "pct": 92.74
+     },
+     "branches": {
+      "covered": 605,
+      "total": 765,
+      "pct": 79.08
+     },
+     "functions": {
+      "covered": 117,
+      "total": 122,
+      "pct": 95.9
+     },
+     "lines": {
+      "covered": 3617,
+      "total": 3900,
+      "pct": 92.74
+     }
+    },
+    {
+     "path": "lib/core/utils",
+     "statements": {
+      "covered": 927,
+      "total": 991,
+      "pct": 93.54
+     },
+     "branches": {
+      "covered": 320,
+      "total": 338,
+      "pct": 94.67
+     },
+     "functions": {
+      "covered": 34,
+      "total": 34,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 927,
+      "total": 991,
+      "pct": 93.54
+     }
+    },
+    {
+     "path": "lib/core/validation",
+     "statements": {
+      "covered": 198,
+      "total": 249,
+      "pct": 79.51
+     },
+     "branches": {
+      "covered": 28,
+      "total": 53,
+      "pct": 52.83
+     },
+     "functions": {
+      "covered": 4,
+      "total": 4,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 198,
+      "total": 249,
+      "pct": 79.51
+     }
+    },
+    {
+     "path": "plugins/avenx-vite/src",
+     "statements": {
+      "covered": 499,
+      "total": 553,
+      "pct": 90.23
+     },
+     "branches": {
+      "covered": 82,
+      "total": 91,
+      "pct": 90.1
+     },
+     "functions": {
+      "covered": 23,
+      "total": 27,
+      "pct": 85.18
+     },
+     "lines": {
+      "covered": 499,
+      "total": 553,
+      "pct": 90.23
+     }
+    },
+    {
+     "path": "scripts",
+     "statements": {
+      "covered": 132,
+      "total": 224,
+      "pct": 58.92
+     },
+     "branches": {
+      "covered": 9,
+      "total": 14,
+      "pct": 64.28
+     },
+     "functions": {
+      "covered": 4,
+      "total": 7,
+      "pct": 57.14
+     },
+     "lines": {
+      "covered": 132,
+      "total": 224,
+      "pct": 58.92
+     }
+    }
+   ],
+   "tests": null
+  },
+  {
+   "recordedAt": "2026-11-14T16:29:09.000Z",
+   "source": {
+    "kind": "legacy",
+    "repository": "Avenx-JS/test-cov",
+    "legacyCommit": "ed3b81471c9597abc6e64db414fe27c45bb1b280",
+    "upstreamCommit": null
+   },
+   "total": {
+    "statements": {
+     "covered": 67634,
+     "total": 72620,
+     "pct": 93.13
+    },
+    "branches": {
+     "covered": 14173,
+     "total": 16868,
+     "pct": 84.02
+    },
+    "functions": {
+     "covered": 1967,
+     "total": 2111,
+     "pct": 93.17
+    },
+    "lines": {
+     "covered": 67634,
+     "total": 72620,
+     "pct": 93.13
+    }
+   },
+   "directories": [
+    {
+     "path": "benches",
+     "statements": {
+      "covered": 82,
+      "total": 82,
+      "pct": 100
+     },
+     "branches": {
+      "covered": 1,
+      "total": 1,
+      "pct": 100
+     },
+     "functions": {
+      "covered": 0,
+      "total": 0,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 82,
+      "total": 82,
+      "pct": 100
+     }
+    },
+    {
+     "path": "benches/support",
+     "statements": {
+      "covered": 39,
+      "total": 39,
+      "pct": 100
+     },
+     "branches": {
+      "covered": 3,
+      "total": 3,
+      "pct": 100
+     },
+     "functions": {
+      "covered": 2,
+      "total": 2,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 39,
+      "total": 39,
+      "pct": 100
+     }
+    },
+    {
+     "path": "bin",
+     "statements": {
+      "covered": 1131,
+      "total": 1283,
+      "pct": 88.15
+     },
+     "branches": {
+      "covered": 297,
+      "total": 347,
+      "pct": 85.59
+     },
+     "functions": {
+      "covered": 32,
+      "total": 34,
+      "pct": 94.11
+     },
+     "lines": {
+      "covered": 1131,
+      "total": 1283,
+      "pct": 88.15
+     }
+    },
+    {
+     "path": "bin/commands",
+     "statements": {
+      "covered": 4508,
+      "total": 5191,
+      "pct": 86.84
+     },
+     "branches": {
+      "covered": 676,
+      "total": 903,
+      "pct": 74.86
+     },
+     "functions": {
+      "covered": 111,
+      "total": 121,
+      "pct": 91.73
+     },
+     "lines": {
+      "covered": 4508,
+      "total": 5191,
+      "pct": 86.84
+     }
+    },
+    {
+     "path": "lib",
+     "statements": {
+      "covered": 2609,
+      "total": 2678,
+      "pct": 97.42
+     },
+     "branches": {
+      "covered": 667,
+      "total": 738,
+      "pct": 90.37
+     },
+     "functions": {
+      "covered": 60,
+      "total": 61,
+      "pct": 98.36
+     },
+     "lines": {
+      "covered": 2609,
+      "total": 2678,
+      "pct": 97.42
+     }
+    },
+    {
+     "path": "lib/bundler",
+     "statements": {
+      "covered": 3419,
+      "total": 3534,
+      "pct": 96.74
+     },
+     "branches": {
+      "covered": 759,
+      "total": 859,
+      "pct": 88.35
+     },
+     "functions": {
+      "covered": 89,
+      "total": 89,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 3419,
+      "total": 3534,
+      "pct": 96.74
+     }
+    },
+    {
+     "path": "lib/compiler",
+     "statements": {
+      "covered": 6285,
+      "total": 6507,
+      "pct": 96.58
+     },
+     "branches": {
+      "covered": 1217,
+      "total": 1436,
+      "pct": 84.74
+     },
+     "functions": {
+      "covered": 174,
+      "total": 187,
+      "pct": 93.04
+     },
+     "lines": {
+      "covered": 6285,
+      "total": 6507,
+      "pct": 96.58
+     }
+    },
+    {
+     "path": "lib/compiler/atlas",
+     "statements": {
+      "covered": 4184,
+      "total": 4349,
+      "pct": 96.2
+     },
+     "branches": {
+      "covered": 1074,
+      "total": 1288,
+      "pct": 83.38
+     },
+     "functions": {
+      "covered": 101,
+      "total": 105,
+      "pct": 96.19
+     },
+     "lines": {
+      "covered": 4184,
+      "total": 4349,
+      "pct": 96.2
+     }
+    },
+    {
+     "path": "lib/compiler/bundle",
+     "statements": {
+      "covered": 323,
+      "total": 340,
+      "pct": 95
+     },
+     "branches": {
+      "covered": 68,
+      "total": 82,
+      "pct": 82.92
+     },
+     "functions": {
+      "covered": 7,
+      "total": 8,
+      "pct": 87.5
+     },
+     "lines": {
+      "covered": 323,
+      "total": 340,
+      "pct": 95
+     }
+    },
+    {
+     "path": "lib/compiler/codegen",
+     "statements": {
+      "covered": 1917,
+      "total": 2013,
+      "pct": 95.23
+     },
+     "branches": {
+      "covered": 458,
+      "total": 538,
+      "pct": 85.13
+     },
+     "functions": {
+      "covered": 47,
+      "total": 49,
+      "pct": 95.91
+     },
+     "lines": {
+      "covered": 1917,
+      "total": 2013,
+      "pct": 95.23
+     }
+    },
+    {
+     "path": "lib/compiler/errors",
+     "statements": {
+      "covered": 163,
+      "total": 167,
+      "pct": 97.6
+     },
+     "branches": {
+      "covered": 25,
+      "total": 28,
+      "pct": 89.28
+     },
+     "functions": {
+      "covered": 5,
+      "total": 7,
+      "pct": 71.42
+     },
+     "lines": {
+      "covered": 163,
+      "total": 167,
+      "pct": 97.6
+     }
+    },
+    {
+     "path": "lib/compiler/ir",
+     "statements": {
+      "covered": 1771,
+      "total": 1830,
+      "pct": 96.77
+     },
+     "branches": {
+      "covered": 409,
+      "total": 472,
+      "pct": 86.65
+     },
+     "functions": {
+      "covered": 51,
+      "total": 52,
+      "pct": 98.07
+     },
+     "lines": {
+      "covered": 1771,
+      "total": 1830,
+      "pct": 96.77
+     }
+    },
+    {
+     "path": "lib/compiler/parser",
+     "statements": {
+      "covered": 2717,
+      "total": 2882,
+      "pct": 94.27
+     },
+     "branches": {
+      "covered": 698,
+      "total": 812,
+      "pct": 85.96
+     },
+     "functions": {
+      "covered": 57,
+      "total": 57,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 2717,
+      "total": 2882,
+      "pct": 94.27
+     }
+    },
+    {
+     "path": "lib/compiler/parser/directives",
+     "statements": {
+      "covered": 973,
+      "total": 1025,
+      "pct": 94.92
+     },
+     "branches": {
+      "covered": 255,
+      "total": 275,
+      "pct": 92.72
+     },
+     "functions": {
+      "covered": 21,
+      "total": 21,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 973,
+      "total": 1025,
+      "pct": 94.92
+     }
+    },
+    {
+     "path": "lib/compiler/parser/js",
+     "statements": {
+      "covered": 3607,
+      "total": 3690,
+      "pct": 97.75
+     },
+     "branches": {
+      "covered": 1239,
+      "total": 1364,
+      "pct": 90.83
+     },
+     "functions": {
+      "covered": 135,
+      "total": 135,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 3607,
+      "total": 3690,
+      "pct": 97.75
+     }
+    },
+    {
+     "path": "lib/compiler/render",
+     "statements": {
+      "covered": 163,
+      "total": 163,
+      "pct": 100
+     },
+     "branches": {
+      "covered": 9,
+      "total": 9,
+      "pct": 100
+     },
+     "functions": {
+      "covered": 2,
+      "total": 2,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 163,
+      "total": 163,
+      "pct": 100
+     }
+    },
+    {
+     "path": "lib/compiler/rewind",
+     "statements": {
+      "covered": 675,
+      "total": 705,
+      "pct": 95.74
+     },
+     "branches": {
+      "covered": 95,
+      "total": 133,
+      "pct": 71.42
+     },
+     "functions": {
+      "covered": 17,
+      "total": 17,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 675,
+      "total": 705,
+      "pct": 95.74
+     }
+    },
+    {
+     "path": "lib/compiler/rules",
+     "statements": {
+      "covered": 524,
+      "total": 548,
+      "pct": 95.62
+     },
+     "branches": {
+      "covered": 132,
+      "total": 166,
+      "pct": 79.51
+     },
+     "functions": {
+      "covered": 11,
+      "total": 11,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 524,
+      "total": 548,
+      "pct": 95.62
+     }
+    },
+    {
+     "path": "lib/compiler/utils",
+     "statements": {
+      "covered": 86,
+      "total": 86,
+      "pct": 100
+     },
+     "branches": {
+      "covered": 39,
+      "total": 39,
+      "pct": 100
+     },
+     "functions": {
+      "covered": 2,
+      "total": 2,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 86,
+      "total": 86,
+      "pct": 100
+     }
+    },
+    {
+     "path": "lib/core",
+     "statements": {
+      "covered": 181,
+      "total": 181,
+      "pct": 100
+     },
+     "branches": {
+      "covered": 3,
+      "total": 3,
+      "pct": 100
+     },
+     "functions": {
+      "covered": 0,
+      "total": 0,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 181,
+      "total": 181,
+      "pct": 100
+     }
+    },
+    {
+     "path": "lib/core/diagnostics",
+     "statements": {
+      "covered": 2259,
+      "total": 2288,
+      "pct": 98.73
+     },
+     "branches": {
+      "covered": 31,
+      "total": 48,
+      "pct": 64.58
+     },
+     "functions": {
+      "covered": 4,
+      "total": 5,
+      "pct": 80
+     },
+     "lines": {
+      "covered": 2259,
+      "total": 2288,
+      "pct": 98.73
+     }
+    },
+    {
+     "path": "lib/core/events",
+     "statements": {
+      "covered": 676,
+      "total": 690,
+      "pct": 97.97
+     },
+     "branches": {
+      "covered": 177,
+      "total": 202,
+      "pct": 87.62
+     },
+     "functions": {
+      "covered": 24,
+      "total": 24,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 676,
+      "total": 690,
+      "pct": 97.97
+     }
+    },
+    {
+     "path": "lib/core/expression",
+     "statements": {
+      "covered": 2316,
+      "total": 2512,
+      "pct": 92.19
+     },
+     "branches": {
+      "covered": 559,
+      "total": 683,
+      "pct": 81.84
+     },
+     "functions": {
+      "covered": 75,
+      "total": 78,
+      "pct": 96.15
+     },
+     "lines": {
+      "covered": 2316,
+      "total": 2512,
+      "pct": 92.19
+     }
+    },
+    {
+     "path": "lib/core/reactive",
+     "statements": {
+      "covered": 3575,
+      "total": 3903,
+      "pct": 91.59
+     },
+     "branches": {
+      "covered": 737,
+      "total": 875,
+      "pct": 84.22
+     },
+     "functions": {
+      "covered": 138,
+      "total": 146,
+      "pct": 94.52
+     },
+     "lines": {
+      "covered": 3575,
+      "total": 3903,
+      "pct": 91.59
+     }
+    },
+    {
+     "path": "lib/core/renderer",
+     "statements": {
+      "covered": 3111,
+      "total": 3360,
+      "pct": 92.58
+     },
+     "branches": {
+      "covered": 650,
+      "total": 795,
+      "pct": 81.76
+     },
+     "functions": {
+      "covered": 87,
+      "total": 91,
+      "pct": 95.6
+     },
+     "lines": {
+      "covered": 3111,
+      "total": 3360,
+      "pct": 92.58
+     }
+    },
+    {
+     "path": "lib/core/renderer/program",
+     "statements": {
+      "covered": 1832,
+      "total": 2125,
+      "pct": 86.21
+     },
+     "branches": {
+      "covered": 315,
+      "total": 377,
+      "pct": 83.55
+     },
+     "functions": {
+      "covered": 59,
+      "total": 74,
+      "pct": 79.72
+     },
+     "lines": {
+      "covered": 1832,
+      "total": 2125,
+      "pct": 86.21
+     }
+    },
+    {
+     "path": "lib/core/runtime",
+     "statements": {
+      "covered": 9137,
+      "total": 10042,
+      "pct": 90.98
+     },
+     "branches": {
+      "covered": 1833,
+      "total": 2286,
+      "pct": 80.18
+     },
+     "functions": {
+      "covered": 335,
+      "total": 370,
+      "pct": 90.54
+     },
+     "lines": {
+      "covered": 9137,
+      "total": 10042,
+      "pct": 90.98
+     }
+    },
+    {
+     "path": "lib/core/runtime/navigation",
+     "statements": {
+      "covered": 427,
+      "total": 460,
+      "pct": 92.82
+     },
+     "branches": {
+      "covered": 82,
+      "total": 93,
+      "pct": 88.17
+     },
+     "functions": {
+      "covered": 31,
+      "total": 44,
+      "pct": 70.45
+     },
+     "lines": {
+      "covered": 427,
+      "total": 460,
+      "pct": 92.82
+     }
+    },
+    {
+     "path": "lib/core/security",
+     "statements": {
+      "covered": 1554,
+      "total": 1661,
+      "pct": 93.55
+     },
+     "branches": {
+      "covered": 292,
+      "total": 343,
+      "pct": 85.13
+     },
+     "functions": {
+      "covered": 51,
+      "total": 53,
+      "pct": 96.22
+     },
+     "lines": {
+      "covered": 1554,
+      "total": 1661,
+      "pct": 93.55
+     }
+    },
+    {
+     "path": "lib/core/testing",
+     "statements": {
+      "covered": 260,
+      "total": 301,
+      "pct": 86.37
+     },
+     "branches": {
+      "covered": 51,
+      "total": 74,
+      "pct": 68.91
+     },
+     "functions": {
+      "covered": 7,
+      "total": 8,
+      "pct": 87.5
+     },
+     "lines": {
+      "covered": 260,
+      "total": 301,
+      "pct": 86.37
+     }
+    },
+    {
+     "path": "lib/core/tooling",
+     "statements": {
+      "covered": 1034,
+      "total": 1291,
+      "pct": 80.09
+     },
+     "branches": {
+      "covered": 165,
+      "total": 196,
+      "pct": 84.18
+     },
+     "functions": {
+      "covered": 29,
+      "total": 43,
+      "pct": 67.44
+     },
+     "lines": {
+      "covered": 1034,
+      "total": 1291,
+      "pct": 80.09
+     }
+    },
+    {
+     "path": "lib/core/trace",
+     "statements": {
+      "covered": 3617,
+      "total": 3900,
+      "pct": 92.74
+     },
+     "branches": {
+      "covered": 605,
+      "total": 765,
+      "pct": 79.08
+     },
+     "functions": {
+      "covered": 117,
+      "total": 122,
+      "pct": 95.9
+     },
+     "lines": {
+      "covered": 3617,
+      "total": 3900,
+      "pct": 92.74
+     }
+    },
+    {
+     "path": "lib/core/utils",
+     "statements": {
+      "covered": 1031,
+      "total": 1101,
+      "pct": 93.64
+     },
+     "branches": {
+      "covered": 341,
+      "total": 365,
+      "pct": 93.42
+     },
+     "functions": {
+      "covered": 37,
+      "total": 37,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 1031,
+      "total": 1101,
+      "pct": 93.64
+     }
+    },
+    {
+     "path": "lib/core/validation",
+     "statements": {
+      "covered": 198,
+      "total": 249,
+      "pct": 79.51
+     },
+     "branches": {
+      "covered": 28,
+      "total": 53,
+      "pct": 52.83
+     },
+     "functions": {
+      "covered": 4,
+      "total": 4,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 198,
+      "total": 249,
+      "pct": 79.51
+     }
+    },
+    {
+     "path": "plugins/avenx-charts/scripts",
+     "statements": {
+      "covered": 91,
+      "total": 93,
+      "pct": 97.84
+     },
+     "branches": {
+      "covered": 5,
+      "total": 5,
+      "pct": 100
+     },
+     "functions": {
+      "covered": 2,
+      "total": 2,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 91,
+      "total": 93,
+      "pct": 97.84
+     }
+    },
+    {
+     "path": "plugins/avenx-i18n/scripts",
+     "statements": {
+      "covered": 90,
+      "total": 92,
+      "pct": 97.82
+     },
+     "branches": {
+      "covered": 5,
+      "total": 5,
+      "pct": 100
+     },
+     "functions": {
+      "covered": 2,
+      "total": 2,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 90,
+      "total": 92,
+      "pct": 97.82
+     }
+    },
+    {
+     "path": "plugins/avenx-persistence/scripts",
+     "statements": {
+      "covered": 89,
+      "total": 91,
+      "pct": 97.8
+     },
+     "branches": {
+      "covered": 5,
+      "total": 5,
+      "pct": 100
+     },
+     "functions": {
+      "covered": 2,
+      "total": 2,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 89,
+      "total": 91,
+      "pct": 97.8
+     }
+    },
+    {
+     "path": "plugins/avenx-vite/src",
+     "statements": {
+      "covered": 519,
+      "total": 577,
+      "pct": 89.94
+     },
+     "branches": {
+      "covered": 83,
+      "total": 95,
+      "pct": 87.36
+     },
+     "functions": {
+      "covered": 24,
+      "total": 28,
+      "pct": 85.71
+     },
+     "lines": {
+      "covered": 519,
+      "total": 577,
+      "pct": 89.94
+     }
+    },
+    {
+     "path": "scripts",
+     "statements": {
+      "covered": 461,
+      "total": 591,
+      "pct": 78
+     },
+     "branches": {
+      "covered": 85,
+      "total": 107,
+      "pct": 79.43
+     },
+     "functions": {
+      "covered": 15,
+      "total": 18,
+      "pct": 83.33
+     },
+     "lines": {
+      "covered": 461,
+      "total": 591,
+      "pct": 78
+     }
+    }
+   ],
+   "tests": null
+  },
+  {
+   "recordedAt": "2026-11-21T17:14:36.000Z",
+   "source": {
+    "kind": "legacy",
+    "repository": "Avenx-JS/test-cov",
+    "legacyCommit": "5e7335cec05a5494e3dfef7ab31456f274170455",
+    "upstreamCommit": null
+   },
+   "total": {
+    "statements": {
+     "covered": 71048,
+     "total": 76270,
+     "pct": 93.15
+    },
+    "branches": {
+     "covered": 14964,
+     "total": 17753,
+     "pct": 84.28
+    },
+    "functions": {
+     "covered": 2023,
+     "total": 2175,
+     "pct": 93.01
+    },
+    "lines": {
+     "covered": 71048,
+     "total": 76270,
+     "pct": 93.15
+    }
+   },
+   "directories": [
+    {
+     "path": "benches",
+     "statements": {
+      "covered": 82,
+      "total": 82,
+      "pct": 100
+     },
+     "branches": {
+      "covered": 1,
+      "total": 1,
+      "pct": 100
+     },
+     "functions": {
+      "covered": 0,
+      "total": 0,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 82,
+      "total": 82,
+      "pct": 100
+     }
+    },
+    {
+     "path": "benches/support",
+     "statements": {
+      "covered": 39,
+      "total": 39,
+      "pct": 100
+     },
+     "branches": {
+      "covered": 3,
+      "total": 3,
+      "pct": 100
+     },
+     "functions": {
+      "covered": 2,
+      "total": 2,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 39,
+      "total": 39,
+      "pct": 100
+     }
+    },
+    {
+     "path": "bin",
+     "statements": {
+      "covered": 1131,
+      "total": 1283,
+      "pct": 88.15
+     },
+     "branches": {
+      "covered": 297,
+      "total": 347,
+      "pct": 85.59
+     },
+     "functions": {
+      "covered": 32,
+      "total": 34,
+      "pct": 94.11
+     },
+     "lines": {
+      "covered": 1131,
+      "total": 1283,
+      "pct": 88.15
+     }
+    },
+    {
+     "path": "bin/commands",
+     "statements": {
+      "covered": 4881,
+      "total": 5526,
+      "pct": 88.32
+     },
+     "branches": {
+      "covered": 724,
+      "total": 921,
+      "pct": 78.61
+     },
+     "functions": {
+      "covered": 107,
+      "total": 110,
+      "pct": 97.27
+     },
+     "lines": {
+      "covered": 4881,
+      "total": 5526,
+      "pct": 88.32
+     }
+    },
+    {
+     "path": "lib",
+     "statements": {
+      "covered": 2690,
+      "total": 2760,
+      "pct": 97.46
+     },
+     "branches": {
+      "covered": 686,
+      "total": 756,
+      "pct": 90.74
+     },
+     "functions": {
+      "covered": 62,
+      "total": 63,
+      "pct": 98.41
+     },
+     "lines": {
+      "covered": 2690,
+      "total": 2760,
+      "pct": 97.46
+     }
+    },
+    {
+     "path": "lib/bundler",
+     "statements": {
+      "covered": 3419,
+      "total": 3534,
+      "pct": 96.74
+     },
+     "branches": {
+      "covered": 759,
+      "total": 859,
+      "pct": 88.35
+     },
+     "functions": {
+      "covered": 89,
+      "total": 89,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 3419,
+      "total": 3534,
+      "pct": 96.74
+     }
+    },
+    {
+     "path": "lib/compiler",
+     "statements": {
+      "covered": 7215,
+      "total": 7531,
+      "pct": 95.8
+     },
+     "branches": {
+      "covered": 1496,
+      "total": 1761,
+      "pct": 84.95
+     },
+     "functions": {
+      "covered": 194,
+      "total": 209,
+      "pct": 92.82
+     },
+     "lines": {
+      "covered": 7215,
+      "total": 7531,
+      "pct": 95.8
+     }
+    },
+    {
+     "path": "lib/compiler/atlas",
+     "statements": {
+      "covered": 4349,
+      "total": 4532,
+      "pct": 95.96
+     },
+     "branches": {
+      "covered": 1112,
+      "total": 1333,
+      "pct": 83.42
+     },
+     "functions": {
+      "covered": 101,
+      "total": 107,
+      "pct": 94.39
+     },
+     "lines": {
+      "covered": 4349,
+      "total": 4532,
+      "pct": 95.96
+     }
+    },
+    {
+     "path": "lib/compiler/bundle",
+     "statements": {
+      "covered": 323,
+      "total": 340,
+      "pct": 95
+     },
+     "branches": {
+      "covered": 68,
+      "total": 82,
+      "pct": 82.92
+     },
+     "functions": {
+      "covered": 7,
+      "total": 8,
+      "pct": 87.5
+     },
+     "lines": {
+      "covered": 323,
+      "total": 340,
+      "pct": 95
+     }
+    },
+    {
+     "path": "lib/compiler/codegen",
+     "statements": {
+      "covered": 1928,
+      "total": 2023,
+      "pct": 95.3
+     },
+     "branches": {
+      "covered": 464,
+      "total": 541,
+      "pct": 85.76
+     },
+     "functions": {
+      "covered": 47,
+      "total": 49,
+      "pct": 95.91
+     },
+     "lines": {
+      "covered": 1928,
+      "total": 2023,
+      "pct": 95.3
+     }
+    },
+    {
+     "path": "lib/compiler/diagnostics",
+     "statements": {
+      "covered": 259,
+      "total": 283,
+      "pct": 91.51
+     },
+     "branches": {
+      "covered": 79,
+      "total": 97,
+      "pct": 81.44
+     },
+     "functions": {
+      "covered": 9,
+      "total": 12,
+      "pct": 75
+     },
+     "lines": {
+      "covered": 259,
+      "total": 283,
+      "pct": 91.51
+     }
+    },
+    {
+     "path": "lib/compiler/errors",
+     "statements": {
+      "covered": 163,
+      "total": 167,
+      "pct": 97.6
+     },
+     "branches": {
+      "covered": 25,
+      "total": 28,
+      "pct": 89.28
+     },
+     "functions": {
+      "covered": 5,
+      "total": 7,
+      "pct": 71.42
+     },
+     "lines": {
+      "covered": 163,
+      "total": 167,
+      "pct": 97.6
+     }
+    },
+    {
+     "path": "lib/compiler/ir",
+     "statements": {
+      "covered": 1782,
+      "total": 1841,
+      "pct": 96.79
+     },
+     "branches": {
+      "covered": 400,
+      "total": 463,
+      "pct": 86.39
+     },
+     "functions": {
+      "covered": 51,
+      "total": 52,
+      "pct": 98.07
+     },
+     "lines": {
+      "covered": 1782,
+      "total": 1841,
+      "pct": 96.79
+     }
+    },
+    {
+     "path": "lib/compiler/parser",
+     "statements": {
+      "covered": 2923,
+      "total": 3144,
+      "pct": 92.97
+     },
+     "branches": {
+      "covered": 747,
+      "total": 883,
+      "pct": 84.59
+     },
+     "functions": {
+      "covered": 62,
+      "total": 62,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 2923,
+      "total": 3144,
+      "pct": 92.97
+     }
+    },
+    {
+     "path": "lib/compiler/parser/directives",
+     "statements": {
+      "covered": 979,
+      "total": 1036,
+      "pct": 94.49
+     },
+     "branches": {
+      "covered": 259,
+      "total": 278,
+      "pct": 93.16
+     },
+     "functions": {
+      "covered": 21,
+      "total": 21,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 979,
+      "total": 1036,
+      "pct": 94.49
+     }
+    },
+    {
+     "path": "lib/compiler/parser/js",
+     "statements": {
+      "covered": 3603,
+      "total": 3690,
+      "pct": 97.64
+     },
+     "branches": {
+      "covered": 1237,
+      "total": 1364,
+      "pct": 90.68
+     },
+     "functions": {
+      "covered": 135,
+      "total": 135,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 3603,
+      "total": 3690,
+      "pct": 97.64
+     }
+    },
+    {
+     "path": "lib/compiler/render",
+     "statements": {
+      "covered": 168,
+      "total": 168,
+      "pct": 100
+     },
+     "branches": {
+      "covered": 9,
+      "total": 9,
+      "pct": 100
+     },
+     "functions": {
+      "covered": 2,
+      "total": 2,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 168,
+      "total": 168,
+      "pct": 100
+     }
+    },
+    {
+     "path": "lib/compiler/rewind",
+     "statements": {
+      "covered": 687,
+      "total": 717,
+      "pct": 95.81
+     },
+     "branches": {
+      "covered": 95,
+      "total": 133,
+      "pct": 71.42
+     },
+     "functions": {
+      "covered": 17,
+      "total": 17,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 687,
+      "total": 717,
+      "pct": 95.81
+     }
+    },
+    {
+     "path": "lib/compiler/rules",
+     "statements": {
+      "covered": 1042,
+      "total": 1090,
+      "pct": 95.59
+     },
+     "branches": {
+      "covered": 225,
+      "total": 273,
+      "pct": 82.41
+     },
+     "functions": {
+      "covered": 14,
+      "total": 16,
+      "pct": 87.5
+     },
+     "lines": {
+      "covered": 1042,
+      "total": 1090,
+      "pct": 95.59
+     }
+    },
+    {
+     "path": "lib/compiler/utils",
+     "statements": {
+      "covered": 112,
+      "total": 112,
+      "pct": 100
+     },
+     "branches": {
+      "covered": 51,
+      "total": 51,
+      "pct": 100
+     },
+     "functions": {
+      "covered": 2,
+      "total": 2,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 112,
+      "total": 112,
+      "pct": 100
+     }
+    },
+    {
+     "path": "lib/core",
+     "statements": {
+      "covered": 202,
+      "total": 202,
+      "pct": 100
+     },
+     "branches": {
+      "covered": 3,
+      "total": 3,
+      "pct": 100
+     },
+     "functions": {
+      "covered": 0,
+      "total": 0,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 202,
+      "total": 202,
+      "pct": 100
+     }
+    },
+    {
+     "path": "lib/core/diagnostics",
+     "statements": {
+      "covered": 2364,
+      "total": 2383,
+      "pct": 99.2
+     },
+     "branches": {
+      "covered": 36,
+      "total": 53,
+      "pct": 67.92
+     },
+     "functions": {
+      "covered": 4,
+      "total": 5,
+      "pct": 80
+     },
+     "lines": {
+      "covered": 2364,
+      "total": 2383,
+      "pct": 99.2
+     }
+    },
+    {
+     "path": "lib/core/events",
+     "statements": {
+      "covered": 676,
+      "total": 690,
+      "pct": 97.97
+     },
+     "branches": {
+      "covered": 177,
+      "total": 202,
+      "pct": 87.62
+     },
+     "functions": {
+      "covered": 24,
+      "total": 24,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 676,
+      "total": 690,
+      "pct": 97.97
+     }
+    },
+    {
+     "path": "lib/core/expression",
+     "statements": {
+      "covered": 2342,
+      "total": 2537,
+      "pct": 92.31
+     },
+     "branches": {
+      "covered": 567,
+      "total": 688,
+      "pct": 82.41
+     },
+     "functions": {
+      "covered": 75,
+      "total": 79,
+      "pct": 94.93
+     },
+     "lines": {
+      "covered": 2342,
+      "total": 2537,
+      "pct": 92.31
+     }
+    },
+    {
+     "path": "lib/core/reactive",
+     "statements": {
+      "covered": 3570,
+      "total": 3911,
+      "pct": 91.28
+     },
+     "branches": {
+      "covered": 735,
+      "total": 872,
+      "pct": 84.28
+     },
+     "functions": {
+      "covered": 134,
+      "total": 146,
+      "pct": 91.78
+     },
+     "lines": {
+      "covered": 3570,
+      "total": 3911,
+      "pct": 91.28
+     }
+    },
+    {
+     "path": "lib/core/renderer",
+     "statements": {
+      "covered": 3117,
+      "total": 3366,
+      "pct": 92.6
+     },
+     "branches": {
+      "covered": 653,
+      "total": 798,
+      "pct": 81.82
+     },
+     "functions": {
+      "covered": 87,
+      "total": 91,
+      "pct": 95.6
+     },
+     "lines": {
+      "covered": 3117,
+      "total": 3366,
+      "pct": 92.6
+     }
+    },
+    {
+     "path": "lib/core/renderer/program",
+     "statements": {
+      "covered": 1853,
+      "total": 2146,
+      "pct": 86.34
+     },
+     "branches": {
+      "covered": 328,
+      "total": 392,
+      "pct": 83.67
+     },
+     "functions": {
+      "covered": 59,
+      "total": 74,
+      "pct": 79.72
+     },
+     "lines": {
+      "covered": 1853,
+      "total": 2146,
+      "pct": 86.34
+     }
+    },
+    {
+     "path": "lib/core/runtime",
+     "statements": {
+      "covered": 9507,
+      "total": 10419,
+      "pct": 91.24
+     },
+     "branches": {
+      "covered": 1923,
+      "total": 2376,
+      "pct": 80.93
+     },
+     "functions": {
+      "covered": 351,
+      "total": 386,
+      "pct": 90.93
+     },
+     "lines": {
+      "covered": 9507,
+      "total": 10419,
+      "pct": 91.24
+     }
+    },
+    {
+     "path": "lib/core/runtime/navigation",
+     "statements": {
+      "covered": 427,
+      "total": 460,
+      "pct": 92.82
+     },
+     "branches": {
+      "covered": 82,
+      "total": 93,
+      "pct": 88.17
+     },
+     "functions": {
+      "covered": 31,
+      "total": 44,
+      "pct": 70.45
+     },
+     "lines": {
+      "covered": 427,
+      "total": 460,
+      "pct": 92.82
+     }
+    },
+    {
+     "path": "lib/core/security",
+     "statements": {
+      "covered": 1562,
+      "total": 1669,
+      "pct": 93.58
+     },
+     "branches": {
+      "covered": 300,
+      "total": 351,
+      "pct": 85.47
+     },
+     "functions": {
+      "covered": 52,
+      "total": 54,
+      "pct": 96.29
+     },
+     "lines": {
+      "covered": 1562,
+      "total": 1669,
+      "pct": 93.58
+     }
+    },
+    {
+     "path": "lib/core/testing",
+     "statements": {
+      "covered": 260,
+      "total": 301,
+      "pct": 86.37
+     },
+     "branches": {
+      "covered": 51,
+      "total": 74,
+      "pct": 68.91
+     },
+     "functions": {
+      "covered": 7,
+      "total": 8,
+      "pct": 87.5
+     },
+     "lines": {
+      "covered": 260,
+      "total": 301,
+      "pct": 86.37
+     }
+    },
+    {
+     "path": "lib/core/tooling",
+     "statements": {
+      "covered": 1277,
+      "total": 1578,
+      "pct": 80.92
+     },
+     "branches": {
+      "covered": 189,
+      "total": 241,
+      "pct": 78.42
+     },
+     "functions": {
+      "covered": 37,
+      "total": 52,
+      "pct": 71.15
+     },
+     "lines": {
+      "covered": 1277,
+      "total": 1578,
+      "pct": 80.92
+     }
+    },
+    {
+     "path": "lib/core/trace",
+     "statements": {
+      "covered": 3635,
+      "total": 3916,
+      "pct": 92.82
+     },
+     "branches": {
+      "covered": 626,
+      "total": 788,
+      "pct": 79.44
+     },
+     "functions": {
+      "covered": 117,
+      "total": 122,
+      "pct": 95.9
+     },
+     "lines": {
+      "covered": 3635,
+      "total": 3916,
+      "pct": 92.82
+     }
+    },
+    {
+     "path": "lib/core/utils",
+     "statements": {
+      "covered": 1033,
+      "total": 1101,
+      "pct": 93.82
+     },
+     "branches": {
+      "covered": 346,
+      "total": 369,
+      "pct": 93.76
+     },
+     "functions": {
+      "covered": 37,
+      "total": 37,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 1033,
+      "total": 1101,
+      "pct": 93.82
+     }
+    },
+    {
+     "path": "lib/core/validation",
+     "statements": {
+      "covered": 198,
+      "total": 249,
+      "pct": 79.51
+     },
+     "branches": {
+      "covered": 28,
+      "total": 53,
+      "pct": 52.83
+     },
+     "functions": {
+      "covered": 4,
+      "total": 4,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 198,
+      "total": 249,
+      "pct": 79.51
+     }
+    },
+    {
+     "path": "plugins/avenx-charts/scripts",
+     "statements": {
+      "covered": 91,
+      "total": 93,
+      "pct": 97.84
+     },
+     "branches": {
+      "covered": 5,
+      "total": 5,
+      "pct": 100
+     },
+     "functions": {
+      "covered": 2,
+      "total": 2,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 91,
+      "total": 93,
+      "pct": 97.84
+     }
+    },
+    {
+     "path": "plugins/avenx-i18n/scripts",
+     "statements": {
+      "covered": 90,
+      "total": 92,
+      "pct": 97.82
+     },
+     "branches": {
+      "covered": 5,
+      "total": 5,
+      "pct": 100
+     },
+     "functions": {
+      "covered": 2,
+      "total": 2,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 90,
+      "total": 92,
+      "pct": 97.82
+     }
+    },
+    {
+     "path": "plugins/avenx-persistence/scripts",
+     "statements": {
+      "covered": 89,
+      "total": 91,
+      "pct": 97.8
+     },
+     "branches": {
+      "covered": 5,
+      "total": 5,
+      "pct": 100
+     },
+     "functions": {
+      "covered": 2,
+      "total": 2,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 89,
+      "total": 91,
+      "pct": 97.8
+     }
+    },
+    {
+     "path": "plugins/avenx-vite/src",
+     "statements": {
+      "covered": 519,
+      "total": 577,
+      "pct": 89.94
+     },
+     "branches": {
+      "covered": 83,
+      "total": 95,
+      "pct": 87.36
+     },
+     "functions": {
+      "covered": 24,
+      "total": 28,
+      "pct": 85.71
+     },
+     "lines": {
+      "covered": 519,
+      "total": 577,
+      "pct": 89.94
+     }
+    },
+    {
+     "path": "scripts",
+     "statements": {
+      "covered": 461,
+      "total": 591,
+      "pct": 78
+     },
+     "branches": {
+      "covered": 85,
+      "total": 107,
+      "pct": 79.43
+     },
+     "functions": {
+      "covered": 15,
+      "total": 18,
+      "pct": 83.33
+     },
+     "lines": {
+      "covered": 461,
+      "total": 591,
+      "pct": 78
+     }
+    }
+   ],
+   "tests": null
+  }
+ ]
+}

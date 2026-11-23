@@ -1,0 +1,191 @@
+# Builds and deploys the Avenx.js Developer Dashboard.
+#
+# Replaces, in one workflow:
+#   Avenx-JS/avenx-js  .github/workflows/dev-docs.yml         (JSDoc  -> Avenx-JS/dev-docs)
+#   Avenx-JS/avenx-js  .github/workflows/quality-results.yml  (c8     -> Avenx-JS/test-cov,
+#                                                              bench  -> Avenx-JS/bench-results)
+#   Avenx-JS/dev-docs       .github/workflows/static.yml       (Pages deploy)
+#   Avenx-JS/test-cov       .github/workflows/static.yml       (Pages deploy)
+#   Avenx-JS/bench-results  .github/workflows/static.yml       (Pages deploy)
+#
+# The framework is checked out read-only; nothing is pushed to another
+# repository and no personal access token is needed. See docs/ARCHITECTURE.md.
+
+name: Developer Dashboard
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  schedule:
+    # Weekly: run the benchmarks and record coverage + benchmarks in data/.
+    # Same slot as the legacy quality-results.yml: Saturdays 10:00 UTC
+    # (12:00 Swiss summer time, 11:00 winter time).
+    - cron: '0 10 * * 6'
+    # Daily: refresh the API reference and coverage from avenx-js main. The
+    # legacy dev-docs.yml ran on every push to avenx-js; a workflow here cannot
+    # be triggered by pushes to another repository without a token there.
+    - cron: '30 3 * * *'
+  workflow_dispatch:
+    inputs:
+      record:
+        description: 'Run the benchmarks and record coverage + benchmarks in data/'
+        type: boolean
+        default: false
+      upstream_ref:
+        description: 'Avenx-JS/avenx-js branch, tag or commit to build from'
+        type: string
+        default: main
+
+permissions:
+  contents: read
+
+concurrency:
+  group: dashboard-${{ github.event_name == 'pull_request' && github.event.number || github.ref }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+
+env:
+  NODE_VERSION: 22
+  UPSTREAM_REPOSITORY: Avenx-JS/avenx-js
+
+jobs:
+  test:
+    name: Dashboard unit tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+      - run: npm test
+
+  build:
+    name: Collect & build
+    needs: test
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    permissions:
+      contents: write # commit the recorded history in data/ (scheduled/manual runs on main only)
+      pages: read
+    outputs:
+      collect_status: ${{ steps.status.outputs.status }}
+    env:
+      RECORD: ${{ github.ref == 'refs/heads/main' && ((github.event_name == 'schedule' && github.event.schedule == '0 10 * * 6') || (github.event_name == 'workflow_dispatch' && inputs.record)) }}
+    steps:
+      - name: Checkout dashboard
+        uses: actions/checkout@v4
+
+      - name: Checkout Avenx.js
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ env.UPSTREAM_REPOSITORY }}
+          ref: ${{ inputs.upstream_ref || 'main' }}
+          path: upstream
+          persist-credentials: false
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: npm
+          cache-dependency-path: upstream/package-lock.json
+
+      - name: Install Avenx.js dependencies
+        working-directory: upstream
+        run: npm ci --no-audit --no-fund
+
+      - name: Collect API reference, coverage and benchmarks
+        run: |
+          steps=docs,coverage
+          if [ "$RECORD" = "true" ]; then steps="$steps,benchmarks"; fi
+          node scripts/collect.js --upstream upstream --only "$steps"
+
+      - name: Record history
+        if: env.RECORD == 'true'
+        run: |
+          node scripts/record.js
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if git diff --staged --quiet; then
+            echo "History unchanged."
+          else
+            git commit -m "chore(data): record coverage and benchmark results"
+            git pull --rebase --quiet origin main
+            git push origin HEAD:main
+          fi
+
+      - name: Configure Pages
+        id: pages
+        if: github.event_name != 'pull_request'
+        uses: actions/configure-pages@v5
+
+      - name: Build site
+        env:
+          BASE_PATH: ${{ steps.pages.outputs.base_path || '/' }}
+        run: npm run build
+
+      - name: Check links and redirects
+        env:
+          BASE_PATH: ${{ steps.pages.outputs.base_path || '/' }}
+        run: npm run check
+
+      - name: Report collection status
+        id: status
+        run: |
+          if node scripts/status.js; then echo "status=ok" >> "$GITHUB_OUTPUT"; else echo "status=failed" >> "$GITHUB_OUTPUT"; fi
+
+      - name: Upload collection logs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: collection-logs
+          path: .cache/collected/logs/
+          if-no-files-found: ignore
+          retention-days: 14
+
+      - name: Upload site preview
+        if: github.event_name == 'pull_request'
+        uses: actions/upload-artifact@v4
+        with:
+          name: dashboard-preview
+          path: dist/
+          retention-days: 7
+
+      - name: Upload Pages artifact
+        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist/
+
+  deploy:
+    name: Deploy to GitHub Pages
+    needs: build
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    concurrency:
+      group: pages
+      cancel-in-progress: false
+    steps:
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+  # A failing test file, a crashing benchmark or a failed JSDoc run is shown on
+  # the dashboard and deployed, and then turns this run red here.
+  upstream-status:
+    name: Upstream checks
+    needs: [build, deploy]
+    if: always() && needs.build.result == 'success'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Fail when a collection step failed
+        if: needs.build.outputs.collect_status != 'ok'
+        run: |
+          echo "::error::A collection step failed (failing tests, crashed benchmark or JSDoc). See the build job summary."
+          exit 1
