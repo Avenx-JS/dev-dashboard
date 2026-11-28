@@ -2107,6 +2107,190 @@
      "status": "unknown"
     }
    ]
+  },
+  {
+   "recordedAt": "2026-11-28T18:05:44.409Z",
+   "source": {
+    "kind": "workflow",
+    "repository": "Avenx-JS/avenx-js",
+    "upstreamCommit": "d6907bdea5110297bd505c242d7b31366ca1561d",
+    "version": "1.0.0-rc.1",
+    "node": "v22.23.5",
+    "runId": "46173414204"
+   },
+   "results": [
+    {
+     "file": "atlas-build.bench.js",
+     "name": "Atlas Build",
+     "totalTime": 460.65,
+     "avgTime": 230.33,
+     "ops": 4,
+     "timestamp": "2026-11-28T18:05:44.409Z",
+     "status": "ok"
+    },
+    {
+     "file": "component-parser.bench.js",
+     "name": "ComponentParser",
+     "totalTime": 863.55,
+     "avgTime": 0.8636,
+     "ops": 1158,
+     "timestamp": "2026-11-28T18:05:45.561Z",
+     "status": "ok"
+    },
+    {
+     "file": "dom-patching.bench.js",
+     "name": "DOMPatching",
+     "totalTime": 5049.2,
+     "avgTime": 0.5049,
+     "ops": 1981,
+     "timestamp": "2026-11-28T18:05:51.121Z",
+     "status": "ok"
+    },
+    {
+     "file": "event-delegation.bench.js",
+     "name": "event delegation",
+     "totalTime": 0,
+     "avgTime": 0,
+     "ops": 0,
+     "timestamp": "2026-11-28T18:05:51.402Z",
+     "status": "ok"
+    },
+    {
+     "file": "incremental-rebuild.bench.js",
+     "name": "Incremental Rebuild",
+     "totalTime": 243.47,
+     "avgTime": 121.73,
+     "ops": 8,
+     "timestamp": "2026-11-28T18:05:55.010Z",
+     "status": "ok"
+    },
+    {
+     "file": "list-rendering.bench.js",
+     "name": "list-rendering",
+     "totalTime": 97.59,
+     "avgTime": 5.4217,
+     "ops": 184,
+     "timestamp": "2026-11-28T18:05:57.713Z",
+     "status": "ok"
+    },
+    {
+     "file": "lru_cache_memory.bench.js",
+     "name": "LruCache Memory",
+     "totalTime": 32.26,
+     "avgTime": 0.0032,
+     "ops": 310000,
+     "timestamp": "2026-11-28T18:05:57.803Z",
+     "status": "ok"
+    },
+    {
+     "file": "reactivity-lookup.bench.js",
+     "name": "reactivity-lookup.bench.js",
+     "totalTime": 0,
+     "avgTime": 12.4793,
+     "ops": 0,
+     "timestamp": "2026-11-28T18:06:02.335Z",
+     "status": "ok"
+    },
+    {
+     "file": "reactivity.bench.js",
+     "name": "Reactivity",
+     "totalTime": 341.09,
+     "avgTime": 0.0068,
+     "ops": 146587,
+     "timestamp": "2026-11-28T18:06:02.923Z",
+     "status": "ok"
+    },
+    {
+     "file": "render-paths.bench.js",
+     "name": "render-paths",
+     "totalTime": 33.7,
+     "avgTime": 0.0148,
+     "ops": 67358,
+     "timestamp": "2026-11-28T18:06:08.384Z",
+     "status": "ok"
+    },
+    {
+     "file": "render-phases.bench.js",
+     "name": "render-phases",
+     "totalTime": 17.98,
+     "avgTime": 0.02,
+     "ops": 50069,
+     "timestamp": "2026-11-28T18:06:11.130Z",
+     "status": "ok"
+    },
+    {
+     "file": "render-scenarios.bench.js",
+     "name": "render-scenarios",
+     "totalTime": 0,
+     "avgTime": 0,
+     "ops": 0,
+     "timestamp": "2026-11-28T18:06:14.922Z",
+     "status": "failed"
+    },
+    {
+     "file": "rewind-overhead.bench.js",
+     "name": "Rewind Overhead",
+     "totalTime": 429.25,
+     "avgTime": 0.001467,
+     "ops": 681844,
+     "timestamp": "2026-11-28T18:06:15.584Z",
+     "status": "ok"
+    },
+    {
+     "file": "router.bench.js",
+     "name": "Router",
+     "totalTime": 6222.26,
+     "avgTime": 0.1244,
+     "ops": 8036,
+     "timestamp": "2026-11-28T18:06:16.298Z",
+     "status": "ok"
+    },
+    {
+     "file": "security.bench.js",
+     "name": "Security",
+     "totalTime": 511.94,
+     "avgTime": 0.016,
+     "ops": 62507,
+     "timestamp": "2026-11-28T18:06:17.107Z",
+     "status": "ok"
+    },
+    {
+     "file": "style-processor.bench.js",
+     "name": "StyleProcessor",
+     "totalTime": 270.47,
+     "avgTime": 0.0541,
+     "ops": 18486,
+     "timestamp": "2026-11-28T18:06:17.469Z",
+     "status": "ok"
+    },
+    {
+     "file": "trace-overhead.bench.js",
+     "name": "Trace Overhead",
+     "totalTime": 494.25,
+     "avgTime": 0.001422,
+     "ops": 703203,
+     "timestamp": "2026-11-28T18:06:18.185Z",
+     "status": "ok"
+    },
+    {
+     "file": "update-scaling.bench.js",
+     "name": "update-scaling",
+     "totalTime": 3314.44,
+     "avgTime": 63.7838,
+     "ops": 8,
+     "timestamp": "2026-11-28T18:06:22.085Z",
+     "status": "ok"
+    },
+    {
+     "file": "virtual-list.bench.js",
+     "name": "VirtualList",
+     "totalTime": 33.79,
+     "avgTime": 0.0674,
+     "ops": 14827,
+     "timestamp": "2026-11-28T18:06:22.395Z",
+     "status": "ok"
+    }
+   ]
   }
  ]
 }

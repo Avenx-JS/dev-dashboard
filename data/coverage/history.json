@@ -7722,6 +7722,1008 @@
     }
    ],
    "tests": null
+  },
+  {
+   "recordedAt": "2026-11-28T18:00:13.902Z",
+   "source": {
+    "kind": "workflow",
+    "repository": "Avenx-JS/avenx-js",
+    "upstreamCommit": "d6907bdea5110297bd505c242d7b31366ca1561d",
+    "version": "1.0.0-rc.1",
+    "node": "v22.23.5",
+    "runId": "46173414204"
+   },
+   "total": {
+    "statements": {
+     "covered": 75245,
+     "total": 80465,
+     "pct": 93.51
+    },
+    "branches": {
+     "covered": 17273,
+     "total": 20241,
+     "pct": 85.33
+    },
+    "functions": {
+     "covered": 2252,
+     "total": 2390,
+     "pct": 94.22
+    },
+    "lines": {
+     "covered": 75245,
+     "total": 80465,
+     "pct": 93.51
+    }
+   },
+   "directories": [
+    {
+     "path": "bin",
+     "statements": {
+      "covered": 1337,
+      "total": 1479,
+      "pct": 90.39
+     },
+     "branches": {
+      "covered": 425,
+      "total": 471,
+      "pct": 90.23
+     },
+     "functions": {
+      "covered": 37,
+      "total": 38,
+      "pct": 97.36
+     },
+     "lines": {
+      "covered": 1337,
+      "total": 1479,
+      "pct": 90.39
+     }
+    },
+    {
+     "path": "bin/commands",
+     "statements": {
+      "covered": 5312,
+      "total": 5698,
+      "pct": 93.22
+     },
+     "branches": {
+      "covered": 1452,
+      "total": 1723,
+      "pct": 84.27
+     },
+     "functions": {
+      "covered": 151,
+      "total": 151,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 5312,
+      "total": 5698,
+      "pct": 93.22
+     }
+    },
+    {
+     "path": "bin/commands/serve",
+     "statements": {
+      "covered": 459,
+      "total": 473,
+      "pct": 97.04
+     },
+     "branches": {
+      "covered": 101,
+      "total": 116,
+      "pct": 87.06
+     },
+     "functions": {
+      "covered": 26,
+      "total": 26,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 459,
+      "total": 473,
+      "pct": 97.04
+     }
+    },
+    {
+     "path": "bin/commands/serve/inspector",
+     "statements": {
+      "covered": 34,
+      "total": 398,
+      "pct": 8.54
+     },
+     "branches": {
+      "covered": 6,
+      "total": 7,
+      "pct": 85.71
+     },
+     "functions": {
+      "covered": 4,
+      "total": 5,
+      "pct": 80
+     },
+     "lines": {
+      "covered": 34,
+      "total": 398,
+      "pct": 8.54
+     }
+    },
+    {
+     "path": "bin/commands/serve/liveReload",
+     "statements": {
+      "covered": 0,
+      "total": 62,
+      "pct": 0
+     },
+     "branches": {
+      "covered": 0,
+      "total": 1,
+      "pct": 0
+     },
+     "functions": {
+      "covered": 0,
+      "total": 1,
+      "pct": 0
+     },
+     "lines": {
+      "covered": 0,
+      "total": 62,
+      "pct": 0
+     }
+    },
+    {
+     "path": "bin/commands/serve/overlay",
+     "statements": {
+      "covered": 100,
+      "total": 479,
+      "pct": 20.87
+     },
+     "branches": {
+      "covered": 29,
+      "total": 31,
+      "pct": 93.54
+     },
+     "functions": {
+      "covered": 5,
+      "total": 6,
+      "pct": 83.33
+     },
+     "lines": {
+      "covered": 100,
+      "total": 479,
+      "pct": 20.87
+     }
+    },
+    {
+     "path": "lib",
+     "statements": {
+      "covered": 3020,
+      "total": 3097,
+      "pct": 97.51
+     },
+     "branches": {
+      "covered": 790,
+      "total": 867,
+      "pct": 91.11
+     },
+     "functions": {
+      "covered": 67,
+      "total": 68,
+      "pct": 98.52
+     },
+     "lines": {
+      "covered": 3020,
+      "total": 3097,
+      "pct": 97.51
+     }
+    },
+    {
+     "path": "lib/bundler",
+     "statements": {
+      "covered": 3445,
+      "total": 3560,
+      "pct": 96.76
+     },
+     "branches": {
+      "covered": 778,
+      "total": 877,
+      "pct": 88.71
+     },
+     "functions": {
+      "covered": 90,
+      "total": 90,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 3445,
+      "total": 3560,
+      "pct": 96.76
+     }
+    },
+    {
+     "path": "lib/compiler",
+     "statements": {
+      "covered": 6982,
+      "total": 7287,
+      "pct": 95.81
+     },
+     "branches": {
+      "covered": 1490,
+      "total": 1748,
+      "pct": 85.24
+     },
+     "functions": {
+      "covered": 192,
+      "total": 208,
+      "pct": 92.3
+     },
+     "lines": {
+      "covered": 6982,
+      "total": 7287,
+      "pct": 95.81
+     }
+    },
+    {
+     "path": "lib/compiler/atlas",
+     "statements": {
+      "covered": 4351,
+      "total": 4539,
+      "pct": 95.85
+     },
+     "branches": {
+      "covered": 1028,
+      "total": 1281,
+      "pct": 80.24
+     },
+     "functions": {
+      "covered": 111,
+      "total": 118,
+      "pct": 94.06
+     },
+     "lines": {
+      "covered": 4351,
+      "total": 4539,
+      "pct": 95.85
+     }
+    },
+    {
+     "path": "lib/compiler/atlas/resolve",
+     "statements": {
+      "covered": 1080,
+      "total": 1108,
+      "pct": 97.47
+     },
+     "branches": {
+      "covered": 440,
+      "total": 465,
+      "pct": 94.62
+     },
+     "functions": {
+      "covered": 17,
+      "total": 17,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 1080,
+      "total": 1108,
+      "pct": 97.47
+     }
+    },
+    {
+     "path": "lib/compiler/bundle",
+     "statements": {
+      "covered": 411,
+      "total": 428,
+      "pct": 96.02
+     },
+     "branches": {
+      "covered": 90,
+      "total": 107,
+      "pct": 84.11
+     },
+     "functions": {
+      "covered": 11,
+      "total": 12,
+      "pct": 91.66
+     },
+     "lines": {
+      "covered": 411,
+      "total": 428,
+      "pct": 96.02
+     }
+    },
+    {
+     "path": "lib/compiler/codegen",
+     "statements": {
+      "covered": 1989,
+      "total": 2086,
+      "pct": 95.34
+     },
+     "branches": {
+      "covered": 491,
+      "total": 574,
+      "pct": 85.54
+     },
+     "functions": {
+      "covered": 48,
+      "total": 50,
+      "pct": 96
+     },
+     "lines": {
+      "covered": 1989,
+      "total": 2086,
+      "pct": 95.34
+     }
+    },
+    {
+     "path": "lib/compiler/diagnostics",
+     "statements": {
+      "covered": 338,
+      "total": 361,
+      "pct": 93.62
+     },
+     "branches": {
+      "covered": 101,
+      "total": 125,
+      "pct": 80.8
+     },
+     "functions": {
+      "covered": 13,
+      "total": 15,
+      "pct": 86.66
+     },
+     "lines": {
+      "covered": 338,
+      "total": 361,
+      "pct": 93.62
+     }
+    },
+    {
+     "path": "lib/compiler/errors",
+     "statements": {
+      "covered": 163,
+      "total": 167,
+      "pct": 97.6
+     },
+     "branches": {
+      "covered": 25,
+      "total": 28,
+      "pct": 89.28
+     },
+     "functions": {
+      "covered": 5,
+      "total": 7,
+      "pct": 71.42
+     },
+     "lines": {
+      "covered": 163,
+      "total": 167,
+      "pct": 97.6
+     }
+    },
+    {
+     "path": "lib/compiler/ir",
+     "statements": {
+      "covered": 1878,
+      "total": 1937,
+      "pct": 96.95
+     },
+     "branches": {
+      "covered": 457,
+      "total": 526,
+      "pct": 86.88
+     },
+     "functions": {
+      "covered": 53,
+      "total": 54,
+      "pct": 98.14
+     },
+     "lines": {
+      "covered": 1878,
+      "total": 1937,
+      "pct": 96.95
+     }
+    },
+    {
+     "path": "lib/compiler/parser",
+     "statements": {
+      "covered": 2026,
+      "total": 2134,
+      "pct": 94.93
+     },
+     "branches": {
+      "covered": 518,
+      "total": 593,
+      "pct": 87.35
+     },
+     "functions": {
+      "covered": 42,
+      "total": 43,
+      "pct": 97.67
+     },
+     "lines": {
+      "covered": 2026,
+      "total": 2134,
+      "pct": 94.93
+     }
+    },
+    {
+     "path": "lib/compiler/parser/directives",
+     "statements": {
+      "covered": 987,
+      "total": 1044,
+      "pct": 94.54
+     },
+     "branches": {
+      "covered": 264,
+      "total": 284,
+      "pct": 92.95
+     },
+     "functions": {
+      "covered": 21,
+      "total": 21,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 987,
+      "total": 1044,
+      "pct": 94.54
+     }
+    },
+    {
+     "path": "lib/compiler/parser/js",
+     "statements": {
+      "covered": 3602,
+      "total": 3690,
+      "pct": 97.61
+     },
+     "branches": {
+      "covered": 1248,
+      "total": 1372,
+      "pct": 90.96
+     },
+     "functions": {
+      "covered": 135,
+      "total": 135,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 3602,
+      "total": 3690,
+      "pct": 97.61
+     }
+    },
+    {
+     "path": "lib/compiler/parser/validate",
+     "statements": {
+      "covered": 1333,
+      "total": 1399,
+      "pct": 95.28
+     },
+     "branches": {
+      "covered": 363,
+      "total": 439,
+      "pct": 82.68
+     },
+     "functions": {
+      "covered": 25,
+      "total": 25,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 1333,
+      "total": 1399,
+      "pct": 95.28
+     }
+    },
+    {
+     "path": "lib/compiler/render",
+     "statements": {
+      "covered": 170,
+      "total": 170,
+      "pct": 100
+     },
+     "branches": {
+      "covered": 9,
+      "total": 9,
+      "pct": 100
+     },
+     "functions": {
+      "covered": 2,
+      "total": 2,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 170,
+      "total": 170,
+      "pct": 100
+     }
+    },
+    {
+     "path": "lib/compiler/rewind",
+     "statements": {
+      "covered": 687,
+      "total": 717,
+      "pct": 95.81
+     },
+     "branches": {
+      "covered": 100,
+      "total": 137,
+      "pct": 72.99
+     },
+     "functions": {
+      "covered": 17,
+      "total": 17,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 687,
+      "total": 717,
+      "pct": 95.81
+     }
+    },
+    {
+     "path": "lib/compiler/rules",
+     "statements": {
+      "covered": 991,
+      "total": 1039,
+      "pct": 95.38
+     },
+     "branches": {
+      "covered": 226,
+      "total": 274,
+      "pct": 82.48
+     },
+     "functions": {
+      "covered": 14,
+      "total": 16,
+      "pct": 87.5
+     },
+     "lines": {
+      "covered": 991,
+      "total": 1039,
+      "pct": 95.38
+     }
+    },
+    {
+     "path": "lib/compiler/style",
+     "statements": {
+      "covered": 580,
+      "total": 603,
+      "pct": 96.18
+     },
+     "branches": {
+      "covered": 124,
+      "total": 138,
+      "pct": 89.85
+     },
+     "functions": {
+      "covered": 23,
+      "total": 23,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 580,
+      "total": 603,
+      "pct": 96.18
+     }
+    },
+    {
+     "path": "lib/compiler/utils",
+     "statements": {
+      "covered": 179,
+      "total": 179,
+      "pct": 100
+     },
+     "branches": {
+      "covered": 83,
+      "total": 84,
+      "pct": 98.8
+     },
+     "functions": {
+      "covered": 3,
+      "total": 3,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 179,
+      "total": 179,
+      "pct": 100
+     }
+    },
+    {
+     "path": "lib/core",
+     "statements": {
+      "covered": 210,
+      "total": 210,
+      "pct": 100
+     },
+     "branches": {
+      "covered": 3,
+      "total": 3,
+      "pct": 100
+     },
+     "functions": {
+      "covered": 0,
+      "total": 0,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 210,
+      "total": 210,
+      "pct": 100
+     }
+    },
+    {
+     "path": "lib/core/diagnostics",
+     "statements": {
+      "covered": 2554,
+      "total": 2573,
+      "pct": 99.26
+     },
+     "branches": {
+      "covered": 47,
+      "total": 65,
+      "pct": 72.3
+     },
+     "functions": {
+      "covered": 5,
+      "total": 6,
+      "pct": 83.33
+     },
+     "lines": {
+      "covered": 2554,
+      "total": 2573,
+      "pct": 99.26
+     }
+    },
+    {
+     "path": "lib/core/events",
+     "statements": {
+      "covered": 711,
+      "total": 723,
+      "pct": 98.34
+     },
+     "branches": {
+      "covered": 205,
+      "total": 225,
+      "pct": 91.11
+     },
+     "functions": {
+      "covered": 27,
+      "total": 27,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 711,
+      "total": 723,
+      "pct": 98.34
+     }
+    },
+    {
+     "path": "lib/core/expression",
+     "statements": {
+      "covered": 2391,
+      "total": 2581,
+      "pct": 92.63
+     },
+     "branches": {
+      "covered": 578,
+      "total": 702,
+      "pct": 82.33
+     },
+     "functions": {
+      "covered": 76,
+      "total": 80,
+      "pct": 95
+     },
+     "lines": {
+      "covered": 2391,
+      "total": 2581,
+      "pct": 92.63
+     }
+    },
+    {
+     "path": "lib/core/reactive",
+     "statements": {
+      "covered": 3595,
+      "total": 3931,
+      "pct": 91.45
+     },
+     "branches": {
+      "covered": 741,
+      "total": 881,
+      "pct": 84.1
+     },
+     "functions": {
+      "covered": 135,
+      "total": 147,
+      "pct": 91.83
+     },
+     "lines": {
+      "covered": 3595,
+      "total": 3931,
+      "pct": 91.45
+     }
+    },
+    {
+     "path": "lib/core/renderer",
+     "statements": {
+      "covered": 2468,
+      "total": 2595,
+      "pct": 95.1
+     },
+     "branches": {
+      "covered": 513,
+      "total": 604,
+      "pct": 84.93
+     },
+     "functions": {
+      "covered": 82,
+      "total": 86,
+      "pct": 95.34
+     },
+     "lines": {
+      "covered": 2468,
+      "total": 2595,
+      "pct": 95.1
+     }
+    },
+    {
+     "path": "lib/core/renderer/patch",
+     "statements": {
+      "covered": 801,
+      "total": 884,
+      "pct": 90.61
+     },
+     "branches": {
+      "covered": 219,
+      "total": 262,
+      "pct": 83.58
+     },
+     "functions": {
+      "covered": 26,
+      "total": 27,
+      "pct": 96.29
+     },
+     "lines": {
+      "covered": 801,
+      "total": 884,
+      "pct": 90.61
+     }
+    },
+    {
+     "path": "lib/core/renderer/program",
+     "statements": {
+      "covered": 2095,
+      "total": 2248,
+      "pct": 93.19
+     },
+     "branches": {
+      "covered": 411,
+      "total": 495,
+      "pct": 83.03
+     },
+     "functions": {
+      "covered": 74,
+      "total": 79,
+      "pct": 93.67
+     },
+     "lines": {
+      "covered": 2095,
+      "total": 2248,
+      "pct": 93.19
+     }
+    },
+    {
+     "path": "lib/core/runtime",
+     "statements": {
+      "covered": 8370,
+      "total": 8781,
+      "pct": 95.31
+     },
+     "branches": {
+      "covered": 1675,
+      "total": 2006,
+      "pct": 83.49
+     },
+     "functions": {
+      "covered": 334,
+      "total": 363,
+      "pct": 92.01
+     },
+     "lines": {
+      "covered": 8370,
+      "total": 8781,
+      "pct": 95.31
+     }
+    },
+    {
+     "path": "lib/core/runtime/component",
+     "statements": {
+      "covered": 968,
+      "total": 1043,
+      "pct": 92.8
+     },
+     "branches": {
+      "covered": 286,
+      "total": 330,
+      "pct": 86.66
+     },
+     "functions": {
+      "covered": 35,
+      "total": 37,
+      "pct": 94.59
+     },
+     "lines": {
+      "covered": 968,
+      "total": 1043,
+      "pct": 92.8
+     }
+    },
+    {
+     "path": "lib/core/runtime/navigation",
+     "statements": {
+      "covered": 427,
+      "total": 460,
+      "pct": 92.82
+     },
+     "branches": {
+      "covered": 82,
+      "total": 93,
+      "pct": 88.17
+     },
+     "functions": {
+      "covered": 31,
+      "total": 44,
+      "pct": 70.45
+     },
+     "lines": {
+      "covered": 427,
+      "total": 460,
+      "pct": 92.82
+     }
+    },
+    {
+     "path": "lib/core/security",
+     "statements": {
+      "covered": 1568,
+      "total": 1673,
+      "pct": 93.72
+     },
+     "branches": {
+      "covered": 302,
+      "total": 351,
+      "pct": 86.03
+     },
+     "functions": {
+      "covered": 52,
+      "total": 54,
+      "pct": 96.29
+     },
+     "lines": {
+      "covered": 1568,
+      "total": 1673,
+      "pct": 93.72
+     }
+    },
+    {
+     "path": "lib/core/testing",
+     "statements": {
+      "covered": 1047,
+      "total": 1396,
+      "pct": 75
+     },
+     "branches": {
+      "covered": 216,
+      "total": 310,
+      "pct": 69.67
+     },
+     "functions": {
+      "covered": 46,
+      "total": 56,
+      "pct": 82.14
+     },
+     "lines": {
+      "covered": 1047,
+      "total": 1396,
+      "pct": 75
+     }
+    },
+    {
+     "path": "lib/core/tooling",
+     "statements": {
+      "covered": 1342,
+      "total": 1578,
+      "pct": 85.04
+     },
+     "branches": {
+      "covered": 205,
+      "total": 259,
+      "pct": 79.15
+     },
+     "functions": {
+      "covered": 41,
+      "total": 52,
+      "pct": 78.84
+     },
+     "lines": {
+      "covered": 1342,
+      "total": 1578,
+      "pct": 85.04
+     }
+    },
+    {
+     "path": "lib/core/trace",
+     "statements": {
+      "covered": 4008,
+      "total": 4300,
+      "pct": 93.2
+     },
+     "branches": {
+      "covered": 771,
+      "total": 949,
+      "pct": 81.24
+     },
+     "functions": {
+      "covered": 135,
+      "total": 140,
+      "pct": 96.42
+     },
+     "lines": {
+      "covered": 4008,
+      "total": 4300,
+      "pct": 93.2
+     }
+    },
+    {
+     "path": "lib/core/utils",
+     "statements": {
+      "covered": 1033,
+      "total": 1101,
+      "pct": 93.82
+     },
+     "branches": {
+      "covered": 348,
+      "total": 371,
+      "pct": 93.8
+     },
+     "functions": {
+      "covered": 37,
+      "total": 37,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 1033,
+      "total": 1101,
+      "pct": 93.82
+     }
+    },
+    {
+     "path": "lib/core/validation",
+     "statements": {
+      "covered": 203,
+      "total": 254,
+      "pct": 79.92
+     },
+     "branches": {
+      "covered": 33,
+      "total": 58,
+      "pct": 56.89
+     },
+     "functions": {
+      "covered": 4,
+      "total": 4,
+      "pct": 100
+     },
+     "lines": {
+      "covered": 203,
+      "total": 254,
+      "pct": 79.92
+     }
+    }
+   ],
+   "tests": null
   }
  ]
 }
